@@ -1,0 +1,158 @@
+from flask import Flask, request, abort, send_from_directory
+from linebot import LineBotApi, WebhookHandler
+from linebot.exceptions import InvalidSignatureError
+from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageSendMessage, FileMessage
+from app_line_model import *
+
+app = Flask(__name__)
+
+# 替换为您在 LINE Developers Console 中获得的 Channel Access Token 和 Channel Secret
+line_bot_api = LineBotApi('l2CNtB5RsJlPEAIKUM6vCeVczJcTgyT9ZMIyGJ+S7bBVQrDclDDoJxaNOLO9eKDZknqPzFUhRubPT9ahnDthMbodNLZva5/DaZG9EmiouPNpaLRcSyRp6sYiBqrhJ8+LvBQo9Nqe0Z0MlD0qqXrrQAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('eb48800cd65e283b057a6c6daff670b7')
+
+@app.route('/webhook', methods=['POST'])
+def webhook():
+    # 获取 X-Line-Signature 头部信息
+    signature = request.headers['X-Line-Signature']
+
+    # 获取请求的原始数据
+    body = request.get_data(as_text=True)
+    app.logger.info("Request body: " + body)  # 记录请求体内容到日志中
+
+    # 处理 Webhook 请求
+    try:
+        handler.handle(body, signature)
+    except InvalidSignatureError:
+        abort(400)
+
+    return 'OK'
+
+@handler.add(MessageEvent, message=TextMessage)
+def handle_text_message(event):
+    # 获取用户发送的消息内容和用户ID
+    user_message = event.message.text
+    user_id = event.source.user_id
+    app.logger.info("User ID: " + user_id)
+
+    # 获取用户的名称
+    try:
+        profile = line_bot_api.get_profile(user_id)
+        user_name = profile.display_name
+        app.logger.info("User Name: " + user_name)
+    except Exception as e:
+        app.logger.error(f"Error getting profile: {e}")
+        user_name = "未知用户"
+
+    print("userid:"+str(user_id)+"  user_name:"+str(user_name))
+    if str(user_message.strip()) in ['14群漲潮衝浪客']:
+        #確認是否已經是用戶, 如果不是就新增, 並判斷是否到期
+        end_da, today = query_whitelist14(user_id)
+        if len(str(end_da)) != 0:
+            today = datetime.now().date()
+            if today > end_da:  # 今天日期大於 end_da
+                line_bot_api.reply_message(event.reply_token, TextSendMessage(text='使用時間已到期⚠️\n\n0. 機器人🤖🈚️限查詢並可+14群\n(優惠碼:114F43 折價優惠1500)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n1. 機器人🤖🈚️限查詢並可+2~8群🈳軍基地、1800檔及指數股票壓力支撐、短波段、長波段、牛熊預測、鉅額交易、存股計畫，大禮包訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6407\n\n2. 機器人🤖🈚️限查詢並可+9群Tick當沖訊號教學(不適用優惠碼)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n🌟3. 機器人🤖🈚️限查詢並可+11群隔日沖、尬🈳訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6404\n\n4. 10群一波流當沖📈、趨勢流當沖↕️\n5. 13群 台指戰機群✈️（波段）\n6. 13群 台指陸軍群🪖（當沖）\n沒訂閱請聯繫客服💁\n\n🌟E大:reurl.cc/E6LyXm\n\n🌟問答機器人🤖\nhttps://reurl.cc/r9z8Rr\n連結在這☝️\n\n🌟客服🤖 訂閱群及機器人問題都可以問🙋\nhttps://reurl.cc/2jXo8n'))
+                open = 0
+            else:
+                open = 1
+        else:
+            insert_whitelist14(user_id, user_name)
+            open =1
+        if open == 1:
+            text_message14_1, text_message14_2 = do_trade11_long2()
+            messages = [text_message14_1, text_message14_2]
+            filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+            if filtered_messages:  # 確保列表非空
+                line_bot_api.reply_message(event.reply_token, filtered_messages)
+
+    if str(user_message.strip()) in ['12群法人初夜']:
+        #確認是否已經是用戶, 如果不是就新增, 並判斷是否到期
+        end_da, today = query_whitelist12(user_id)
+        if len(str(end_da)) != 0:
+            today = datetime.now().date()
+            if today > end_da:  # 今天日期大於 end_da
+                line_bot_api.reply_message(event.reply_token, TextSendMessage(text='使用時間已到期⚠️\n\n0. 機器人🤖🈚️限查詢並可+14群\n(優惠碼:114F43 折價優惠1500)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n1. 機器人🤖🈚️限查詢並可+2~8群🈳軍基地、1800檔及指數股票壓力支撐、短波段、長波段、牛熊預測、鉅額交易、存股計畫，大禮包訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6407\n\n2. 機器人🤖🈚️限查詢並可+9群Tick當沖訊號教學(不適用優惠碼)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n🌟3. 機器人🤖🈚️限查詢並可+11群隔日沖、尬🈳訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6404\n\n4. 10群一波流當沖📈、趨勢流當沖↕️\n5. 13群 台指戰機群✈️（波段）\n6. 13群 台指陸軍群🪖（當沖）\n沒訂閱請聯繫客服💁\n\n🌟E大:reurl.cc/E6LyXm\n\n🌟問答機器人🤖\nhttps://reurl.cc/r9z8Rr\n連結在這☝️\n\n🌟客服🤖 訂閱群及機器人問題都可以問🙋\nhttps://reurl.cc/2jXo8n'))
+                open = 0
+            else:
+                open = 1
+        else:
+            insert_whitelist12(user_id, user_name)
+            open =1
+        if open == 1:
+            text_message12_1 = do_send()
+            messages = [text_message12_1]
+            filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+            if filtered_messages:  # 確保列表非空
+                line_bot_api.reply_message(event.reply_token, filtered_messages)
+
+    elif str(user_message.strip()) in ['2群空軍基地','4群公司定價模型、5群牛熊、6群時間管理大師','7群鉅額交易','8群村姑交友網']:
+        #確認是否已經是用戶, 如果不是就新增, 並判斷是否到期
+        end_da, today = query_whitelist2(user_id)
+        if len(str(end_da)) != 0:
+            today = datetime.now().date()
+            if today > end_da:  # 今天日期大於 end_da
+                line_bot_api.reply_message(event.reply_token, TextSendMessage(text='使用時間已到期⚠️\n\n0. 機器人🤖🈚️限查詢並可+14群\n(優惠碼:114F43 折價優惠1500)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n1. 機器人🤖🈚️限查詢並可+2~8群🈳軍基地、1800檔及指數股票壓力支撐、短波段、長波段、牛熊預測、鉅額交易、存股計畫，大禮包訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6407\n\n2. 機器人🤖🈚️限查詢並可+9群Tick當沖訊號教學(不適用優惠碼)\nhttps://www.gorich.com.tw/school/subscribe/6403\n\n🌟3. 機器人🤖🈚️限查詢並可+11群隔日沖、尬🈳訊號教學\nhttps://www.gorich.com.tw/school/subscribe/6404\n\n4. 10群一波流當沖📈、趨勢流當沖↕️\n5. 13群 台指戰機群✈️（波段）\n6. 13群 台指陸軍群🪖（當沖）\n沒訂閱請聯繫客服💁\n\n🌟E大:reurl.cc/E6LyXm\n\n🌟問答機器人🤖\nhttps://reurl.cc/r9z8Rr\n連結在這☝️\n\n🌟客服🤖 訂閱群及機器人問題都可以問🙋\nhttps://reurl.cc/2jXo8n'))
+                open = 0
+            else:
+                open = 1
+        else:
+            insert_whitelist2(user_id, user_name)
+            open =1
+
+        if open == 1:
+            if str(user_message.strip()) == '2群空軍基地':
+                try:
+                    text_message2_1 = send_maintrend_stock_top_performance()
+                    text_message2_2, text_message2_3 = send_maintrend_stock_self()
+                    messages = [text_message2_1, text_message2_2, text_message2_3]
+                    filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+                    if filtered_messages:  # 確保列表非空
+                        line_bot_api.reply_message(event.reply_token, filtered_messages)
+                except:
+                    line_bot_api.reply_message(event.reply_token, TextSendMessage(text="請於晚上21:30後查詢！"))
+
+            elif str(user_message.strip()) == '4群公司定價模型、5群牛熊、6群時間管理大師':
+                text_message4_1, text_message4_2 = accounting_strategy_pln('MC200_VOL1000(TOP5_offset0)-20D(VXX)D20_VXX', '公司定價模型', 20, '', 0.05, 0.1, 0.3)
+                text_message4_1 = text_message4_1.replace('\n策略名稱:', '4群.🏢')
+                text_message4_2 = text_message4_2.replace('\n策略名稱:', '4群.🏢')
+                text_message5_1 = do_timing()
+                text_message6_1, text_message6_2 = accounting_strategy_pln('MC1000_VOL1000(TOP5)-5D(dt)D5_MT>WT', '時間管理大師加強版', 5, '', 0.05, 0.1, 0.3)
+                text_message6_1 = text_message6_1.replace('\n策略名稱:', '6群.⌚️')
+                text_message6_2 = text_message6_2.replace('\n策略名稱:', '6群.⌚️')
+                messages = [text_message4_1,text_message4_2,text_message5_1,text_message6_1,text_message6_2,]
+                filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+                if filtered_messages:  # 確保列表非空
+                    line_bot_api.reply_message(event.reply_token, filtered_messages)
+
+            elif str(user_message.strip()) == '7群鉅額交易':
+                text_message_list7_1 = do_add_ma5_over_ma30()
+                text_message_list7_2 = do_keep_ma5_over_ma30()
+                messages = text_message_list7_1 + text_message_list7_2
+                filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+                if filtered_messages:  # 確保列表非空
+                    line_bot_api.reply_message(event.reply_token, filtered_messages)
+
+            elif str(user_message.strip()) == '8群村姑交友網':
+                text_message_list8_1 = code_indicator_cash_dev()
+                messages = text_message_list8_1
+                filtered_messages = [TextSendMessage(text=msg) for msg in messages if msg.strip()]
+                if filtered_messages:  # 確保列表非空
+                    line_bot_api.reply_message(event.reply_token, filtered_messages)
+
+    if str(user_message.strip()) == '9群教學說明':
+        image_message1 = ImageSendMessage(
+            original_content_url='https://i.ibb.co/c2BYxNT/S-17621000-0.jpg',
+            preview_image_url='https://i.ibb.co/c2BYxNT/S-17621000-0.jpg'
+        )
+        image_message2 = ImageSendMessage(
+            original_content_url='https://i.ibb.co/y88p9t9/S-17620999-0.jpg',
+            preview_image_url='https://i.ibb.co/y88p9t9/S-17620999-0.jpg'
+        )
+        image_message3 = ImageSendMessage(
+            original_content_url='https://i.ibb.co/j8D4LgK/S-17620997-0.jpg',
+            preview_image_url='https://i.ibb.co/j8D4LgK/S-17620997-0.jpg'
+        )
+        line_bot_api.reply_message(event.reply_token, [image_message1, image_message2, image_message3])
+
+if __name__ == "__main__":
+    #app.run(debug=True)
+    app.run(host="127.0.0.1", port=5001, debug=False)

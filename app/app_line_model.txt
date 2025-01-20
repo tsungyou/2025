@@ -1,0 +1,1405 @@
+import psycopg2
+import datetime
+from datetime import datetime
+import pandas as pd
+from datetime import date
+
+conn_params = {
+    'database': 'tw',
+    'user': 'crontab',
+    'password': 'itolemma888',
+    'host': '127.0.0.1',
+    'port': 5432
+}
+conn = psycopg2.connect(**conn_params)
+now = date.today()
+
+def CDP(close, high, low):
+    cdp_list = []
+    ah_list = []
+    nh_list = []
+    al_list = []
+    nl_list = []
+    for i in range(len(close)):
+        cdp = (high[i]+low[i] + 2 *close[i])/4
+        ah = cdp + high[i] - low[i]
+        nh = cdp * 2 - low[i]
+        al = cdp - (high[i] - low[i])
+        nl = cdp * 2 - high[i]
+
+        cdp_list = round(cdp,2)
+        ah_list = round(ah,2)
+        nh_list = round(nh,2)
+        al_list = round(al,2)
+        nl_list = round(nl,2)
+
+    return ah_list, nh_list, cdp_list, nl_list, al_list
+
+def do_timing():
+    range_date_start = '2024-01-01'
+    user99 = 'edward' #For DB User
+    password99 = 'itolemma888' #For DB User's Password
+    host99 = '127.0.0.1' #For DB HostIP
+    port99 = 5432 #For DB Port
+
+    # 建立資料庫連線
+    concheck = psycopg2.connect(database='asia_cup', user=user99, password=password99, host=host99, port=port99)
+    curcheck = concheck.cursor()
+
+    daily_curcheck = psycopg2.connect(database='daily', user=user99, password=password99, host=host99, port=port99)
+    daily_cuncheck = daily_curcheck.cursor()
+
+    tw_curcheck = psycopg2.connect(database = 'tw', user = user99, password = password99, host= host99, port = port99) #Create DB Connection
+    tw_cuncheck = tw_curcheck.cursor()
+
+    daily_cuncheck.execute(" SELECT DA FROM price WHERE code = 'TWSE Index' and da >= '" + range_date_start + "' order by da desc offset 4 limit 1 ");
+    RETURN_NAV_check_data = daily_cuncheck.fetchone()
+    if RETURN_NAV_check_data is not None:
+        start_date = RETURN_NAV_check_data[0]
+
+    stock_beta = "";
+
+    pre_std_otc = 0; std_otc = 0;
+    risk_exposure_container_twii = [0];
+    risk_exposure_container_otc = [0];
+    real_exposure = [0];
+    # SQL查詢
+    sql_query = "" + \
+            "WITH Returns AS ( " + \
+            "    SELECT " + \
+            "        DA, " + \
+            "        CODE, " + \
+            "        ((HI+LO)/2 / LAG((HI+LO)/2, 1) OVER (PARTITION BY CODE ORDER BY DA)) - 1 AS Return " + \
+            "    FROM " + \
+            "        PRICE " + \
+            "    WHERE " + \
+            "        CODE IN ('TWSE Index', 'TWOTCI Index') " + \
+            ") " + \
+            "SELECT " + \
+            "    P1.DA, " + \
+            "    (SELECT CL FROM PRICE WHERE CODE = 'TWSE Index' AND DA > P1.DA ORDER BY DA ASC LIMIT 1) / P1.CL - 1 AS TWSE_BETA, " + \
+            "    (SELECT CL FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA > P1.DA ORDER BY DA ASC LIMIT 1) / " + \
+            "    (SELECT CL FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA = P1.DA ORDER BY DA ASC LIMIT 1) - 1 AS TWOTCI_BETA, " + \
+            "    (SELECT STDDEV(Return)*100 FROM Returns WHERE CODE = 'TWSE Index' AND DA BETWEEN P1.DA - INTERVAL '5 days' AND P1.DA) AS TWSE_RETURN_STDDEV, " + \
+            "    (SELECT STDDEV(Return)*100 FROM Returns WHERE CODE = 'TWOTCI Index' AND DA BETWEEN P1.DA - INTERVAL '5 days' AND P1.DA) AS TWOTCI_RETURN_STDDEV, " + \
+            "    (SELECT AVG(CL) FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA IN (SELECT DA FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA <= P1.DA ORDER BY DA DESC LIMIT 20) ),"+\
+            "    (SELECT AVG(CL) FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA IN (SELECT DA FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA <= P1.DA ORDER BY DA DESC LIMIT 60) ),"+\
+            "    (SELECT CL FROM PRICE WHERE CODE = 'TWOTCI Index' AND DA = P1.DA), "+ \
+                "    (SELECT AVG(CL) FROM PRICE WHERE CODE = 'TWSE Index' AND DA IN (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' AND DA <= P1.DA ORDER BY DA DESC LIMIT 20) )," + \
+                "    (SELECT AVG(CL) FROM PRICE WHERE CODE = 'TWSE Index' AND DA IN (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' AND DA <= P1.DA ORDER BY DA DESC LIMIT 60) )," + \
+                "    cl " + \
+                "FROM " + \
+            "    PRICE AS P1 " + \
+            "WHERE " + \
+            "    P1.CODE = 'TWSE Index' " + \
+            "    AND P1.DA >= %s " + \
+            "ORDER BY " + \
+            "    P1.DA ASC"
+    # 執行SQL查詢
+    daily_cuncheck.execute(sql_query,(start_date,))
+    RETURN_NAV_check_data = daily_cuncheck.fetchone()
+    while RETURN_NAV_check_data is not None:
+        da = RETURN_NAV_check_data[0]
+        if stock_beta == "":
+            stock_beta = 0; fund2_timing_stock_beta = 0; fund1_timing_stock_beta = 0;fund3_timing_stock_beta = 0;
+            market_beta = 0; sma20_otc = 0; sma60_otc = 0; cl_otc =0; cl_twii =0;
+            risk_exposure_container_twii.append(0)
+            risk_exposure_container_otc.append(0)
+        else:
+            stock_beta = (RETURN_NAV_check_data[2])
+            market_beta = (RETURN_NAV_check_data[1])
+
+            sma20_otc = RETURN_NAV_check_data[5];
+            sma60_otc =RETURN_NAV_check_data[6];
+            cl_otc = RETURN_NAV_check_data[7];
+
+            sma20_twii = RETURN_NAV_check_data[8];
+            sma60_twii =RETURN_NAV_check_data[9];
+            cl_twii = RETURN_NAV_check_data[10];
+
+            try:
+                fund1_timing_stock_beta = (RETURN_NAV_check_data[1])
+                fund2_timing_stock_beta = (RETURN_NAV_check_data[2])
+                if fund1_timing_stock_beta >= 1: fund1_timing_stock_beta = 0;
+                if fund2_timing_stock_beta >= 1: fund2_timing_stock_beta = 0;
+            except Exception as err:
+                print(err)
+                fund1_timing_stock_beta = 0;
+                fund2_timing_stock_beta = 0;
+
+            std_otc = ""; std_twii = "";
+            if RETURN_NAV_check_data[4] is None or str(RETURN_NAV_check_data[4]) == "" or str(RETURN_NAV_check_data[4]) == 'None':
+                std_otc = 0; std_twii = 0;
+
+            else:
+                std_otc = RETURN_NAV_check_data[4]
+                std_twii = RETURN_NAV_check_data[3]
+
+
+            risk_exposure_container_twii.append(std_twii)
+            risk_exposure_container_otc.append(std_otc)
+
+        flag = ""; flag_singal = 1
+        try:
+            if (std_otc <= 3 and cl_otc > sma20_otc)  \
+                    or (cl_twii > sma60_twii and cl_twii <sma20_twii and std_otc > 1 and std_otc < 1.5 and std_twii > 1.5 and cl_otc < sma20_otc and cl_otc < sma60_otc)\
+                    or (cl_twii > sma60_twii and cl_twii > sma20_twii and std_otc > 1 and std_twii > 1.5):
+                fund3_timing_stock_beta = fund1_timing_stock_beta
+                real_exposure.append(1)
+                print(str(da)+' '+str(std_otc) + " 1 " + str(std_otc-pre_std_otc))
+                flag = "波動牛📈"
+                flag_singal = 1;
+            elif std_otc <= 1 or std_twii >= 3.5:
+                fund3_timing_stock_beta = fund1_timing_stock_beta
+                real_exposure.append(1)
+                print(str(da)+' '+str(std_otc) + " 1 " + str(std_otc-pre_std_otc))
+                flag = "穩定牛📈"
+                flag_singal = 1;
+            elif (std_otc-pre_std_otc) > 0.5 and cl_otc > sma60_otc and cl_otc < sma20_otc:
+                fund3_timing_stock_beta = fund1_timing_stock_beta
+                real_exposure.append(1)
+                print(str(da)+' '+str(std_otc) + " 1 " + str(std_otc-pre_std_otc))
+                flag = "抄底牛📈"
+                flag_singal = 1;
+            else:
+                fund3_timing_stock_beta = 0
+                real_exposure.append(0)
+                print(str(da)+' '+str(std_otc) + " 0 "+ str(std_otc-pre_std_otc))
+                flag = "害怕熊📉"
+                flag_singal = 0;
+        except Exception as err:
+            print(err)
+            real_exposure.append(0)
+
+        pre_std_otc = std_otc
+
+        RETURN_NAV_check_data = daily_cuncheck.fetchone()
+
+    if cl_otc > sma20_otc: otc_flag20 = '月線上';
+    else:
+        otc_flag20 = '';
+    if cl_otc > sma60_otc: otc_flag60 = '季線上';
+    else:
+        otc_flag60 = '';
+    if cl_twii > sma20_twii: twii_flag20 = '月線上';
+    else:
+        twii_flag20 = '';
+    if cl_twii > sma60_twii: twii_flag60 = '季線上';
+    else:
+        twii_flag60 = '';
+
+    message_s = '5群.牛熊訊號\n（做多做空都重要‼️）\n牛/熊 風險判斷'
+    message_s = message_s + '\n時間:' + str(da)[:10]
+    message_s = message_s + '\n風險大小(上市):' + str(round(std_twii, 2))
+    message_s = message_s + '\n風險大小(上櫃):' + str(round(std_otc, 2))
+    message_s = message_s + '\n🌟目前狀態:' + str(flag)
+    message_s = message_s + '\n----------------'
+    message_s = message_s + '\n上櫃指數:' + str(round(cl_otc, 2))
+    message_s = message_s + '\n(月線):' + str(round(sma20_otc, 2)) + otc_flag20
+    message_s = message_s + '\n(季線):' + str(round(sma60_otc, 2)) + otc_flag60
+    if otc_flag20 == '' and otc_flag60 == '':
+        message_s = message_s + '\n⚠️中小型股整體偏弱'
+    message_s = message_s + '\n----------------'
+    message_s = message_s + '\n上市指數:' + str(round(cl_twii, 2))
+    message_s = message_s + '\n(月線):' + str(round(sma20_twii, 2))+twii_flag20
+    message_s = message_s + '\n(季線):' + str(round(sma60_twii, 2))+twii_flag60
+    if twii_flag20 == '' and twii_flag60 == '':
+        message_s = message_s + '\n⚠️大型權值整體股偏弱'
+    message_s = message_s + '\n----------------'
+    message_s = message_s + '\n邏輯說明:'
+    message_s = message_s + '\n計算上市櫃收益率及波動率，用統計數學方式加工，判斷牛熊市'
+    message_s = message_s + '\n1.波動牛📈，波動牛代表波動劇烈但仍為牛市 '
+    message_s = message_s + '\n2.穩定牛📈穩定牛為慢牛的行情及大盤跌深後也會出現 '
+    message_s = message_s + '\n3.抄底牛📈牛市當中的多頭回檔 '
+    message_s = message_s + '\n4.害怕熊📉熊市來臨，需要檢視自己部位大小，但臺灣為淺跌市場仍有雜訊(護盤力道)'
+
+    return message_s
+
+def send_maintrend_stock_top_performance():
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+
+    daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+    daily_curcheck = daily_concheck.cursor()
+    short_arr = [];
+
+    count =0;
+    for filter_s in [0.03, 0.04, 0.05, 0.02, 0.01, 0]:
+        if count == 3:
+            break;
+        daily_curcheck.execute(
+            " select replace(p.code, ' TT Equity', '') code,(((case when month_revenue_growth_rate <-15 then 100000 when month_revenue_growth_rate <-10 then 100000  "+
+            " when month_revenue_growth_rate <-5 then 100000 when month_revenue_growth_rate <0 then 100000 else 100000 end)/cl)/1000)::int qty, 0.08 stop_loss, 0.1 stop_win, "+
+            " (select cl from price where code = p.code and da <= p.da order by da desc limit 1),  "+
+            " ((select avg(vol) from price where code = p.code and da in (select da from price where code = p.code and da <= p.da order by da desc limit 5))/1000)::int as vol5d_avg, "+
+            " (select (sum(vol)/1000)::int/5 vol from stock_price where code = p.code and to_char(da, 'HH24:MI:SS') between '08:45:00' and '10:30:00' "+
+            " and da >= (select da from price where code = p.code and da <= p.da order by da desc offset 4 limit 1)) vol5d_hr_avg,  "+
+            " 0.003 as big_vol_ratio ,(select da from trade_cal where da > p.da order by da asc limit 1) code_da "+
+            " ,(SELECT (margin_inventory)/margin_quota FROM stock_margin_sell WHERE margin_inventory <>0 and margin_quota <>0 and CODE = p.CODE AND DA = (SELECT MAX(DA) FROM stock_margin_sell)) AS margin_inventory "+
+            " ,(SELECT (sell_inventory)/margin_quota FROM stock_margin_sell WHERE sell_inventory <>0 and margin_quota <>0 and CODE = p.CODE AND DA = (SELECT MAX(DA) FROM stock_margin_sell)) AS sell_inventory"+
+            " ,(select cname from maincode where code =p.code) " +
+            " ,stockagentmainpower*2/(vol/100000),p.vol " +
+            "  from price as p, main_trend as m, revenue "+
+            " where p.code = m.code and p.da = m.da "+
+            " and p.da = (select da from price where code = '2330 TT Equity' order by da desc limit 1) "+
+            " and p.code not in (select code from stock_futures_pool where da = (select max(da) from stock_futures_pool where da < p.da)) "+
+            " and stockagentdiff <-15 and skp20 > -35  "+
+            " and p.code not in (select code from gics where gics_code = 'Financials')  "+
+            " and p.code not in (select code from stop_trade_goodinfo where p.da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da) "+
+            " and p.cl < 100  "+
+            " and revenue.da = (select da from revenue where (substring(da::varchar,1,8)||'11')::timestamp < now() group by da having(count(code)>1000) order by da desc limit 1) "+
+            " and p.code in (select code from stock_margin_sell where sell_inventory/margin_quota > "+str(filter_s)+" and da = p.da and margin_inventory <>0 and margin_quota<> 0 and margin_quota is not null)"+
+            " and p.code = revenue.code "+
+            " and ((vol between 1500000 and 2000000) or vol>3000000) "+
+            "  order by stockagentdiff+skp20*10 asc")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            code = str(curcheck01_data_54[0])
+            qty = str(curcheck01_data_54[1]*-1)
+            stop_loss = str(curcheck01_data_54[2])
+            stop_win = str(curcheck01_data_54[3])
+            cl = str(curcheck01_data_54[4])
+            vol5d_avg = str(curcheck01_data_54[5])
+            vol5d_hr_avg = str(curcheck01_data_54[6])
+            big_vol_ratio = str(curcheck01_data_54[7])
+            code_da = str(curcheck01_data_54[8])
+            margin_inventory = curcheck01_data_54[9]
+            sell_inventory = curcheck01_data_54[10]
+            cname = curcheck01_data_54[11]
+            ratio_1 = curcheck01_data_54[12]
+            vol_1 = curcheck01_data_54[13] / 1000
+            pre_sell_1 = ratio_1 * vol_1 / 100
+
+            if ratio_1 < 0:
+                ratio_1 = ratio_1 * -1
+                pre_sell_1 = pre_sell_1 * -1
+
+            if pre_sell_1 < 1000:
+                pre_sell_1 = pre_sell_1 + 1000;
+                ratio_1 = pre_sell_1 / vol_1 * 100
+
+            short_arr.append([code, qty, stop_loss, stop_win, cl, vol5d_avg, vol5d_hr_avg, big_vol_ratio, margin_inventory, sell_inventory, cname, pre_sell_1, vol_1])
+            count = count + 1;
+            if count == 3:
+                break;
+            curcheck01_data_54 = daily_curcheck.fetchone()
+
+    message_s = '2群.✈️🈳軍基地🔥🔥🔥\n券率3%以上績效較穩'
+    message_s = message_s + '\n短線主力6成+空券2成+大盤強弱2成，決定偷天績效好壞'
+    message_s = message_s + '\n明日📉🈳3檔(開盤賣>收盤補)'
+    count = 0;
+    for data in short_arr:
+        count = count + 1;
+        code = data[0]
+        margin_inventory = data[8]
+        sell_inventory = data[9]
+        cname = data[10]
+        pre_sell_1 = abs(data[11])
+        vol_1 = data[12]
+
+        try:
+            margin_inventory = round(margin_inventory * 100, 2);
+        except:
+            margin_inventory = 0;
+
+        try:
+            sell_inventory = round(sell_inventory * 100, 2);
+        except:
+            sell_inventory = 0;
+
+        message_s = message_s + '\n'+str(count)+'.'+str(code)+' ' + str(cname) + ' ' + str(code)
+        message_s = message_s + '\n⚠️成交量:'+str(int(vol_1))+'\n⚠️預估倒貨量:'+str(int(pre_sell_1))
+        message_s = message_s + '\n資率:' + str(margin_inventory) + '%'
+        message_s = message_s + ' 券率:' + str(sell_inventory) + '%\n'
+
+    message_s = message_s + '\n--------------'
+    message_s = message_s + "\n當沖(做空)\n昨日損益計算:"
+    count =0; short_arr = [];avg_return = 0;
+    for filter_s in [0.03, 0.04, 0.05, 0.02, 0.01, 0]:
+        if count == 3:
+            break;
+        daily_curcheck.execute(" select replace(p.code, ' TT Equity', '') code,(select cname from maincode where code =p.code), (((select (cl/op) from price where code = p.code and da = (select max(da) from price))-1)*-1)*100  "+
+                               " from price as p, main_trend as m, revenue  "+
+             " where p.code = m.code and p.da = m.da  "+
+             " and p.da = (select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1)  "+
+             " and p.code not in (select code from stock_futures_pool where da = (select max(da) from stock_futures_pool where da < p.da))  "+
+             " and stockagentdiff <-15 and skp20 > -35   "+
+             " and p.code not in (select code from gics where gics_code = 'Financials')   "+
+             " and p.code not in (select code from stop_trade_goodinfo where p.da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da)  "+
+             " and p.cl < 100   "+
+             " and revenue.da = (select da from revenue where (substring(da::varchar,1,8)||'11')::timestamp < now() group by da having(count(code)>1000) order by da desc limit 1)  "+
+             " and p.code in (select code from stock_margin_sell where sell_inventory/margin_quota > "+str(filter_s)+" and da = p.da and margin_inventory <>0 and margin_quota<> 0 and margin_quota is not null) "+
+             " and p.code = revenue.code  "+
+             " and ((vol between 1500000 and 2000000) or vol>3000000)  "+
+             " order by stockagentdiff+skp20*10 asc ")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            code = str(curcheck01_data_54[0])
+            cname = str(curcheck01_data_54[1])
+            net = str(curcheck01_data_54[2])
+            avg_return = avg_return + float(net) + 0.0001;
+            short_arr.append([code, cname, net])
+            count = count + 1;
+            if count == 3:
+                break;
+            curcheck01_data_54 = daily_curcheck.fetchone()
+    count = 0
+    top3_win_count = 0;
+    for data in short_arr:
+        count = count + 1;
+        code = data[0]
+        cname = data[1]
+        net = data[2]
+        if float(net) >= 0:
+            top3_win_count = top3_win_count + 1
+            net_g = '+'
+        else:
+            net_g = ''
+        message_s = message_s + '\n'+str(count)+'. ' + str(code) + str(cname)+''+str(net_g)+str(round(float(net),2))+'%'
+    if float(avg_return) >= 0:
+        net_g = '+'
+    else:
+        net_g = ''
+    message_s = message_s + '\n平均收益:' + str(round((float(avg_return)/3),2)) + '%'
+    top3_win_ratio = float(top3_win_count) / float(3) * 100
+
+    daily_curcheck.execute("select avg(win_ratio), avg(win_rtn) from win_ratio where strategy_name = 'Short_TOP3' and da >= (select da from win_ratio where strategy_name = 'Short_TOP3' order by da desc offset 19 limit 1)")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    if curcheck01_data_54 is not None:
+        win_ratio = str(curcheck01_data_54[0])
+        win_rtn = str(curcheck01_data_54[1])
+
+    message_s = message_s + '\n--------------'
+    message_s = message_s + '\n月平均勝率:' + str(round(float(win_ratio),2)) + '%'
+    message_s = message_s + '\n月均收益(1檔):' + str(round(float(win_rtn),2)) + '%'
+    message_s = message_s + '\n--------------'
+    message_s = message_s + '\n月總收益(3檔):' + str(round(float(win_rtn)*60,2)) + '%'
+    return message_s
+
+def send_maintrend_stock_self():
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+    daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+    daily_curcheck = daily_concheck.cursor()
+
+    short_arr = [];avg_return = 0;
+    daily_curcheck.execute(
+        "select (select op from price where code = p.code and da > p.da order by da asc limit 1),(select cl from price where code = p.code and da > p.da order by da asc limit 1), " +
+        " (select op from price where code = p.code and da > p.da order by da asc limit 1)/(select cl from price where code = p.code and da > p.da order by da asc limit 1)-1, " +
+        " (SELECT CNAME FROM MAINCODE WHERE CODE = P.CODE), p.code, to_char(p.da,'YYYY-MM-DD'), " +
+        " (select case when m1.dif > m1.macd and m2.dif<m2.macd then 'MACD First' else '' end from edward_macd as m1, edward_macd as m2  " +
+        "   where m1.code = p.code and m1.da = p.da and m2.code = p.code and m2.da = (select da from price where code = '2330 TT Equity' and da <p.da order by da desc limit 1) )  " +
+        " ,stockagentmainpower*1.25/(vol/100000), (stockagentdiff+skp20*10)/1000*-1 "+
+        " ,(SELECT (margin_inventory)/margin_quota FROM stock_margin_sell WHERE margin_inventory <>0 and margin_quota <>0 and CODE = p.CODE AND DA = (SELECT MAX(DA) FROM stock_margin_sell)) AS margin_inventory "+
+        " ,(SELECT (sell_inventory)/margin_quota FROM stock_margin_sell WHERE sell_inventory <>0 and margin_quota <>0 and CODE = p.CODE AND DA = (SELECT MAX(DA) FROM stock_margin_sell)) AS sell_inventory"+
+        " ,stockagentmainpower*2/(vol/100000),p.vol "+
+
+        " from price as p, main_trend as m " +
+        " where p.code = m.code and p.da = m.da " +
+        " and p.da = (select da from price where code = '2330 TT Equity' order by da desc limit 1) " +
+        " and p.code not in (select code from stock_futures_pool where da = (select max(da) from stock_futures_pool where da < p.da)) " +
+        " and stockagentdiff <-15 and skp20 > -35  " +
+        " and p.code not in (select code from gics where gics_code = 'Financials')  " +
+        " and p.code not in (select code from stop_trade_goodinfo where p.da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da) " +
+        " and p.cl < 100  " +
+        " and vol>1000000 " +
+        " order by stockagentdiff+skp20*10 asc limit 10")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    while curcheck01_data_54 is not None:
+        code_op = curcheck01_data_54[0]
+        code_cl = curcheck01_data_54[1]
+        code_return = curcheck01_data_54[2]
+        code_cname = curcheck01_data_54[3]
+        code_Short = curcheck01_data_54[4][:4]  # \
+        code_da = curcheck01_data_54[5]
+        code_macd = curcheck01_data_54[6]
+        main_long = curcheck01_data_54[7]
+        main_short = curcheck01_data_54[8]
+        margin_inventory = curcheck01_data_54[9]
+        sell_inventory = curcheck01_data_54[10]
+        ratio_1 = curcheck01_data_54[11]
+        vol_1 = curcheck01_data_54[12]/1000
+        pre_sell_1 = ratio_1*vol_1/100
+
+        if ratio_1 <0:
+            ratio_1 = ratio_1 * -1
+            pre_sell_1 = pre_sell_1 * -1
+
+        if pre_sell_1 < 1000:
+            pre_sell_1 = pre_sell_1 + 1000;
+            ratio_1 = pre_sell_1/vol_1*100
+
+        try:
+            margin_inventory = round(margin_inventory * 100, 2);
+        except:
+            margin_inventory = 0;
+
+        try:
+            sell_inventory = round(sell_inventory * 100, 2);
+        except:
+            sell_inventory = 0;
+        #short_arr.append([code_Short, code_cname[0:2], code_macd, round(main_long), round(main_short*100)])
+        short_arr.append([code_Short, code_cname, code_macd, round(margin_inventory,2), round(sell_inventory,2), pre_sell_1, vol_1])
+        curcheck01_data_54 = daily_curcheck.fetchone()
+
+    count = 0;
+    message_s = '2群.✈️🈳軍基地🔥🔥🔥\n訊號日期:' + str(code_da)
+    message_s = message_s + "\n明日📉🈳10檔:"
+    for short_data in short_arr:
+        count = count + 1;
+        #message_s = message_s + '\n' + str(count) + '. ' + str(short_data[0]) + str(short_data[1] + str(short_data[2]))
+        message_s = message_s + '\n' + str(count) + '.' + str(short_data[0]) + str(short_data[1])+'\n⚠️成交量:'+str(int(short_data[6]))+'\n⚠️預估倒貨量:'+str(int(short_data[5])) +'\n資率:'+str(short_data[3])  +'% 券率:'+str(short_data[4])+'%\n'
+
+    #lineNotifyMessage(token_self, message_s)
+    message_s = message_s + '\n--------------'
+    #############################################
+    short_arr = [];avg_return = 0;
+    daily_curcheck.execute(
+        "select (select op from price where code = p.code and da > p.da order by da asc limit 1),(select cl from price where code = p.code and da > p.da order by da asc limit 1), "+
+        " (select op from price where code = p.code and da > p.da order by da asc limit 1)/(select cl from price where code = p.code and da > p.da order by da asc limit 1)-1, "+
+        " (SELECT CNAME FROM MAINCODE WHERE CODE = P.CODE), p.code  "+
+        " from price as p, main_trend as m "+
+        " where p.code = m.code and p.da = m.da "+
+        " and p.da = (select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1) "+
+        " and p.code not in (select code from stock_futures_pool where da = (select max(da) from stock_futures_pool where da < p.da)) "+
+        " and stockagentdiff <-15 and skp20 > -35  "+
+        " and p.code not in (select code from gics where gics_code = 'Financials')  "+
+        " and p.code not in (select code from stop_trade_goodinfo where p.da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da) "+
+        " and p.cl < 100  "+
+        " and vol>1000000 "+
+        " order by stockagentdiff+skp20*10 asc limit 10")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    while curcheck01_data_54 is not None:
+        code_op = curcheck01_data_54[0]
+        code_cl = curcheck01_data_54[1]
+        try:
+            code_return = float(curcheck01_data_54[2])
+        except Exception as err:
+            code_return = 0;
+        code_cname = curcheck01_data_54[3]
+        code_Short = curcheck01_data_54[4][:4]  # \
+        avg_return = avg_return + code_return + 0.0001;
+        short_arr.append([code_Short, code_cname, round(code_return*100,2)])
+        curcheck01_data_54 = daily_curcheck.fetchone()
+
+    count = 0;
+    top10_win_count = 0;
+    message_s = message_s + "\n今日損益計算:"
+    for short_data in short_arr:
+        count = count + 1;
+        if float(short_data[2]) >= 0:
+            top10_win_count = top10_win_count + 1
+            net_g = '+'
+        else:
+            net_g = ''
+        message_s = message_s + '\n'+str(count)+'. ' + str(short_data[0]) + str(short_data[1])+''+str(net_g)+str(short_data[2])+'%'
+    if float(avg_return) >= 0:
+        net_g = '+'
+    else:
+        net_g = ''
+    message_s = message_s + '\n平均收益:' + str(round((avg_return*10),2)) + '%'
+    top10_win_ratio = float(top10_win_count) / float(3) *100
+
+    daily_curcheck.execute("select avg(win_ratio), avg(win_rtn) from win_ratio where strategy_name = 'Short_TOP10' and da >= (select da from win_ratio where strategy_name = 'Short_TOP10' order by da desc offset 19 limit 1)")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    if curcheck01_data_54 is not None:
+        win_ratio = str(curcheck01_data_54[0])
+        win_rtn = str(curcheck01_data_54[1])
+
+    message_s = message_s + '\n--------------'
+    message_s = message_s + '\n月平均勝率:' + str(round(float(win_ratio),2)) + '%'
+    message_s = message_s + '\n月均收益(1檔):' + str(round(float(win_rtn),2)) + '%'
+    message_s = message_s + '\n--------------'
+    message_s = message_s + '\n月總收益(10檔):' + str(round(float(win_rtn)*200,2)) + '%'
+
+    ####For Long
+    ####For Long
+    ####For Long
+    ####For Long
+    ####For Long
+    short_arr = [];avg_return = 0;
+    daily_curcheck.execute( " select (select to_char(da,'YYYY-MM-DD') from price where code = '2330 TT Equity' order by da desc limit 1), code, (select cname from maincode where code = main_trend.code)  "+
+                            " ,(select cl/op-1 from price where code = main_trend.code and da=(select da from price where da > main_trend.da and code = '2330 TT Equity' order by da asc offset 1 limit 1)) "+
+                            " from main_trend where da = (select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1) "+
+                            "         			  and code not in (select code from stock_futures_pool   "+
+                            "           where da = (select max(da) from stock_futures_pool where da < (select da from price where code = '2330 TT Equity' order by da asc offset 1 limit 1)))  "+
+                            "          and code not in (select code from gics where gics_code = 'Financials')  "+
+                            "          and code not in (select code from stop_trade_goodinfo where da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da) "+
+                             " and code in (select code from price where da =(select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1) and vol>500000) "+
+                            "          and code in (select p1.code from price p1, price p2 where p1.code =p2.code and p1.da =(select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1) and p1.vol<p2.vol  "+
+                            " 					   and p2.da = (select max(da) from price where code = '2330 TT Equity' and da < (select da from price where code = '2330 TT Equity' order by da desc offset 1 limit 1))) "+
+                            " 		  and close/(select op from price where code = main_trend.code and da = main_trend.da order by da asc limit 1)-1 > 0.03 "+
+                            "  and close/(select op from price where code = main_trend.code and da = main_trend.da order by da asc limit 1)-1 <= 0.06	 "+
+                            "           order by stockagentdiff asc limit 5")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    while curcheck01_data_54 is not None:
+        code_Short = curcheck01_data_54[1][:4]  # \
+        code_cname = curcheck01_data_54[2]
+        code_da = curcheck01_data_54[0]
+        code_return = curcheck01_data_54[3]
+        short_arr.append([code_Short, code_cname])
+        curcheck01_data_54 = daily_curcheck.fetchone()
+
+    count = 0;
+    message_l = '2群.✈️🈳軍基地🔥🔥🔥\n訊號日期:' + str(code_da)+''
+    message_l = message_l + "\n當沖(做多)\n開盤價於AB區做多:"
+    if len(short_arr) != 0:
+        for short_data in short_arr:
+            count = count + 1;
+            code = short_data[0]
+            close_list = [];
+            high_list = [];
+            low_list = [];
+            daily_curcheck.execute(
+                "SELECT MAX(T1.HI), MIN(T1.LO), (select adj from price where code = t1.code and vol = max(t1.vol) and da > (select da from price where code =t1.code order by da desc offset 1 limit 1)  limit 1), t1.code"
+                ", (SELECT ADJ FROM PRICE WHERE CODE = T1.CODE ORDER BY DA DESC LIMIT 1) "
+                ", (select da from price where code = t1.code and vol = max(t1.vol) and da > (select da from price where code =t1.code order by da desc offset 1 limit 1) limit 1)"
+                "FROM(SELECT * FROM PRICE AS P1 WHERE p1.CODE = '" + str(code) + " TT Equity' ORDER BY P1.DA DESC LIMIT 1) AS T1 GROUP BY T1.CODE ")
+            curcheck01_data_54 = daily_curcheck.fetchone()
+            if curcheck01_data_54 is not None:
+                high, low, close, now_cl, max_vol = curcheck01_data_54[0], curcheck01_data_54[1], curcheck01_data_54[2], curcheck01_data_54[4], curcheck01_data_54[5]
+                close_list.append(close);
+                high_list.append(high);
+                low_list.append(low);
+
+            ah_list, nh_list, cdp_list, nl_list, al_list = CDP(close_list, high_list, low_list)
+            message_l = message_l + '\n' + str(count) + '. ' + str(short_data[0]) + str(short_data[1] + '  多 🌟')
+
+            message_l = message_l + '\n強突破價:' + str(ah_list) + ' 上幅度:' + str(abs(round(((ah_list / now_cl) - 1) * 100, 2))) + '%'
+            message_l = message_l + '\nA區 強📈'
+            message_l = message_l + '\n突破價:' + str(nh_list) + ' 上幅度:' + str(abs(round(((nh_list / now_cl) - 1) * 100, 2))) + '%'
+            message_l = message_l + '\nB區 📈'
+            message_l = message_l + '\n中關價:' + str(cdp_list)
+            message_l = message_l + '\nC區 📉'
+            message_l = message_l + '\n支撐價:' + str(nl_list) + ' 下幅度:' + str(round(((nl_list / now_cl) - 1) * 100, 2)) + '%'
+            message_l = message_l + '\nD區 弱📉'
+            message_l = message_l + '\n弱支撐價:' + str(al_list) + ' 下幅度:' + str(round(((al_list / now_cl) - 1) * 100, 2)) + '%'
+            message_l = message_l + '\n'
+
+    else:
+        message_l = message_l + '\n空手'
+
+    message_l = message_l + '\n-------------'
+    #############################################
+    short_arr = [];avg_return = 0;
+    daily_curcheck.execute( " select da, code, (select cname from maincode where code = main_trend.code)  "+
+                            " ,(select cl/op-1 from price where code = main_trend.code and da=(select da from price where da > main_trend.da and code = '2330 TT Equity' order by da asc offset 1 limit 1)) "+
+                            " from main_trend where da = (select da from price where code = '2330 TT Equity' order by da desc offset 2 limit 1) "+
+                            "         			  and code not in (select code from stock_futures_pool   "+
+                            "           where da = (select max(da) from stock_futures_pool where da < (select da from price where code = '2330 TT Equity' order by da asc offset 1 limit 1)))  "+
+                            "          and code not in (select code from gics where gics_code = 'Financials')  "+
+                            "          and code not in (select code from stop_trade_goodinfo where da::timestamp+ INTERVAL '24 HOUR' between start_da and end_da) "+
+                             " and code in (select code from price where da =(select da from price where code = '2330 TT Equity' order by da desc offset 2 limit 1) and vol>500000) "+
+                            "          and code in (select p1.code from price p1, price p2 where p1.code =p2.code and p1.da =(select da from price where code = '2330 TT Equity' order by da desc offset 2 limit 1) and p1.vol<p2.vol  "+
+                            " 					   and p2.da = (select max(da) from price where code = '2330 TT Equity' and da < (select da from price where code = '2330 TT Equity' order by da desc offset 2 limit 1))) "+
+                            " 		  and close/(select op from price where code = main_trend.code and da = main_trend.da order by da asc limit 1)-1 > 0.03 "+
+                            "  and close/(select op from price where code = main_trend.code and da = main_trend.da order by da asc limit 1)-1 <= 0.06	 "+
+                            "           order by stockagentdiff asc limit 5")
+    curcheck01_data_54 = daily_curcheck.fetchone()
+    while curcheck01_data_54 is not None:
+        code_Short = curcheck01_data_54[1][:4]  # \
+        code_cname = curcheck01_data_54[2]
+        code_da = curcheck01_data_54[0]
+        try:
+            code_return = curcheck01_data_54[3]
+        except Exception as err:
+            code_return = 0;
+        avg_return = avg_return + code_return + 0.0001;
+        short_arr.append([code_Short, code_cname, round(code_return*100,2)])
+        curcheck01_data_54 = daily_curcheck.fetchone()
+
+    count = 0;
+    message_l = message_l+"\n當沖(做多)\n今日損益計算:"
+    if len(short_arr) != 0:
+        for short_data in short_arr:
+            count = count + 1;
+            if float(short_data[2]) >= 0:
+                net_g = '+'
+            else:
+                net_g = ''
+            message_l = message_l + '\n'+str(count)+'. ' + str(short_data[0]) + str(short_data[1])+''+str(net_g)+str(short_data[2])+'%'
+        if float(avg_return) >= 0:
+            net_g = '+'
+        else:
+            net_g = ''
+        message_l = message_l + '\n平均收益:' + str(round((avg_return/float(count)*100),2)) + '%'
+    else:
+        message_l = message_l + '\n今日空手'
+
+    return message_s, message_l
+
+def do_add_ma5_over_ma30():
+    text_message_list = []
+
+    conn = psycopg2.connect(**conn_params)
+    sql_query = """
+        SELECT to_char(DA,'YYYY-MM-DD') FROM BIGTRADE ORDER BY DA DESC LIMIT 1;
+    """
+    da = pd.read_sql_query(sql_query, conn).values[0][0]
+
+    # 定义 SQL 查询
+    sql_query = """
+        SELECT T2.*, CASE WHEN MA_5 > MA_30 THEN 'V' ELSE '' END ma5_over_ma30 FROM (
+            SELECT T1.*, 
+                   (MAX_ADJ/AVG_CL)-1 AS BETA,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 4 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MA_5,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 29 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MA_30
+            FROM (
+                SELECT CODE, 
+                       CNAME, 
+                       AVG(CL) AS AVG_CL, 
+                       SUM(MONEY) AS SUM_MONEY, 
+                       (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                          (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+                FROM BIGTRADE
+                WHERE DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+                GROUP BY CODE, CNAME
+            ) AS T1 
+            WHERE SUM_MONEY >= 50000000
+        ) AS T2
+        ORDER BY BETA ASC;
+    """
+
+    # 执行查询并将结果加载到 Pandas DataFrame
+    df_T = pd.read_sql_query(sql_query, conn)
+    df_T = df_T[df_T['ma5_over_ma30'] == 'V']
+
+    # 定义 SQL 查询
+    sql_query = """
+        SELECT T2.*, CASE WHEN MA_5 > MA_30 THEN 'V' ELSE '' END ma5_over_ma30 FROM (
+            SELECT T1.*, 
+                   (MAX_ADJ/AVG_CL)-1 AS BETA,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 5 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS MA_5,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 30 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS MA_30
+            FROM (
+                SELECT CODE, 
+                       CNAME, 
+                       AVG(CL) AS AVG_CL, 
+                       SUM(MONEY) AS SUM_MONEY, 
+                       (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                          (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+                FROM BIGTRADE
+                WHERE DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+                GROUP BY CODE, CNAME
+            ) AS T1 
+            WHERE SUM_MONEY >= 50000000
+        ) AS T2
+        ORDER BY BETA ASC;
+    """
+    # 读取第二个查询结果到 df_T_1
+    df_T_1 = pd.read_sql_query(sql_query, conn)
+    df_T_1 = df_T_1[df_T_1['ma5_over_ma30'] == 'V']
+
+    # 关闭数据库连接
+    conn.close()
+
+    # 根据 df_T 为主表，删除在 df_T_1 中已存在的 code 数据
+    df_T_filtered = df_T[~df_T['code'].isin(df_T_1['code'])]
+
+    code_arr = tuple(df_T_filtered['code'])
+
+    # 使用迴圈遍歷每一行
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+    daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99, port=port99)  # Create DB Connection
+    daily_curcheck = daily_concheck.cursor()
+    message = '7群.鉅額交易(新入)\n鉅額交易日:' + str(da)[:10]
+    message = message + '\nma5>ma30:⭕️'
+    count = 0;
+    number = 0;
+    data2_arr = []
+    for index, row in df_T_filtered.iterrows():
+        code = row['code']
+        sql_query = """
+                    			SELECT T1.*, MAX_ADJ/AVG_CL-1 BETA 
+                    			, (SELECT N FROM (SELECT code, row_number() over(order by cap desc) N FROM MARKET_CAP WHERE DA = (SELECT MAX(DA) FROM MARKET_CAP)) AS TT WHERE CODE = t1.code)
+                    			FROM(
+                    SELECT CODE, 
+                           CNAME, 
+                           AVG(CL) AS AVG_CL, 
+                           SUM(MONEY) AS SUM_MONEY, 
+                           (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                              (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+                    FROM BIGTRADE
+                    WHERE DA BETWEEN 
+                          (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                          AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+        			AND CODE = '""" + code + """'
+                    GROUP BY CODE, CNAME) AS T1
+                """
+        daily_curcheck.execute(sql_query)
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        if curcheck01_data_54 is not None:
+            code = curcheck01_data_54[0][:4]
+            cname = curcheck01_data_54[1].replace(' ', '')
+            avg_cl = curcheck01_data_54[2]
+            sum_money = curcheck01_data_54[3]
+            max_adj = curcheck01_data_54[4]
+            beta = curcheck01_data_54[5]
+            cap = curcheck01_data_54[6]
+            data2_arr.append([code, cname, avg_cl, sum_money, max_adj, beta, cap])
+
+    flag = "";
+    for data in data2_arr:
+        count = count + 1;
+        number = number + 1;
+        if count>1:
+            message = message + '\n'
+        code = data[0]
+        cname = data[1]
+        avg_cl = data[2]
+        sum_money = data[3]
+        max_adj = data[4]
+        beta = data[5]
+        cap = data[6]
+        try:
+            if cap <= 300:
+                cap_name = '大型股(5%停利)';
+                focaset = 0.05 - beta;
+            elif cap <= 700:
+                cap_name = '中型股(10%停利)';
+                focaset = 0.1 - beta;
+            elif cap <= 1000:
+                cap_name = '小型股(20%停利)';
+                focaset = 0.2 - beta;
+            else:
+                cap_name = '微型股(15%停利)';
+                focaset = 0.15 - beta;
+        except:
+            cap_name = '微型股(15%停利)';
+            focaset = 0.15 - beta;
+
+        if focaset < 0:
+            flag2 = '達標✅'
+        else:
+            flag2 = '🉑'
+
+        if beta >= 0:
+            flag = '📈'
+        else:
+            flag = '📉'
+        pre_avg_cl = (focaset * max_adj + max_adj)
+
+        message = message + '\n' + str(number) + '.' + str(code) + str(cname)
+        message = message + '\n成本:' + str(round((avg_cl), 2)) + ' 現價:'+str(round((max_adj), 2))
+        message = message + '\n金額(億):' + str(round((sum_money/100000000), 2))
+        message = message + '\n大戶收益:' + str(round((beta*100),2)) + '%'+flag
+        message = message + '\n'+str(cap_name)
+        message = message + '\n預估利潤空間:' + str(round((focaset * 100), 2)) + '%' + flag2
+        message = message + '\n預估目標價:' + str(round((pre_avg_cl), 2))
+        message = message + '\nma5>ma30:' + str(da)
+
+        if count >= 40:
+            text_message_list.append(message)
+            message = "";
+            count = 0;
+    if count>0:
+        text_message_list.append(message)
+    return text_message_list
+
+def do_keep_ma5_over_ma30():
+    text_message_list = []
+    conn = psycopg2.connect(**conn_params)
+    sql_query = """
+        SELECT to_char(DA,'YYYY-MM-DD') FROM BIGTRADE ORDER BY DA DESC LIMIT 1;
+    """
+    da = pd.read_sql_query(sql_query, conn).values[0][0]
+
+    # 定义 SQL 查询
+    sql_query = """
+        SELECT T2.*, CASE WHEN MA_5 > MA_30 THEN 'V' ELSE '' END ma5_over_ma30 FROM (
+            SELECT T1.*, 
+                   (MAX_ADJ/AVG_CL)-1 AS BETA,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 4 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MA_5,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 29 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MA_30
+            FROM (
+                SELECT CODE, 
+                       CNAME, 
+                       AVG(CL) AS AVG_CL, 
+                       SUM(MONEY) AS SUM_MONEY, 
+                       (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                          (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+                FROM BIGTRADE
+                WHERE DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+                GROUP BY CODE, CNAME
+            ) AS T1 
+            WHERE SUM_MONEY >= 50000000
+        ) AS T2
+        ORDER BY BETA ASC;
+    """
+
+    # 执行查询并将结果加载到 Pandas DataFrame
+    df_T = pd.read_sql_query(sql_query, conn)
+    df_T = df_T[df_T['ma5_over_ma30'] == 'V']
+
+    # 定义 SQL 查询
+    sql_query = """
+        SELECT T2.*, CASE WHEN MA_5 > MA_30 THEN 'V' ELSE '' END ma5_over_ma30 FROM (
+            SELECT T1.*, 
+                   (MAX_ADJ/AVG_CL)-1 AS BETA,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 5 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS MA_5,
+                   (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 30 LIMIT 1 ) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS MA_30
+            FROM (
+                SELECT CODE, 
+                       CNAME, 
+                       AVG(CL) AS AVG_CL, 
+                       SUM(MONEY) AS SUM_MONEY, 
+                       (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                          (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+                FROM BIGTRADE
+                WHERE DA BETWEEN 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                      AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+                GROUP BY CODE, CNAME
+            ) AS T1 
+            WHERE SUM_MONEY >= 50000000
+        ) AS T2
+        ORDER BY BETA ASC;
+    """
+    # 读取第二个查询结果到 df_T_1
+    df_T_1 = pd.read_sql_query(sql_query, conn)
+    df_T_1 = df_T_1[df_T_1['ma5_over_ma30'] == 'V']
+
+    # 使用 INNER JOIN 操作合并 df_T 和 df_T_1，按照 'code' 列进行合并
+    df_T_1_filtered = df_T_1[df_T_1['code'].isin(df_T['code'])]
+    code_arr = tuple(df_T_1_filtered['code'])
+
+    sql_query = """
+        SELECT to_char(DA,'YYYY-MM-DD') da FROM price where code = '2330 TT Equity' ORDER BY DA DESC LIMIT 20;
+    """
+    da_df = pd.read_sql_query(sql_query, conn)
+    data_arr = []
+    for index, row in da_df.iterrows():
+        da = row['da']
+        user99 = 'crontab'
+        password99 = 'itolemma888'
+        host99 = '127.0.0.1'
+        port99 = 5432
+        daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+        daily_curcheck = daily_concheck.cursor()
+        sql_query = """
+            SELECT to_char(T1.DA,'YYYY-MM-DD') da, T1.CODE,
+                   CASE WHEN T1.MA_5 > T1.MA_20 AND T1.MA_5_T1 < T1.MA_20_T1 THEN 'V' ELSE '' END AS condition_met
+            FROM (
+                SELECT DA, CODE,
+                       (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                          (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC OFFSET 4 LIMIT 1) 
+                          AND (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC LIMIT 1)) AS MA_5,
+                       (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                          (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC OFFSET 29 LIMIT 1) 
+                          AND (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC LIMIT 1)) AS MA_20,
+                       (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                          (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC OFFSET 5 LIMIT 1) 
+                          AND (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC LIMIT 1)) AS MA_5_T1,
+                       (SELECT AVG(CL) FROM PRICE WHERE CODE = T1.CODE AND DA BETWEEN 
+                          (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC OFFSET 30 LIMIT 1) 
+                          AND (SELECT DA FROM PRICE WHERE CODE = T1.CODE AND DA <= '""" + da + """' ORDER BY DA DESC LIMIT 1)) AS MA_20_T1
+                FROM PRICE AS T1
+                WHERE T1.CODE IN """ + str(code_arr) + """
+                  AND DA = '""" + da + """'
+            ) AS T1;
+        """
+        daily_curcheck.execute(sql_query)
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            da = curcheck01_data_54[0]
+            code = curcheck01_data_54[1]
+            flag = curcheck01_data_54[2]
+            if str(flag) == 'V':
+                data_arr.append([da, code, flag])
+            curcheck01_data_54 = daily_curcheck.fetchone()
+
+    data2_arr = []
+    for data in data_arr:
+        first_da = data[0]
+        code = data[1]
+        sql_query = """
+            			SELECT T1.*, MAX_ADJ/AVG_CL-1 BETA 
+            			, (SELECT N FROM (SELECT code, row_number() over(order by cap desc) N FROM MARKET_CAP WHERE DA = (SELECT MAX(DA) FROM MARKET_CAP)) AS TT WHERE CODE = t1.code)
+            			FROM(
+            SELECT CODE, 
+                   CNAME, 
+                   AVG(CL) AS AVG_CL, 
+                   SUM(MONEY) AS SUM_MONEY, 
+                   (SELECT ADJ FROM PRICE WHERE CODE = BIGTRADE.CODE AND DA = 
+                      (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)) AS MAX_ADJ
+            FROM BIGTRADE
+            WHERE DA BETWEEN 
+                  (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1 OFFSET 60) 
+                  AND (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC LIMIT 1)
+			AND CODE = '""" + code + """'
+            GROUP BY CODE, CNAME) AS T1
+        """
+        daily_curcheck.execute(sql_query)
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        if curcheck01_data_54 is not None:
+            code = curcheck01_data_54[0][:4]
+            cname = curcheck01_data_54[1].replace(' ','')
+            avg_cl = curcheck01_data_54[2]
+            sum_money = curcheck01_data_54[3]
+            max_adj = curcheck01_data_54[4]
+            beta = curcheck01_data_54[5]
+            cap = curcheck01_data_54[6]
+            data2_arr.append([code, cname, avg_cl, sum_money, max_adj, beta, first_da, cap])
+
+    # 使用迴圈遍歷每一行
+    count = 0;
+    number = 0;
+    message = '7群.鉅額交易(庫存)\n近1個月鉅額(多頭排列)'
+    flag = "";
+    for data in data2_arr:
+        count = count + 1;
+        number = number + 1;
+        if count>1:
+            message = message + '\n'
+        code = data[0]
+        cname = data[1]
+        avg_cl = data[2]
+        sum_money = data[3]
+        max_adj = data[4]
+        beta = data[5]
+        da = data[6]
+        cap = data[7]
+        try:
+            if cap <= 300:
+                cap_name = '大型股(5%停利)';
+                focaset = 0.05 - beta;
+            elif cap <= 700:
+                cap_name = '中型股(10%停利)';
+                focaset = 0.1 - beta;
+            elif cap <= 1000:
+                cap_name = '小型股(20%停利)';
+                focaset = 0.2 - beta;
+            else:
+                cap_name = '微型股(15%停利)';
+                focaset = 0.15 - beta;
+        except:
+            cap_name = '微型股(15%停利)';
+            focaset = 0.15 - beta;
+
+        if focaset < 0:
+            flag2 = '達標✅'
+        else:
+            flag2 = '🉑'
+
+        if beta >= 0:
+            flag = '📈'
+        else:
+            flag = '📉'
+
+        pre_avg_cl = (focaset * max_adj + max_adj)
+
+        message = message + '\n' + str(number) + '.' + str(code) + str(cname)
+        message = message + '\n成本:' + str(round((avg_cl), 2)) + ' 現價:'+str(round((max_adj), 2))
+        message = message + '\n金額(億):' + str(round((sum_money/100000000), 2))
+        message = message + '\n大戶收益:' + str(round((beta*100),2)) + '%'+flag
+        message = message + '\n'+str(cap_name)
+        message = message + '\n預估利潤空間:' + str(round((focaset * 100), 2)) + '%' + flag2
+        message = message + '\n預估目標價:' + str(round((pre_avg_cl), 2))
+        message = message + '\nma5>ma30:' + str(da)
+
+        if count >= 8:
+            text_message_list.append(message)
+            message = "";
+            count = 0;
+    if count>0:
+        text_message_list.append(message)
+
+    message = '7群.鉅額交易\n參考網址(上市):'
+    message = message + 'https://www.twse.com.tw/zh/trading/block/bfiauu.html'
+    message = message + '\n參考網址(上櫃):'
+    message = message + 'https://www.tpex.org.tw/web/stock/block_trade/daily_qutoes/block_day.php?l=zh-tw'
+    message = message + '\n邏輯說明:'
+    message = message + '\n鉅額交易盤後(交易成本、總金額、總損益)一般列為鉅額交易的成交量如果在市場上買賣一定會造成市場行情劇烈動盪，因為成交量過大，所以需要申報為鉅額且盤後交易，公司派預期公司會好轉所以買入股權，且大多為公司派(內部)'
+    message = message + '\n1.抓出ma5>ma30'
+    message = message + '\n2.分大型、中型、小型、微型股；每種利潤預估不同，分別5%、10%、20%、15%'
+    message = message + '\n3.找出公司派成本未達正收益，提是訊息為🉑；若已達成第2點預估利潤則(達標✅)'
+    text_message_list.append(message)
+
+    return text_message_list
+
+def accounting_strategy_pln(strategy_name, s_cname, t_day, token_self, beta20_p, beta60_p, beta225_p):
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+    message = "";
+    text_message1= ""; text_message2= "";
+    try:
+        first_tmp = 0
+        daily_concheck = psycopg2.connect(database = 'tw', user = user99, password = password99, host= host99, port = port99) #Create DB Connection
+        daily_curcheck = daily_concheck.cursor()
+        daily_curcheck.execute( " SELECT da, replace(code, ' TT Equity', ''), (SELECT CNAME FROM MAINCODE WHERE CODE = model_strategy_stocks_and_weight.CODE), "+
+                                " (SELECT cl FROM PRICE WHERE CODE = model_strategy_stocks_and_weight.CODE AND DA = (select da from PRICE where DA>model_strategy_stocks_and_weight.da AND CODE = model_strategy_stocks_and_weight.CODE order by da DESC limit 1))/ "+
+                                " (SELECT cl FROM PRICE WHERE CODE = model_strategy_stocks_and_weight.CODE AND DA = (select da from PRICE where DA>=model_strategy_stocks_and_weight.da AND CODE = model_strategy_stocks_and_weight.CODE order by da asc limit 1))-1, "+
+                                "(SELECT COUNT(*) FROM TRADE_CAL WHERE DA BETWEEN model_strategy_stocks_and_weight.da AND now() AND DA <> model_strategy_stocks_and_weight.da)"+
+                                " FROM model_strategy_stocks_and_weight WHERE STRATEGY_NAME = '"+strategy_name+"' "+
+                                " and da = (select max(da) from model_strategy_stocks_and_weight where STRATEGY_NAME = '"+strategy_name+"')" +
+                                "  ORDER BY DA DESC LIMIT 100 ")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            da = str(curcheck01_data_54[0])[:10] #
+            code = curcheck01_data_54[1] #
+            cname = curcheck01_data_54[2] #
+            tmp_beta = curcheck01_data_54[3] #
+            if tmp_beta is None:
+                tmp_beta = 0;
+            days = curcheck01_data_54[4]
+
+            if days == 0:
+                break;
+
+            beta = str(round((float(tmp_beta)*100),2))+'%' #
+            if first_tmp == 0:
+                message = '\n策略名稱:'+s_cname+'\n訊號時間:'+str(da)+'\n策略方向:做多\n訊號天期:'+str(int(days)+1)+'天\n'+'目標持倉天期:'+str(t_day)+'天'
+                first_tmp = first_tmp +1
+            message = message+'\n'+str(code)+'-'+str(cname)+'【'+str(beta)+'】'
+            curcheck01_data_54 = daily_curcheck.fetchone()
+
+        daily_curcheck.execute(" SELECT CL/(SELECT CL FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' AND da = (SELECT DA FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' ORDER BY DA DESC OFFSET 20 LIMIT 1))-1 BETA20, "
+                               "        CL/(SELECT CL FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' AND da = (SELECT DA FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' ORDER BY DA DESC OFFSET 60 LIMIT 1))-1 BETA60, "
+                               "        CL/(SELECT CL FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' AND da = (SELECT DA FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' ORDER BY DA DESC OFFSET 225 LIMIT 1))-1 BETA225"
+                               " FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"' AND da = (SELECT MAX(DA) FROM MODEL_NAV WHERE STRATEGY_NAME = '"+str(strategy_name)+"') ")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        if curcheck01_data_54 is not None:
+            beta20 = curcheck01_data_54[0] #
+            beta60 = curcheck01_data_54[1] #
+            beta225 =curcheck01_data_54[2] #
+
+        if message != "":
+            message = message + '\n近1月收益:' + str(round((float(beta20+beta20_p) * 100), 2)) + '%'
+            message = message + '\n近1季收益:' + str(round((float(beta60+beta60_p) * 100), 2)) + '%'
+            message = message + '\n近1年收益:' + str(round((float(beta225+beta225_p) * 100), 2)) + '%'
+            text_message1 = message
+        if days == 0:
+            try:
+                first_tmp_tmp = 0
+                daily_concheck_tmp = psycopg2.connect(database = 'tw', user = user99, password = password99, host= host99, port = port99) #Create DB Connection
+                daily_curcheck_tmp = daily_concheck_tmp.cursor()
+                daily_curcheck_tmp.execute( " SELECT distinct da from model_strategy_stocks_and_weight where STRATEGY_NAME = '"+strategy_name+"' order by da desc offset 1 limit 1 ")
+                curcheck01_data_54_tmp = daily_curcheck_tmp.fetchone()
+                if curcheck01_data_54_tmp is not None:
+                    da_tmp = curcheck01_data_54_tmp[0];
+            except Exception as err:
+                print('abc');
+
+            try:
+                first_tmp_tmp = 0
+                daily_concheck_tmp = psycopg2.connect(database = 'tw', user = user99, password = password99, host= host99, port = port99) #Create DB Connection
+                daily_curcheck_tmp = daily_concheck_tmp.cursor()
+                daily_curcheck_tmp.execute( " SELECT da, replace(code, ' TT Equity', ''), (select cname from MAINCODE where code = model_strategy_stocks_and_weight.code), "+
+                                            " (SELECT CL FROM PRICE WHERE CODE = model_strategy_stocks_and_weight.CODE AND DA <= (SELECT MAX(DA) FROM model_strategy_stocks_and_weight where STRATEGY_NAME = '"+strategy_name+"' ) ORDER BY DA DESC LIMIT 1)/ "+
+                                            " (SELECT LO FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE DA>= '"+str(da_tmp)+"' ORDER BY DA ASC LIMIT 1) AND CODE = model_strategy_stocks_and_weight.CODE)-1 "+
+                                            " FROM model_strategy_stocks_and_weight where STRATEGY_NAME = '"+strategy_name+"' AND DA = '"+str(da_tmp)+"' ")
+                curcheck01_data_54_tmp = daily_curcheck_tmp.fetchone()
+                while curcheck01_data_54_tmp is not None:
+                    da_tmp = str(curcheck01_data_54_tmp[0])[:10] #
+                    code_tmp = curcheck01_data_54_tmp[1] #
+                    cname_tmp = curcheck01_data_54_tmp[2] #
+                    beta_tmp = curcheck01_data_54_tmp[3]
+                    if beta_tmp is None:
+                        beta_tmp = 0;
+
+                    beta_tmp = str(round((float(beta_tmp)*100),2))+'%' #
+
+                    if first_tmp_tmp == 0:
+                        if str(da) == str(now):
+                            title_name = '【實際】'
+                        else:
+                            title_name = '【預計】'
+                        message_tmp = '\n策略名稱:'+s_cname+'\n訊號時間:'+str(da_tmp)+'\n已達目標持倉天期'+str(t_day)+'天\n\n'+str(title_name)+'獲利結算'
+                        first_tmp_tmp = first_tmp_tmp +1
+                    message_tmp = message_tmp+'\n'+str(code_tmp)+'-'+str(cname_tmp)+'【'+str(beta_tmp)+'】'
+                    curcheck01_data_54_tmp = daily_curcheck_tmp.fetchone()
+                text_message1 = message_tmp
+            except Exception as err:
+                print('abc');
+
+            try:
+                first_tmp = 0
+                daily_concheck = psycopg2.connect(database = 'tw', user = user99, password = password99, host= host99, port = port99) #Create DB Connection
+                daily_curcheck = daily_concheck.cursor()
+                daily_curcheck.execute( " SELECT da, replace(code, ' TT Equity', ''), (SELECT CNAME FROM MAINCODE WHERE CODE = model_strategy_stocks_and_weight.CODE), "+
+                                " (SELECT cl FROM PRICE WHERE CODE = model_strategy_stocks_and_weight.CODE AND DA = (select da from PRICE where DA>model_strategy_stocks_and_weight.da AND CODE = model_strategy_stocks_and_weight.CODE order by da DESC limit 1))/ "+
+                                " (SELECT cl FROM PRICE WHERE CODE = model_strategy_stocks_and_weight.CODE AND DA = (select da from PRICE where DA>=model_strategy_stocks_and_weight.da AND CODE = model_strategy_stocks_and_weight.CODE order by da asc limit 1))-1, "+
+                                "(SELECT COUNT(*) FROM TRADE_CAL WHERE DA BETWEEN model_strategy_stocks_and_weight.da AND now() AND DA <> model_strategy_stocks_and_weight.da)"+
+                                " FROM model_strategy_stocks_and_weight WHERE STRATEGY_NAME = '"+strategy_name+"' "+
+                                " and da = (select max(da) from model_strategy_stocks_and_weight where STRATEGY_NAME = '"+strategy_name+"')" +
+                                "  ORDER BY DA DESC LIMIT 100 ")
+                curcheck01_data_54 = daily_curcheck.fetchone()
+                while curcheck01_data_54 is not None:
+                    da = str(curcheck01_data_54[0])[:10] #
+                    code = curcheck01_data_54[1] #
+                    cname = curcheck01_data_54[2] #
+                    tmp_beta = 0
+                    days = curcheck01_data_54[4]
+
+                    beta = str(round((float(tmp_beta)*100),2))+'%' #
+                    if first_tmp == 0:
+                        message = '\n策略名稱:'+s_cname+'\n訊號時間:'+str(da)+'\n策略方向:做多\n訊號天期:'+str(int(days)+1)+'天\n'+'目標持倉天期:'+str(t_day)+'天'
+                        first_tmp = first_tmp +1
+                    message = message+'\n'+str(code)+'-'+str(cname)+'【'+str(beta)+'】'
+                    curcheck01_data_54 = daily_curcheck.fetchone()
+                if message != "":
+                    message = message + '\n近1月收益:' + str(round((float(beta20+beta20_p) * 100), 2)) + '%'
+                    message = message + '\n近1季收益:' + str(round((float(beta60+beta60_p) * 100), 2)) + '%'
+                    message = message + '\n近1年收益:' + str(round((float(beta225+beta225_p) * 100), 2)) + '%'
+                    text_message2 = message
+            except Exception as err:
+                print('abc');
+
+    except Exception as err:
+        print('abc');
+
+    return text_message1, text_message2
+
+def code_indicator_cash_dev():
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+    daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99, port=port99)  # Create DB Connection
+    daily_curcheck = daily_concheck.cursor()
+    pool = ['1800', '1000', '500', '200']
+    text_message_list8_1 = []
+    message = ""
+
+    for pool_ind in pool:
+        message = "";count = 0;
+        #message = '8群.村姑交友網\n日期:' + str(now)[:10]
+        daily_curcheck.execute(" SELECT SHOW FROM GROUP8 WHERE DA = (SELECT MAX(DA) FROM GROUP8) "
+                               " AND CAP = '"+str(pool_ind)+"' ")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        if curcheck01_data_54 is not None:
+            count = count + 1;
+            message = '8群.村姑交友網\n日期:' + str(now)[:10] + curcheck01_data_54[0]
+
+        text_message_list8_1.append(message)
+    return text_message_list8_1
+
+def do_send():
+    user99 = 'crontab'
+    password99 = 'itolemma888'
+    host99 = '127.0.0.1'
+    port99 = 5432
+    message_s = "12群.法人初夜"
+    for showbuysale_owner in ['investment_trust_diff','foreign_diff','dealer_self_diff']:
+        daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+        daily_curcheck = daily_concheck.cursor()
+        data_arr = [];
+        daily_curcheck.execute(
+            " SELECT T1.DA, T1.CODE, T1.CNAME, T1."+showbuysale_owner+"/1000 FROM( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT MAX(DA) FROM PRICE) AND "+showbuysale_owner+">0) AS T1,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 1 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T2,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 2 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T3,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 3 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T4,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 4 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T5,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 5 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T6,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 6 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T7,( "+
+            " SELECT * FROM showbuysale WHERE DA = (SELECT DA FROM PRICE WHERE CODE = 'TWSE Index' ORDER BY DA DESC OFFSET 7 LIMIT 1) AND "+showbuysale_owner+"<=0) AS T8 "+
+            " WHERE T1.CODE = T2.CODE AND T1.CODE = T3.CODE AND T1.CODE = T4.CODE AND T1.CODE = T5.CODE AND T1.CODE = T6.CODE AND T1.CODE = T7.CODE AND T1.CODE = T8.CODE "+
+            " ORDER BY T1."+showbuysale_owner+" desc limit 15")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            da = curcheck01_data_54[0]
+            code = curcheck01_data_54[1]
+            cname = curcheck01_data_54[2]
+            showbuysale = curcheck01_data_54[3]
+            if int(showbuysale) >= 5:
+                data_arr.append([da, code, cname, showbuysale])
+            curcheck01_data_54 = daily_curcheck.fetchone()
+
+        count = 0; number = 0;
+        if showbuysale_owner == 'investment_trust_diff':
+            message_s = message_s + '\n⚠️投信初夜日:' + str(da)[:10]
+        elif showbuysale_owner == 'foreign_diff':
+            message_s = message_s + '\n\n⚠️外資初夜日:' + str(da)[:10]
+        elif showbuysale_owner == 'dealer_self_diff':
+            message_s = message_s + '\n\n⚠️自營初夜日:' + str(da)[:10]
+        for data in data_arr:
+            count = count + 1;
+            number = number + 1;
+            try:
+                message_s = message_s + '\n' + str(number) + '. ' + str(data[1])[:4] + str(data[2]).replace(" ", "") +' 張數:'+str(int(data[3]))
+            except Exception as err:
+                print(err)
+    return message_s
+
+def do_trade11_long2():
+    message_s1 = ""; message_s2 = "";
+    try:
+        user99 = 'crontab'
+        password99 = 'itolemma888'
+        host99 = '127.0.0.1'
+        port99 = 5432
+        daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+        daily_curcheck = daily_concheck.cursor()
+        count = 1;
+        message_s = "";
+
+        message_s = message_s + '14群.漲潮衝浪客\n🏄🏄(當沖多)🏄🏄'
+        message_s = message_s + '\n時間:' + str(now)
+        daily_curcheck.execute("SELECT code, (select cname from maincode where code = block_code3_DEATIL.code), to_char(now(), 'YYYY-MM-DD')da"
+                                " , (select cl from price where code = block_code3_DEATIL.code and da = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)) "+
+                                " , (select vol/1000 from price where code = block_code3_DEATIL.code and da = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)) "+
+                                    " FROM block_code3_DEATIL WHERE TO_CHAR(DA, 'YYYY-MM-DD') =( "+
+                                     " SELECT DISTINCT TO_CHAR(DA, 'YYYY-MM-DD') DA FROM block_code3_DEATIL ORDER BY DA DESC OFFSET 1 LIMIT 1) "+
+                                    " AND CODE IN (SELECT CODE FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1) AND CL<OP ) "+
+                                    " AND CODE IN  (SELECT T1.CODE FROM "+
+                                    " (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS T1, "+
+                                    " (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 2 LIMIT 1)) AS T2 "+
+                                    " WHERE T1.CODE = T2.CODE AND (T1.CL/T2.CL) -1 < 0.08) "+
+                                    "  AND CODE IN  (SELECT T1.CODE FROM "+
+                                    " (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)) AS T1, "+
+                                    " (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS T2 "+
+                                    " WHERE T1.CODE = T2.CODE AND T1.OP>T2.CL)")
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            code, cname, da, cl, vol = curcheck01_data_54[0], curcheck01_data_54[1], curcheck01_data_54[2], curcheck01_data_54[3], curcheck01_data_54[4]
+            message_s = message_s + '\n🏄' +str(count)+'. '+ str(code)[:4] + str(cname)+' 價:'+str(cl)+' '+str(vol)+'張'
+            message_s = message_s
+            count = count + 1;
+            curcheck01_data_54 = daily_curcheck.fetchone()
+        daily_curcheck.close()
+        message_s1 = message_s
+    except Exception as err:
+        print(str(err))
+
+    print("14群")
+    try:
+        user99 = 'crontab'
+        password99 = 'itolemma888'
+        host99 = '127.0.0.1'
+        port99 = 5432
+        daily_concheck = psycopg2.connect(database='tw', user=user99, password=password99, host=host99,port=port99)  # Create DB Connection
+        daily_curcheck = daily_concheck.cursor()
+        count = 1;
+        message_s = "";
+        message_s = message_s + '14群.漲潮衝浪客\n🌟🌟新浪板🌟🌟'
+        message_s = message_s + '\n時間:' + str(now)
+        sql = f"""SELECT TT.* FROM(
+                    SELECT code, (select cname from maincode where code = block_code3_DEATIL.code), to_char(now(), 'YYYY-MM-DD')da, 
+                    (select cl from price where code = block_code3_DEATIL.code and da = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)),
+                    (select VOL/1000 from price where code = block_code3_DEATIL.code and da = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)) AS VOL
+                     FROM (
+                      SELECT * FROM (
+                     SELECT DA, CODE, HI/(SELECT CL FROM PRICE WHERE CODE = P1.CODE AND DA = (SELECT DA FROM PRICE WHERE CODE = P1.CODE AND DA<P1.DA ORDER BY DA DESC LIMIT 1))-1 BETA FROM PRICE AS P1
+                     WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS T1
+                     WHERE T1.BETA >=0.095
+                     ) block_code3_DEATIL
+                     WHERE CODE IN (SELECT CODE FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1) AND CL<OP ) 
+                     AND CODE IN  (SELECT T1.CODE FROM 
+                     (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS T1, 
+                     (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 2 LIMIT 1)) AS T2 
+                     WHERE T1.CODE = T2.CODE AND (T1.CL/T2.CL) -1 < 0.08) 
+                      AND CODE IN  (SELECT T1.CODE FROM 
+                     (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 0 LIMIT 1)) AS T1, 
+                     (SELECT * FROM PRICE WHERE DA = (SELECT DA FROM PRICE WHERE CODE = '2330 TT Equity' ORDER BY DA DESC OFFSET 1 LIMIT 1)) AS T2 
+                     WHERE T1.CODE = T2.CODE AND T1.OP>T2.CL)
+                     ) AS TT WHERE TT.VOL>1000"""
+        daily_curcheck.execute(sql)
+        curcheck01_data_54 = daily_curcheck.fetchone()
+        while curcheck01_data_54 is not None:
+            code, cname, da, cl, vol = curcheck01_data_54[0], curcheck01_data_54[1], curcheck01_data_54[2], curcheck01_data_54[3], curcheck01_data_54[4]
+
+            message_s = message_s + '\n' + str(count) + '. ' + str(code)[:4] + str(cname)+' 價:'+str(cl)+' '+str(vol)+'張'
+
+            message_s = message_s
+            count = count + 1;
+            curcheck01_data_54 = daily_curcheck.fetchone()
+        message_s2 = message_s
+        daily_curcheck.close()
+        daily_concheck.close()
+
+    except Exception as err:
+        print(str(err))
+
+    return message_s1, message_s2
+
+def query_whitelist2(user_id):
+    cursor = conn.cursor()
+    cursor.execute(f""" SELECT end_da FROM whitelist2 where user_id = '{user_id}' """);
+    curcheckdata0 = cursor.fetchone()
+    if curcheckdata0 is not None:
+        end_da = curcheckdata0[0]
+        today = datetime.now().date()
+    else:
+        end_da = ""; today = "";
+    return end_da, today
+
+def insert_whitelist2(user_id, user_name):
+    cursor = conn.cursor()
+    cursor.execute("""
+                INSERT INTO whitelist2 (user_id, user_name, start_da, end_da)
+                VALUES (%s, %s, CURRENT_DATE, CURRENT_DATE + INTERVAL '3 days')
+                ON CONFLICT ON CONSTRAINT whitelist2_pkey DO NOTHING;
+            """, (user_id, user_name))
+    conn.commit()
+
+def query_whitelist12(user_id):
+    cursor = conn.cursor()
+    cursor.execute(f""" SELECT end_da FROM whitelist12 where user_id = '{user_id}' """);
+    curcheckdata0 = cursor.fetchone()
+    if curcheckdata0 is not None:
+        end_da = curcheckdata0[0]
+        today = datetime.now().date()
+    else:
+        end_da = ""; today = "";
+    return end_da, today
+
+def insert_whitelist12(user_id, user_name):
+    cursor = conn.cursor()
+    cursor.execute("""
+                INSERT INTO whitelist12 (user_id, user_name, start_da, end_da)
+                VALUES (%s, %s, CURRENT_DATE, CURRENT_DATE + INTERVAL '3 days')
+                ON CONFLICT ON CONSTRAINT whitelist12_pkey DO NOTHING;
+            """, (user_id, user_name))
+    conn.commit()
+
+def query_whitelist14(user_id):
+    cursor = conn.cursor()
+    cursor.execute(f""" SELECT end_da FROM whitelist14 where user_id = '{user_id}' """);
+    curcheckdata0 = cursor.fetchone()
+    if curcheckdata0 is not None:
+        end_da = curcheckdata0[0]
+        today = datetime.now().date()
+    else:
+        end_da = ""; today = "";
+    return end_da, today
+
+def insert_whitelist14(user_id, user_name):
+    cursor = conn.cursor()
+    cursor.execute("""
+                INSERT INTO whitelist14 (user_id, user_name, start_da, end_da)
+                VALUES (%s, %s, CURRENT_DATE, CURRENT_DATE + INTERVAL '3 days')
+                ON CONFLICT ON CONSTRAINT whitelist14_pkey DO NOTHING;
+            """, (user_id, user_name))
+    conn.commit()
