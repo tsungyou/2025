@@ -1,0 +1,38 @@
+https://icml.cc/media/Slides/icml/2019/102(11-11-00)-11-12-15-4443-deep_counterfac.pdf
+
+https://int8.io/counterfactual-regret-minimization-for-poker-ai/
+
+https://papers.nips.cc/paper/2012/file/3df1d4b96d8976ff5986393e8767f5b2-Paper.pdf
+
+http://modelai.gettysburg.edu/2013/cfr/cfr.pdf
+
+https://www.youtube.com/watch?v=cn8Sld4xQjg
+
+https://blog.gtowizard.com/the-math-of-multistreet-bluffs/
+
+https://www.pokerbooks.lt/books/en/The_Mathematics_of_Poker.pdf
+
+https://wgm8.com/tzh-i-see-icm/
+# NN
+https://www.youtube.com/watch?v=w8yWXqWQYmU
+
+## Youtube
+https://www.youtube.com/watch?v=6XdV_0tePy4
+
+## git
+https://github.com/bupticybee/TexasHoldemSolverJava
+https://github.com/bupticybee/TexasSolver
+
+## reddit
+https://www.reddit.com/r/poker/comments/pvit0l/what_is_the_math_like_behind_a_typical_gto_solver/
+
+## poker 
+https://zh.pokerstrategy.com/strategy/sit-and-go/
+
+
+## stock
+https://www.youtube.com/watch?v=t4iRLM3nDUk
+
+
+## ReBeL
+https://www.youtube.com/watch?v=BhUWvQmLzSk

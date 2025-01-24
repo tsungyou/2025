@@ -1,0 +1,2542 @@
+No.	Symbol	Name MarketCap Price %Change	Revenue
+1	0001	CK Hutchison Holdings Limited	150.14B	39.20	-2.00%	278.65B
+2	0002	CLP Holdings Limited	163.34B	64.65	-	87.95B
+3	0003	The Hong Kong and China Gas Company Limited	110.47B	6.09	0.50%	55.29B
+4	0004	The Wharf (Holdings) Limited	61.27B	20.25	-4.26%	17.85B
+5	0005	HSBC Holdings plc	1,388.60B	78.65	-0.76%	450.40B
+6	0006	Power Assets Holdings Limited	108.69B	51.00	-0.78%	1.03B
+7	0008	PCCW Limited	35.35B	4.68	-0.85%	37.20B
+8	0010	Hang Lung Group Limited	14.08B	10.24	-0.78%	11.92B
+9	0011	Hang Seng Bank Limited	177.78B	94.45	-0.05%	35.49B
+10	0012	Henderson Land Development Company Limited	105.78B	21.85	-0.91%	29.05B
+11	0013	HUTCHMED (China) Limited	19.06B	21.80	0.69%	4.77B
+12	0014	Hysan Development Company Limited	11.48B	11.18	-	3.27B
+13	0016	Sun Hung Kai Properties Limited	201.25B	70.00	-0.99%	71.51B
+14	0017	New World Development Company Limited	10.22B	4.06	0.50%	35.78B
+15	0018	Oriental Enterprise Holdings Limited	839.27M	0.35	2.94%	619.67M
+16	0019	Swire Pacific Limited	86.32B	68.60	0.07%	82.84B
+17	0020	SenseTime Group Inc.	52.92B	1.43	1.42%	3.99B
+18	0021	Great China Holdings (Hong Kong) Limited	492.93M	0.10	-11.50%	10.30M
+19	0022	Mexan Limited	121.92M	0.06	1.64%	150.52M
+20	0023	The Bank of East Asia, Limited	25.83B	9.82	-0.51%	14.27B
+21	0025	Chevalier International Holdings Limited	1.23B	4.04	-	8.30B
+22	0026	China Motor Bus Company, Limited	2.26B	49.20	-1.60%	189.98M
+23	0027	Galaxy Entertainment Group Limited	135.09B	30.90	-1.75%	41.45B
+24	0028	Tian An China Investments Company Limited	6.71B	4.58	2.92%	3.20B
+25	0029	Dynamic Holdings Limited	2.48B	10.42	-1.88%	12.71B
+26	0030	YNBY International Limited	1.14B	0.17	1.20%	771.66M
+27	0031	China Aerospace International Holdings Limited	1.08B	0.35	-1.41%	3.54B
+28	0032	The Cross-Harbour (Holdings) Limited	2.49B	6.68	-	1.08B
+29	0033	International Genius Company	1.18B	2.26	-2.16%	226.71M
+30	0034	Kowloon Development Company Limited	5.03B	3.85	-	3.61B
+31	0035	Far East Consortium International Limited	2.67B	0.89	-1.11%	9.01B
+32	0036	Far East Holdings International Limited	36.49M	0.33	6.45%	11.98M
+33	0037	Far East Hotels and Entertainment Limited	372.50M	0.50	-	23.63M
+34	0038	First Tractor Company Limited	13.83B	7.07	-0.14%	13.31B
+35	0039	China Beidahuang Industry Group Holdings Limited	529.21M	0.07	-4.17%	864.17M
+36	0040	Gold Peak Technology Group Limited	485.20M	0.52	1.96%	6.73B
+37	0041	Great Eagle Holdings Limited	7.87B	10.52	-0.38%	10.86B
+38	0042	Northeast Electric Development Company Limited	227.08M	0.26	-3.70%	149.17M
+39	0045	The Hongkong and Shanghai Hotels, Limited	10.17B	6.04	-0.33%	10.28B
+40	0046	Computer And Technologies Holdings Limited	359.20M	1.48	1.37%	256.97M
+41	0048	China Automotive Interior Decoration Holdings Limited	26.27M	0.15	-	111.09M
+42	0050	Hong Kong Ferry (Holdings) Company Limited	1.47B	4.16	0.24%	414.08M
+43	0051	Harbour Centre Development Limited	3.37B	4.75	-0.84%	1.53B
+44	0052	Fairwood Holdings Limited	751.41M	5.84	0.17%	3.13B
+45	0053	Guoco Group Limited	23.17B	70.40	-	22.52B
+46	0055	Neway Group Holdings Limited	44.84M	0.18	-2.21%	562.77M
+47	0057	Chen Hsong Holdings Limited	876.44M	1.39	1.46%	2.22B
+48	0058	Sunway International Holdings Limited	75.43M	0.37	-	231.43M
+49	0059	Skyfame Realty (Holdings) Limited	101.36M	0.01	-8.33%	1.13B
+50	0060	Hong Kong Food Investment Holdings Limited	124.09M	0.48	3.23%	200.74M
+51	0061	Green Leader Holdings Group Limited	32.63M	0.06	8.77%	1.51B
+52	0062	Transport International Holdings Limited	4.16B	8.17	-	8.14B
+53	0063	China Asia Valley Group Limited	400.22M	0.06	-	60.97M
+54	0064	Get Nice Holdings Limited	1.21B	0.13	-	363.57M
+55	0065	Grand Ocean Advanced Resources Company Limited	67.52M	0.33	-2.94%	194.82M
+56	0066	MTR Corporation Limited	149.08B	23.95	-0.21%	58.68B
+57	0069	Shangri-La Asia Limited	17.97B	5.07	0.20%	17.06B
+58	0070	Rich Goldman Holdings Limited	102.76M	0.05	-	126.75M
+59	0071	Miramar Hotel and Investment Company, Limited	6.08B	8.85	-0.67%	2.81B
+60	0072	Meta Media Holdings Limited	84.24M	0.20	1.52%	412.30M
+61	0073	Asian Citrus Holdings Limited	37.25M	2.50	4.17%	182.65M
+62	0075	Y. T. Realty Group Limited	179.90M	0.23	-	8.85B
+63	0076	Elate Holdings Limited	149.06M	0.38	7.14%	940.63M
+64	0077	AMS Public Transport Holdings Limited	131.88M	0.49	-3.00%	400.45M
+65	0078	Regal Hotels International Holdings Limited	2.12B	2.35	1.73%	1.59B
+66	0079	Century Legend (Holdings) Limited	40.76M	0.13	0.81%	51.38M
+67	0081	China Overseas Grand Oceans Group Limited	6.16B	1.75	0.57%	54.89B
+68	0082	Crazy Sports Group Limited	466.19M	0.10	-	425.61M
+69	0083	Sino Land Company Limited	67.16B	7.57	-0.53%	8.77B
+70	0084	Stelux Holdings International Limited	82.95M	0.08	-	701.51M
+71	0085	China Electronics Huada Technology Company Limited	2.58B	1.27	0.79%	2.57B
+72	0086	Sun Hung Kai & Co. Limited	5.36B	2.73	-0.73%	2.02B
+73	0087	Swire Pacific Limited	86.32B	10.94	0.18%	82.84B
+74	0088	Tai Cheung Holdings Limited	1.79B	2.90	-1.02%	39.30M
+75	0089	Tai Sang Land Development Limited	500.55M	1.74	0.58%	497.37M
+76	0090	Puxing Energy Limited	265.99M	0.55	-	526.18M
+77	0092	Champion Technology Holdings Limited	205.15M	0.25	1.21%	208.61M
+78	0093	Zero Fintech Group Limited	1.63B	0.64	-1.54%	218.74M
+79	0094	Greenheart Group Limited	94.60M	0.05	4.08%	67.92M
+80	0095	LVGEM (China) Real Estate Investment Company Limited	1.99B	0.37	-5.19%	7.22B
+81	0096	Yusei Holdings Limited	324.64M	0.51	-	2.14B
+82	0097	Henderson Investment Limited	326.06M	0.11	2.88%	1.53B
+83	0098	Xingfa Aluminium Holdings Limited	2.92B	6.90	-	19.21B
+84	0099	Wong's International Holdings Limited	583.75M	1.22	2.52%	2.73B
+85	0101	Hang Lung Properties Limited	29.23B	6.11	-0.97%	11.23B
+86	0103	Shougang Century Holdings Limited	1.01B	0.43	-	2.52B
+87	0104	Asia Commercial Holdings Limited	171.09M	0.23	-4.18%	705.24M
+88	0105	Associated International Hotels Limited	1.80B	4.99	-	296.78M
+89	0106	Landsea Green Management Limited	56.67M	0.01	-	6.88B
+90	0107	Sichuan Expressway Company Limited	14.15B	3.31	0.30%	12.20B
+91	0108	GR Life Style Company Limited	2.43B	0.77	1.32%	361.35M
+92	0110	China Fortune Holdings Limited	47.27M	0.20	-	77.35M
+93	0111	Cinda International Holdings Limited	163.51M	0.25	0.81%	129.95M
+94	0113	Dickson Concepts (International) Limited	1.91B	4.91	0.20%	2.09B
+95	0114	Herald Holdings Limited	290.16M	0.48	4.35%	696.72M
+96	0115	Grand Field Group Holdings Limited	52.42M	4.28	-4.89%	247.86M
+97	0116	Chow Sang Sang Holdings International Limited	4.38B	6.52	-1.21%	23.33B
+98	0117	Tianli Holdings Group Limited	125.86M	0.18	-9.50%	531.67M
+99	0118	Cosmos Machinery Enterprises Limited	156.87M	0.18	0.56%	2.05B
+100	0119	Poly Property Group Co., Limited	5.54B	1.47	-	40.56B
+101	0120	Cosmopolitan International Holdings Limited	250.67M	0.14	-14.02%	368.10M
+102	0123	Yuexiu Property Company Limited	19.52B	4.85	-	89.69B
+103	0124	Guangdong Land Holdings Limited	249.88M	0.15	-7.55%	5.71B
+104	0125	Sun Hing Vision Group Holdings Limited	111.68M	0.43	-2.30%	759.87M
+105	0126	Carrianna Group Holdings Company Limited	259.27M	0.17	-2.94%	619.59M
+106	0127	Chinese Estates Holdings Limited	2.21B	1.16	-2.52%	650.31M
+107	0128	ENM Holdings Limited	437.42M	0.27	-	109.93M
+108	0129	Asia Standard International Group Limited	475.91M	0.34	-	2.42B
+109	0130	Moiselle International Holdings Limited	36.28M	0.13	-14.86%	123.26M
+110	0131	Cheuk Nang (Holdings) Limited	1.08B	1.65	-	188.04M
+111	0132	Hing Yip Holdings Limited	462.33M	0.29	-5.00%	866.22M
+112	0135	Kunlun Energy Company Limited	63.30B	7.34	0.55%	196.85B
+113	0136	China Ruyi Holdings Limited	33.98B	2.36	-0.84%	5.01B
+114	0137	Jinhui Holdings Company Limited	349.99M	0.66	-	921.39M
+115	0138	CCT Fortis Holdings Limited	129.57M	0.08	-6.25%	643.00M
+116	0139	Central Wealth Group Holdings Limited	241.94M	0.01	-6.67%	26.56M
+117	0142	First Pacific Company Limited	18.38B	4.32	-	78.82B
+118	0144	China Merchants Port Holdings Company Limited	54.32B	12.94	0.47%	11.47B
+119	0145	CCIAM Future Energy Limited	28.48M	0.15	-0.65%	24.57M
+120	0146	Tai Ping Carpets International Limited	275.84M	1.30	1.56%	640.22M
+121	0147	International Business Settlement Holdings Limited	1.81B	0.09	-	180.40M
+122	0148	Kingboard Holdings Limited	23.22B	21.20	1.92%	41.41B
+123	0149	China Agri-Products Exchange Limited	358.31M	0.04	-2.63%	557.53M
+124	0150	Hypebeast Limited	402.61M	0.19	1.06%	816.14M
+125	0151	Want Want China Holdings Limited	54.18B	4.59	-0.22%	25.68B
+126	0152	Shenzhen International Holdings Limited	17.42B	7.24	-0.55%	20.22B
+127	0154	Beijing Enterprises Environment Group Limited	630.15M	0.44	4.76%	1.93B
+128	0156	Lippo China Resources Limited	689.02M	0.72	1.41%	763.23M
+129	0157	Natural Beauty Bio-Technology Limited	971.02M	0.49	1.04%	331.25M
+130	0158	Melbourne Enterprises Limited	1.47B	60.40	-	161.67M
+131	0159	Brockman Mining Limited	853.78M	0.09	-3.16%	-
+132	0160	Hon Kwok Land Investment Company, Limited	727.63M	1.01	-	760.44M
+133	0162	Century Ginwa Retail Holdings Limited	90.83M	0.08	5.33%	428.57M
+134	0163	Emperor International Holdings Limited	1.10B	0.21	2.46%	1.92B
+135	0164	China Baoli Technologies Holdings Limited	42.34M	0.40	8.11%	44.30M
+136	0165	China Everbright Limited	8.04B	4.84	1.68%	-922.08M
+137	0166	New Times Corporation Limited	410.86M	0.05	4.55%	14.07B
+138	0167	IDT International Limited	54.60M	0.02	-	52.31M
+139	0168	Tsingtao Brewery Company Limited	86.52B	51.05	-2.11%	35.35B
+140	0169	Wanda Hotel Development Company Limited	1.32B	0.28	-3.45%	1.01B
+141	0171	Silver Grant International Holdings Group Limited	205.13M	0.08	-4.82%	-83.50M
+142	0173	K. Wah International Holdings Limited	5.33B	1.72	-0.58%	4.22B
+143	0174	Gemini Investments (Holdings) Limited	127.11M	0.20	-0.99%	1.15B
+144	0175	Geely Automobile Holdings Limited	142.67B	14.16	-0.42%	247.66B
+145	0176	Superactive Group Company Limited	38.62M	0.02	-	70.53M
+146	0177	Jiangsu Expressway Company Limited	69.69B	8.17	-1.33%	19.54B
+147	0178	Sa Sa International Holdings Limited	2.11B	0.68	1.49%	4.14B
+148	0179	Johnson Electric Holdings Limited	9.50B	10.32	-1.71%	28.99B
+149	0180	Kader Holdings Company Limited	256.66M	0.27	-3.57%	367.79M
+150	0181	Fujian Holdings Limited	92.79M	0.08	-4.76%	31.36M
+151	0182	Concord New Energy Group Limited	3.76B	0.49	-2.02%	3.23B
+152	0183	Winfull Group Holdings Limited	85.04M	0.15	-	41.12M
+153	0184	Keck Seng Investments (Hong Kong) Limited	782.46M	2.30	7.98%	1.72B
+154	0185	Zensun Enterprises Limited	309.97M	0.16	-	15.37B
+155	0186	Nimble Holdings Company Limited	1.26B	0.23	-	2.49B
+156	0187	Beijing Jingcheng Machinery Electric Company Limited	5.05B	2.89	1.76%	1.67B
+157	0188	Sunwah Kingsway Capital Holdings Limited	171.24M	0.23	-	15.33M
+158	0189	Dongyue Group Limited	14.33B	8.02	-3.02%	15.64B
+159	0191	Lai Sun Garment (International) Limited	459.35M	0.52	-	5.91B
+160	0193	Capital Estate Limited	64.13M	0.33	-	56.40M
+161	0194	Liu Chong Hing Investment Limited	1.50B	3.97	0.76%	723.41M
+162	0196	Honghua Group Limited	1.03B	0.11	0.89%	6.18B
+163	0197	Heng Tai Consumables Group Limited	25.72M	0.15	-6.45%	441.95M
+164	0199	ITC Properties Group Limited	181.44M	0.20	-	9.57M
+165	0200	Melco International Development Limited	5.05B	4.24	-0.24%	34.26B
+166	0201	Magnificent Hotel Investments Limited	671.03M	0.08	2.74%	517.83M
+167	0202	EverChina Int'l Holdings Company Limited	911.80M	0.12	-	104.01M
+168	0204	Capital Realm Financial Holdings Group Limited	110.00M	0.11	-16.15%	6.74M
+169	0205	SEEC Media Group Limited	136.92M	0.19	-3.52%	31.88M
+170	0206	CM Energy Tech Co., Ltd.	694.09M	0.21	-2.34%	1.30B
+171	0207	Joy City Property Limited	2.95B	0.21	0.49%	19.90B
+172	0209	Winshine Science Company Limited	25.15M	0.17	4.85%	511.71M
+173	0210	Daphne International Holdings Limited	504.54M	0.25	0.81%	346.14M
+174	0211	Styland Holdings Limited	150.27M	0.21	0.47%	-5.92M
+175	0212	Nanyang Holdings Limited	839.00M	24.70	-	200.74M
+176	0213	National Electronics Holdings Limited	379.99M	0.42	-2.35%	560.26M
+177	0214	Asia Orient Holdings Limited	302.71M	0.40	9.72%	2.53B
+178	0215	Hutchison Telecommunications Hong Kong Holdings Limited	4.48B	0.93	1.09%	4.63B
+179	0216	Chinney Investments, Limited	347.36M	0.61	-	774.80M
+180	0217	China Chengtong Development Group Limited	614.36M	0.10	-3.74%	690.67M
+181	0218	Shenwan Hongyuan (H.K.) Limited	2.33B	1.49	-5.70%	412.02M
+182	0219	Shun Ho Property Investments Limited	306.97M	0.61	-	674.58M
+183	0220	Uni-President China Holdings Ltd	33.35B	7.72	-2.89%	31.66B
+184	0222	Min Xin Holdings Limited	1.31B	2.20	2.80%	251.08M
+185	0223	Elife Holdings Limited	147.82M	0.11	-1.80%	184.09M
+186	0224	Pioneer Global Group Limited	773.21M	0.67	1.52%	96.82M
+187	0225	Pokfulam Development Company Limited	523.35M	4.76	0.21%	177.29M
+188	0226	Lippo Limited	221.92M	0.45	-2.17%	836.63M
+189	0227	First Shanghai Investments Limited	510.43M	0.24	-0.42%	331.22M
+190	0228	China Energy Development Holdings Limited	644.76M	0.06	-1.79%	329.56M
+191	0229	Raymond Industrial Limited	446.18M	0.89	-	1.24B
+192	0230	Minmetals Land Limited	953.87M	0.29	-9.52%	9.31B
+193	0232	Continental Aerospace Technologies Holding Limited	1.00B	0.11	-0.92%	1.68B
+194	0234	New Century Group Hong Kong Limited	150.29M	0.03	4.00%	93.22M
+195	0235	CSC Holdings Limited	489.25M	0.02	-4.00%	40.51M
+196	0236	San Miguel Brewery Hong Kong Limited	298.86M	0.80	-	703.88M
+197	0237	Safety Godown Company, Limited	729.00M	1.80	-2.17%	207.09M
+198	0239	Pak Fah Yeow International Limited	775.98M	2.45	-	265.79M
+199	0240	Build King Holdings Limited	1.09B	0.88	-1.12%	13.01B
+200	0241	Alibaba Health Information Technology Limited	53.71B	3.34	0.30%	31.39B
+201	0242	Shun Tak Holdings Limited	1.87B	0.62	1.64%	5.10B
+202	0243	QPL International Holdings Limited	47.64M	0.17	-1.20%	284.54M
+203	0244	The Sincere Company, Limited	289.07M	0.22	-	136.84M
+204	0245	China Vered Financial Holding Corporation Limited	1.56B	0.04	-	106.18M
+205	0247	Tsim Sha Tsui Properties Limited	42.96B	19.80	3.13%	9.04B
+206	0248	HKC International Holdings Limited	37.36M	0.03	-	122.91M
+207	0251	S E A Holdings Limited	830.93M	1.37	1.48%	524.56M
+208	0252	Southeast Asia Properties & Finance Limited	383.21M	1.70	-	195.46M
+209	0253	Shun Ho Holdings Limited	145.06M	0.60	-1.64%	674.58M
+210	0254	National United Resources Holdings Limited	131.63M	0.03	15.38%	84.74M
+211	0255	Lung Kee Group Holdings Limited	745.38M	1.20	1.69%	1.53B
+212	0256	Citychamp Watch & Jewellery Group Limited	3.05B	0.70	-6.67%	1.71B
+213	0257	China Everbright Environment Group Limited	20.82B	3.38	-1.74%	31.41B
+214	0258	Tomson Group Limited	6.26B	2.89	-0.69%	339.08M
+215	0259	Yeebo (International Holdings) Limited	3.41B	3.56	-0.56%	949.16M
+216	0261	GBA Holdings Limited	88.28M	0.10	4.40%	87.19M
+217	0262	Deson Development International Holdings Limited	82.14M	0.06	-1.75%	186.17M
+218	0264	China International Development Corporation Limited	887.70M	2.04	3.03%	22.04M
+219	0265	Gangyu Smart Urban Services Holding Limited	232.60M	0.87	2.35%	340.41M
+220	0266	Tian Teck Land Limited	906.74M	1.91	0.53%	307.50M
+221	0267	CITIC Limited	253.96B	8.73	1.04%	993.86B
+222	0268	Kingdee International Software Group Company Limited	32.17B	9.07	-0.22%	6.43B
+223	0270	Guangdong Investment Limited	38.57B	5.89	2.79%	25.91B
+224	0271	Asiasec Properties Limited	189.82M	0.15	1.32%	49.86M
+225	0272	Shui On Land Limited	5.14B	0.64	-1.54%	5.80B
+226	0274	Renaissance Asia Silk Road Group Limited	20.39M	0.03	-3.23%	299.32M
+227	0276	Mongolia Energy Corporation Limited	105.35M	0.56	-	3.32B
+228	0277	Tern Properties Company Limited	667.30M	2.41	-	55.06M
+229	0279	Arta TechFin Corporation Limited	800.01M	0.04	-2.70%	31.48M
+230	0280	King Fook Holdings Limited	300.07M	0.33	-	798.96M
+231	0285	BYD Electronic (International) Company Limited	91.03B	40.40	-3.23%	163.71B
+232	0286	Aidigong Maternal & Child Health Limited	278.67M	1.45	-3.33%	522.09M
+233	0287	Winfair Investment Company Limited	130.00M	3.25	0.62%	9.69M
+234	0288	WH Group Limited	87.97B	6.47	-0.15%	198.43B
+235	0289	Wing On Company International Limited	3.43B	11.82	0.34%	1.01B
+236	0290	GoFintech Innovation Limited	7.83B	1.01	3.06%	48.16M
+237	0291	China Resources Beer (Holdings) Company Limited	74.62B	23.00	-1.71%	41.70B
+238	0293	Cathay Pacific Airways Limited	67.74B	10.52	0.19%	100.50B
+239	0294	Yangtzekiang Garment Limited	198.48M	0.96	1.05%	211.45M
+240	0295	Kong Sun Holdings Limited	299.29M	0.02	-10.00%	506.33M
+241	0296	Emperor Entertainment Hotel Limited	332.78M	0.29	-1.72%	825.33M
+242	0297	Sinofert Holdings Limited	7.80B	1.11	-1.77%	23.94B
+243	0298	Chuang's China Investments Limited	204.19M	0.09	-	60.84M
+244	0299	Glory Sun Land Group Limited	24.02M	0.22	-	1.50B
+245	0300	Midea Group Co., Ltd.	590.22B	73.60	0.27%	442.94B
+246	0301	SANVO Fine Chemicals Group Limited	522.21M	1.11	4.72%	1.14B
+247	0302	CMGE Technology Group Limited	2.34B	0.77	-	2.48B
+248	0303	Vtech Holdings Limited	12.80B	51.10	0.20%	16.27B
+249	0305	Wuling Motors Holdings Limited	1.29B	0.39	-	10.04B
+250	0306	Kwoon Chung Bus Holdings Limited	762.84M	1.60	0.63%	2.31B
+251	0308	China Travel International Investment Hong Kong Limited	5.59B	1.00	-	4.58B
+252	0309	Xinhua News Media Holdings Limited	84.97M	0.04	-2.50%	348.58M
+253	0311	Luen Thai Holdings Limited	192.34M	0.19	-11.43%	5.16B
+254	0312	Shirble Department Store Holdings (China) Limited	79.84M	0.03	-	232.69M
+255	0313	Richly Field China Development Limited	112.02M	0.01	-	37.55M
+256	0314	Sipai Health Technology Co., Ltd.	3.70B	4.81	-0.82%	4.98B
+257	0315	SmarTone Telecommunications Holdings Limited	4.46B	4.05	-0.74%	6.22B
+258	0316	Orient Overseas (International) Limited	70.73B	107.10	1.13%	65.97B
+259	0317	CSSC Offshore & Marine Engineering (Group) Company Limited	26.26B	9.91	0.92%	21.11B
+260	0318	Vongroup Limited	93.44M	0.35	-1.43%	204.90M
+261	0320	Computime Group Limited	345.44M	0.41	2.50%	3.80B
+262	0321	Texwinca Holdings Limited	1.05B	0.75	-1.32%	5.72B
+263	0322	Tingyi (Cayman Islands) Holding Corp.	63.56B	11.56	-0.52%	86.72B
+264	0323	Maanshan Iron & Steel Company Limited	24.15B	1.72	2.99%	95.85B
+265	0325	Bloks Group Limited	21.73B	90.00	-2.39%	1.73B
+266	0326	China Star Entertainment Limited	971.14M	0.42	-2.33%	278.38M
+267	0327	PAX Global Technology Limited	5.05B	4.76	-0.83%	6.15B
+268	0328	Alco Holdings Limited	41.24M	0.36	-	112.43M
+269	0329	OCI International Holdings Limited	412.43M	0.29	-	81.31M
+270	0330	Esprit Holdings Limited	345.38M	0.12	1.65%	4.44B
+271	0331	FSE Lifestyle Services Limited	2.53B	5.63	-0.18%	8.45B
+272	0332	Yuan Heng Gas Holdings Limited	157.09M	0.02	-	958.30M
+273	0333	Top Form International Limited	84.29M	0.29	1.79%	1.13B
+274	0334	China Display Optoelectronics Technology Holdings Limited	362.77M	0.17	-1.70%	3.43B
+275	0335	Upbest Group Limited	1.96B	0.69	-1.43%	53.64M
+276	0336	Huabao International Holdings Limited	6.82B	2.13	-	3.60B
+277	0337	Greenland Hong Kong Holdings Limited	733.83M	0.29	5.45%	24.75B
+278	0338	Sinopec Shanghai Petrochemical Company Limited	25.52B	1.13	-0.88%	98.74B
+279	0339	China Sci-Tech Industrial Investment Group Limited	46.08M	0.18	2.34%	115.53K
+280	0340	Tongguan Gold Group Limited	1.89B	0.47	-1.05%	1.67B
+281	0341	Café de Coral Holdings Limited	4.34B	7.56	-0.53%	8.64B
+282	0343	Culturecom Holdings Limited	271.99M	0.16	-0.61%	18.60M
+283	0345	Vitasoy International Holdings Limited	9.70B	9.05	-2.06%	6.27B
+284	0346	Yanchang Petroleum International Limited	297.03M	0.26	-5.45%	33.05B
+285	0347	Angang Steel Company Limited	21.38B	1.47	1.38%	118.31B
+286	0348	China Healthwise Holdings Limited	147.16M	0.19	2.12%	126.42M
+287	0351	Asia Energy Logistics Group Limited	265.33M	0.11	-	112.80M
+288	0352	Fortune Sun (China) Holdings Limited	15.26M	0.06	-	2.43M
+289	0353	Energy International Investments Holdings Limited	437.63M	0.41	-1.20%	159.77M
+290	0354	Chinasoft International Limited	12.57B	4.92	-2.57%	17.83B
+291	0355	Century City International Holdings Limited	392.76M	0.12	-3.91%	2.60B
+292	0356	DT Capital Limited	142.23M	0.05	-	2.75M
+293	0357	Hainan Meilan International Airport Company Limited	3.74B	7.90	-1.25%	2.33B
+294	0358	Jiangxi Copper Company Limited	63.43B	12.64	-0.63%	574.53B
+295	0360	New Focus Auto Tech Holdings Limited	791.98M	0.05	-2.13%	576.85M
+296	0361	Sino Golf Holdings Limited	208.05M	0.04	-	235.21M
+297	0362	China Zenith Chemical Group Limited	161.98M	0.08	-1.30%	31.56M
+298	0363	Shanghai Industrial Holdings Limited	12.22B	11.24	0.18%	30.28B
+299	0365	Sino ICT Holdings Limited	296.82M	0.20	-	237.36M
+300	0366	Luks Group (Vietnam Holdings) Company Limited	376.84M	0.77	-	401.44M
+301	0367	Chuang's Consortium International Limited	560.31M	0.34	-	254.39M
+302	0368	Superland Group Holdings Limited	189.60M	0.24	-2.86%	892.57M
+303	0369	Wing Tai Properties Limited	2.39B	1.76	-1.68%	965.40M
+304	0370	China Best Group Holding Limited	909.80M	0.28	5.66%	173.58M
+305	0371	Beijing Enterprises Water Group Limited	22.30B	2.25	-0.88%	25.51B
+306	0372	PT International Development Corporation Limited	81.74M	0.27	-	208.03M
+307	0373	Allied Group Limited	4.99B	1.42	-0.70%	6.20B
+308	0374	Four Seas Mercantile Holdings Limited	969.32M	2.55	-1.16%	3.66B
+309	0375	YGM Trading Limited	131.03M	0.79	1.28%	220.39M
+310	0376	Yunfeng Financial Group Limited	3.75B	0.97	2.11%	3.62B
+311	0377	China Huajun Group Limited	46.16M	0.75	5.63%	1.55B
+312	0379	China Ever Grand Financial Leasing Group Co., Ltd.	163.67M	0.13	12.71%	79.23M
+313	0380	China Pipe Group Limited	119.90M	0.09	4.65%	747.17M
+314	0381	AOM International Group Company Limited	955.08M	1.21	2.54%	374.43M
+315	0382	Edvantage Group Holdings Limited	2.37B	1.99	-1.00%	2.54B
+316	0383	Tian An Medicare Limited	716.76M	0.66	-	1.63B
+317	0384	China Gas Holdings Limited	34.47B	6.34	-0.16%	80.47B
+318	0385	Chinney Alliance Group Limited	220.11M	0.37	-9.88%	6.89B
+319	0386	China Petroleum & Chemical Corporation	728.65B	4.26	0.24%	3,441.91B
+320	0387	Leeport (Holdings) Limited	156.45M	0.68	9.68%	547.19M
+321	0388	Hong Kong Exchanges and Clearing Limited	371.01B	296.80	1.44%	20.74B
+322	0390	China Railway Group Limited	144.43B	3.69	0.55%	1,328.31B
+323	0391	Mei Ah Entertainment Group Limited	497.59M	0.08	-1.18%	137.53M
+324	0392	Beijing Enterprises Holdings Limited	34.60B	27.50	1.29%	88.19B
+325	0393	Glorious Sun Enterprises Limited	1.79B	1.18	-1.67%	896.97M
+326	0396	Hing Lee (HK) Holdings Limited	71.92M	0.09	-1.11%	118.75M
+327	0397	Minerva Group Holding Limited	210.44M	0.08	-	64.82M
+328	0398	Oriental Watch Holdings Limited	1.70B	3.48	-0.57%	3.59B
+329	0399	Innovative Pharmaceutical Biotech Limited	366.26M	0.20	-0.99%	5.90M
+330	0400	Ingdan, Inc.	1.66B	1.16	-6.45%	10.02B
+331	0401	Wanjia Group Holdings Limited	39.78M	0.07	5.97%	171.41M
+332	0403	Starlite Holdings Limited	93.12M	0.19	-2.11%	883.66M
+333	0405	Yuexiu Real Estate Investment Trust	4.63B	0.92	-	2.21B
+334	0406	Yau Lee Holdings Limited	473.10M	1.08	8.00%	8.72B
+335	0408	Yip's Chemical Holdings Limited	820.94M	1.46	1.39%	3.21B
+336	0410	SOHO China Limited	3.28B	0.63	1.61%	1.78B
+337	0411	Lam Soon (Hong Kong) Limited	1.95B	8.30	2.47%	4.84B
+338	0412	Shandong Hi-Speed Holdings Group Limited	36.48B	6.06	-0.33%	5.52B
+339	0413	South China Holdings Company Limited	415.45M	0.03	-	2.92B
+340	0417	Tse Sui Luen Jewellery (International) Limited	161.97M	0.65	16.07%	2.17B
+341	0418	Founder Holdings Limited	1.38B	1.15	0.88%	994.05M
+342	0419	Hony Media Group	896.63M	0.06	-3.03%	1.20B
+343	0420	Fountain Set (Holdings) Limited	759.52M	0.61	1.67%	4.47B
+344	0422	Vietnam Manufacturing and Export Processing (Holdings) Limited	426.61M	0.47	-	598.93M
+345	0423	Hong Kong Economic Times Holdings Limited	319.38M	0.74	-2.63%	848.46M
+346	0425	Minth Group Limited	17.83B	15.50	-3.13%	23.50B
+347	0426	One Media Group Limited	19.24M	0.05	-	39.15M
+348	0428	Cocoon Holdings Limited	32.34M	0.40	3.90%	-48.85M
+349	0430	Oriental Explorer Holdings Limited	145.57M	0.38	-	24.61M
+350	0432	Pacific Century Premium Developments Limited	409.69M	0.20	6.35%	915.00M
+351	0433	North Mining Shares Company Limited	225.21M	0.02	-	1.41B
+352	0434	Boyaa Interactive International Limited	3.43B	5.25	-6.08%	463.49M
+353	0435	Sunlight Real Estate Investment Trust	3.18B	1.85	0.54%	830.26M
+354	0436	New Universe Environmental Group Limited	160.89M	0.05	6.00%	371.04M
+355	0438	IRICO Group New Energy Company Limited	513.10M	2.91	7.38%	4.19B
+356	0439	KuangChi Science Limited	1.31B	2.00	0.50%	81.71M
+357	0440	Dah Sing Financial Holdings Limited	9.00B	28.40	0.71%	5.35B
+358	0442	Domaine Power Holdings Limited	120.89M	0.70	-2.78%	183.29M
+359	0444	Sincere Watch (Hong Kong) Limited	60.44M	0.01	-	71.13M
+360	0450	Hung Hing Printing Group Limited	879.89M	0.99	3.13%	2.29B
+361	0451	GCL New Energy Holdings Limited	672.44M	0.48	2.13%	972.67M
+362	0455	Tianda Pharmaceuticals Limited	421.41M	0.18	-7.41%	384.68M
+363	0456	New City Development Group Limited	58.62M	0.50	25.00%	138.90M
+364	0458	Tristate Holdings Limited	678.78M	2.49	-	4.09B
+365	0459	Legend Upstar Holdings Limited	133.59M	0.07	-	368.46M
+366	0460	Sihuan Pharmaceutical Holdings Group Ltd.	5.21B	0.58	-	1.89B
+367	0464	China In-Tech Limited	174.98M	0.30	-1.67%	167.98M
+368	0465	Futong Technology Development Holdings Limited	77.81M	0.25	-7.41%	186.09M
+369	0467	United Energy Group Limited	9.44B	0.37	-	15.80B
+370	0468	Greatview Aseptic Packaging Company Limited	3.70B	2.63	-	3.82B
+371	0471	Silkwave Inc	81.55M	0.89	-2.20%	53.74M
+372	0472	New Silkroad Culturaltainment Limited	391.33M	0.13	-	616.60M
+373	0474	Aceso Life Science Group Limited	369.09M	0.05	-1.96%	17.00M
+374	0475	Central Development Holdings Limited	206.04M	0.45	-16.67%	184.58M
+375	0480	HKR International Limited	1.44B	0.85	1.19%	1.64B
+376	0482	Sandmartin International Holdings Limited	139.04M	0.11	-	578.77M
+377	0483	Bauhaus International (Holdings) Limited	79.35M	0.22	8.00%	188.74M
+378	0484	Forgame Holdings Limited	118.98M	0.83	6.41%	79.73M
+379	0485	China Sinostar Group Company Limited	31.50M	0.15	9.63%	24.26M
+380	0486	United Company RUSAL, International Public Joint-Stock Company	48.10B	3.18	-0.93%	93.41B
+381	0487	Success Universe Group Limited	433.53M	0.09	-	65.97M
+382	0488	Lai Sun Development Company Limited	1.00B	0.69	1.47%	6.00B
+383	0489	Dongfeng Motor Group Company Limited	25.42B	3.08	-1.91%	112.63B
+384	0491	Emperor Culture Group Limited	128.53M	0.04	5.26%	494.54M
+385	0493	GOME Retail Holdings Limited	898.89M	0.02	-5.26%	431.20M
+386	0495	Paladin Limited	19.74M	0.01	-40.00%	22.73M
+387	0496	Kasen International Holdings Limited	526.75M	0.37	-3.95%	1.07B
+388	0497	CSI Properties Limited	782.83M	0.09	-1.16%	1.40B
+389	0498	Blue River Holdings Limited	114.50M	0.11	10.00%	45.52M
+390	0499	Qingdao Holdings International Limited	115.83M	0.12	3.57%	53.48M
+391	0500	Frontier Services Group Limited	353.30M	0.15	-	767.90M
+392	0505	Xingye Alloy Materials Group Limited	892.32M	1.01	1.00%	7.64B
+393	0506	China Foods Limited	7.47B	2.67	-1.11%	21.84B
+394	0508	Dingyi Group Investment Limited	378.55M	0.45	-	918.86M
+395	0509	Century Sunshine Group Holdings Limited	24.05M	0.21	-5.41%	329.52M
+396	0510	CASH Financial Services Group Limited	129.35M	0.30	-4.76%	33.23M
+397	0511	Television Broadcasts Limited	1.43B	3.11	-1.27%	3.28B
+398	0512	Grand Pharmaceutical Group Limited	15.20B	4.37	0.23%	10.59B
+399	0513	Continental Holdings Limited	116.13M	0.17	-4.49%	360.40M
+400	0515	China Silver Technology Holdings Limited	56.66M	0.05	-	176.53M
+401	0517	COSCO SHIPPING International (Hong Kong) Co., Ltd.	6.27B	4.34	4.08%	3.47B
+402	0518	Tungtex (Holdings) Company Limited	80.29M	0.17	-0.58%	602.57M
+403	0519	Applied Development Holdings Limited	247.46M	0.08	-1.22%	43.90M
+404	0520	Xiabuxiabu Catering Management (China) Holdings Co., Ltd.	920.27M	0.85	-4.49%	5.89B
+405	0521	CWT International Limited	855.00M	0.07	-4.11%	41.53B
+406	0522	ASMPT Limited	31.30B	75.15	0.80%	13.23B
+407	0524	Great Wall Terroir Holdings Limited	63.02M	0.32	-	84.33M
+408	0525	Guangshen Railway Company Limited	22.46B	2.01	-1.47%	29.96B
+409	0526	Lisi Group (Holdings) Limited	1.54B	0.19	-4.15%	3.06B
+410	0527	China Ruifeng Renewable Energy Holdings Limited	1.03B	0.60	-1.64%	351.63M
+411	0528	Kingdom Holdings Limited	702.75M	1.14	-0.87%	2.96B
+412	0529	SiS International Holdings Limited	397.49M	1.43	-0.69%	8.60B
+413	0532	Wong's Kong King International (Holdings) Limited	197.07M	0.27	-3.57%	3.38B
+414	0533	Goldlion Holdings Limited	1.39B	1.43	-	1.27B
+415	0535	Gemdale Properties and Investment Corporation Limited	4.49B	0.28	-1.75%	19.78B
+416	0536	Tradelink Electronic Commerce Limited	739.01M	0.92	-	264.34M
+417	0538	Ajisen (China) Holdings Limited	916.89M	0.84	-	1.89B
+418	0540	Speedy Global Holdings Limited	81.00M	0.14	8.00%	564.50M
+419	0542	China Cultural Tourism and Agriculture Group Limited	453.54M	0.06	1.72%	286.45M
+420	0543	Pacific Online Limited	323.58M	0.30	5.36%	747.54M
+421	0544	Daido Group Limited	15.38M	0.05	-15.00%	261.23M
+422	0546	Fufeng Group Limited	13.24B	5.28	0.38%	29.87B
+423	0547	Digital Domain Holdings Limited	3.79B	0.49	-	586.81M
+424	0548	Shenzhen Expressway Corporation Limited	24.21B	7.03	-0.28%	9.73B
+425	0551	Yue Yuen Industrial (Holdings) Limited	27.13B	16.90	3.30%	61.99B
+426	0552	China Communications Services Corporation Limited	29.85B	4.31	-1.37%	161.02B
+427	0553	Nanjing Panda Electronics Company Limited	7.25B	3.05	-1.29%	3.10B
+428	0554	Hans Group Holdings Limited	972.73M	0.23	1.30%	1.24B
+429	0556	Pan Asia Environmental Protection Group Limited	425.70M	0.45	-	243.70M
+430	0557	China Tian Yuan Healthcare Group Limited	207.47M	0.52	-10.34%	36.32M
+431	0558	L.K. Technology Holdings Limited	3.51B	2.57	-1.53%	5.68B
+432	0559	DeTai New Energy Group Limited	86.85M	0.15	-1.92%	31.27M
+433	0560	Chu Kong Shipping Enterprises (Group) Company Limited	840.88M	0.75	-1.32%	2.71B
+434	0563	Shanghai Industrial Urban Development Group Limited	1.58B	0.35	-	9.14B
+435	0564	Zhengzhou Coal Mining Machinery Group Company Limited	23.65B	10.00	-0.79%	40.98B
+436	0565	Art Group Holdings Limited	3.36B	1.25	-6.02%	111.16M
+437	0567	Daisho Microline Holdings Limited	138.74M	0.09	-7.53%	85.71M
+438	0568	Shandong Molong Petroleum Machinery Company Limited	2.10B	1.16	-3.33%	1.46B
+439	0570	China Traditional Chinese Medicine Holdings Co. Limited	9.62B	1.91	-0.52%	18.49B
+440	0571	eSun Holdings Limited	86.04M	0.05	-1.85%	1.17B
+441	0572	Future World Holdings Limited	147.26M	0.57	1.79%	33.61M
+442	0573	Tao Heung Holdings Limited	431.10M	0.43	-1.15%	2.73B
+443	0574	Pa Shun International Holdings Limited	73.75M	0.05	-5.77%	102.54M
+444	0575	Regent Pacific Group Limited	84.52M	0.37	-1.33%	398.22K
+445	0576	Zhejiang Expressway Co., Ltd.	32.73B	5.46	1.11%	18.76B
+446	0579	Beijing Jingneng Clean Energy Co., Limited	15.09B	1.81	-1.09%	22.32B
+447	0580	Sun.King Technology Group Limited	2.02B	1.32	1.54%	1.34B
+448	0581	China Oriental Group Company Limited	3.91B	1.06	1.92%	50.25B
+449	0582	Shin Hwa World Limited	258.65M	0.17	-2.27%	1.14B
+450	0583	Great Wall Pan Asia Holdings Limited	391.94M	0.25	-	381.39M
+451	0585	Imagi International Holdings Limited	261.43M	0.31	-	29.03M
+452	0586	China Conch Venture Holdings Limited	11.07B	6.34	-0.63%	7.21B
+453	0587	China Conch Environment Protection Holdings Limited	1.28B	0.72	4.35%	1.84B
+454	0588	Beijing North Star Company Limited	5.36B	0.73	1.39%	11.07B
+455	0590	Luk Fook Holdings (International) Limited	8.27B	14.08	-0.85%	13.29B
+456	0591	China High Precision Automation Group Limited	125.54M	0.12	0.83%	149.57M
+457	0592	Bossini International Holdings Limited	365.50M	0.11	2.80%	570.86M
+458	0595	AV Concept Holdings Limited	390.73M	0.43	-2.27%	1.21B
+459	0596	Inspur Digital Enterprise Technology Limited	4.74B	4.15	-0.24%	8.96B
+460	0598	Sinotrans Limited	36.91B	3.77	-0.26%	127.11B
+461	0599	E. Bon Holdings Limited	129.39M	0.19	-0.53%	482.41M
+462	0601	Rare Earth Magnesium Technology Group Holdings Limited	52.15M	0.09	-4.40%	266.94M
+463	0602	Jiahua Stores Holdings Limited	29.05M	0.03	-9.68%	432.55M
+464	0603	China Oil And Gas Group Limited	769.09M	0.16	0.63%	18.37B
+465	0604	Shenzhen Investment Limited	7.03B	0.80	-2.44%	13.53B
+466	0605	China Financial Services Holdings Limited	309.55M	1.53	4.08%	118.97M
+467	0606	SCE Intelligent Commercial Management Holdings Limited	481.82M	0.26	4.00%	1.34B
+468	0607	Fullshare Holdings Limited	343.66M	0.55	5.77%	25.76B
+469	0608	High Fashion International Limited	534.83M	1.75	0.57%	3.34B
+470	0609	Tiande Chemical Holdings Limited	973.93M	1.11	-0.89%	2.06B
+471	0610	Wai Kee Holdings Limited	531.39M	0.67	-	13.18B
+472	0611	China Nuclear Energy Technology Corporation Limited	629.69M	0.36	2.90%	1.64B
+473	0612	Ding Yi Feng Holdings Group International Limited	385.67M	0.25	0.82%	-590.53M
+474	0613	Planetree International Development Limited	210.85M	0.23	-	101.67M
+475	0616	Eminence Enterprise Limited	32.80M	0.10	6.59%	32.37M
+476	0617	Paliburg Holdings Limited	590.73M	0.52	-1.89%	2.60B
+477	0618	Peking University Resources (Holdings) Company Limited	440.72M	0.16	1.86%	1.58B
+478	0619	South China Financial Holdings Limited	54.23M	0.18	-2.70%	42.52M
+479	0620	DTXS Silk Road Investment Holdings Company Limited	166.88M	0.25	2.88%	60.57M
+480	0621	Taung Gold International Limited	562.70M	0.03	-	-
+481	0622	Oshidori International Holdings Limited	1.01B	0.15	-3.80%	-12.33M
+482	0623	SinoMedia Holding Limited	775.55M	1.68	1.20%	773.49M
+483	0626	Public Financial Holdings Limited	1.59B	1.45	-1.36%	737.50M
+484	0627	Japan Kyosei Group Company Limited	681.92M	0.50	-	129.76M
+485	0628	Tong Tong AI Social Group Limited	1.56B	0.31	3.39%	115.15M
+486	0629	Yue Da International Holdings Limited	327.22M	0.25	-3.85%	84.31M
+487	0630	AMCO United Holding Limited	77.40M	0.08	-	33.08M
+488	0631	Sany Heavy Equipment International Holdings Company Limited	15.84B	4.98	1.01%	22.54B
+489	0632	CHK Oil Limited	370.32M	0.48	5.56%	158.25M
+490	0635	Playmates Holdings Limited	1.16B	0.57	1.79%	1.37B
+491	0636	Kerry Logistics Network Limited	12.07B	6.68	-0.74%	49.64B
+492	0637	Lee Kee Holdings Limited	100.28M	0.12	-	1.86B
+493	0639	Shougang Fushan Resources Group Limited	12.22B	2.40	-	4.95B
+494	0640	Infinity Development Holdings Company Limited	557.72M	0.99	-	736.34M
+495	0641	CHTC Fong's International Company Limited	245.35M	0.22	-5.91%	1.80B
+496	0643	Carry Wealth Holdings Limited	242.96M	0.28	3.77%	546.68M
+497	0645	Ares Asia Limited	30.28M	0.06	-	355.60M
+498	0646	China Environmental Technology Holdings Limited	75.05M	0.22	-	27.00M
+499	0650	Productive Technologies Company Limited	1.52B	0.21	1.49%	369.37M
+500	0653	Bonjour Holdings Limited	94.02M	0.17	-18.57%	934.76M
+501	0655	Hongkong Chinese Limited	509.56M	0.25	-3.92%	74.11M
+502	0656	Fosun International Limited	34.45B	4.21	0.96%	213.80B
+503	0657	G-Vision International (Holdings) Limited	36.98M	0.02	5.88%	49.36M
+504	0658	China High Speed Transmission Equipment Group Co., Ltd.	1.34B	0.83	1.22%	24.69B
+505	0659	CTF Services Limited	29.50B	7.27	-1.49%	26.42B
+506	0660	Wai Chun Bio-Technology Limited	16.29M	0.10	-	370.07M
+507	0661	China Daye Non-Ferrous Metals Mining Limited	841.09M	0.05	-	60.65B
+508	0662	Asia Financial Holdings Limited	3.65B	3.95	-	3.33B
+509	0666	REPT BATTERO Energy Co., Ltd.	24.73B	11.36	3.65%	15.85B
+510	0667	China East Education Holdings Limited	5.49B	2.52	-	4.31B
+511	0668	Doyen International Holdings Limited	439.54M	0.35	-	80.95M
+512	0669	Techtronic Industries Company Limited	188.54B	104.00	-2.07%	110.60B
+513	0670	China Eastern Airlines Corporation Limited	83.89B	2.57	-3.38%	144.74B
+514	0672	Zhong An Group Limited	614.30M	0.11	-3.54%	21.16B
+515	0673	China Health Group Limited	125.37M	0.26	-8.93%	50.34M
+516	0674	China Tangshang Holdings Limited	613.70M	0.17	-6.70%	421.42M
+517	0675	K & P International Holdings Limited	120.15M	0.45	7.14%	179.86M
+518	0676	Pegasus International Holdings Limited	642.97M	0.90	-2.17%	48.30M
+519	0677	Golden Resources Development International Limited	594.09M	0.36	1.41%	2.08B
+520	0679	Asia Tele-Net and Technology Corporation Limited	332.89M	0.87	-1.14%	392.62M
+521	0681	Chinese People Holdings Company Limited	196.56M	0.02	-4.35%	2.78B
+522	0682	Chaoda Modern Agriculture (Holdings) Limited	37.73M	0.22	1.83%	80.01M
+523	0683	Kerry Properties Limited	22.09B	15.18	-	12.66B
+524	0684	Allan International Holdings Limited	209.82M	0.66	-	484.42M
+525	0685	Media Chinese International Limited	334.19M	0.20	-	1.21B
+526	0686	Beijing Energy International Holding Co., Ltd.	2.24B	1.00	-0.99%	6.73B
+527	0687	Tysan Holdings Limited	619.35M	0.18	4.71%	2.29B
+528	0688	China Overseas Land & Investment Limited	134.40B	12.20	-0.65%	215.22B
+529	0689	EPI (Holdings) Limited	120.53M	0.02	-	81.31M
+530	0690	Uni-Bio Science Group Limited	370.22M	0.06	3.33%	508.40M
+531	0691	China Shanshui Cement Group Limited	2.31B	0.53	-1.85%	17.01B
+532	0693	Tan Chong International Limited	2.11B	1.04	-0.95%	13.10B
+533	0694	Beijing Capital International Airport Company Limited	13.05B	2.85	-	6.03B
+534	0695	Dongwu Cement International Limited	1.48B	2.60	-1.89%	273.30M
+535	0696	TravelSky Technology Limited	27.07B	9.28	-0.75%	8.29B
+536	0697	Shoucheng Holdings Limited	7.21B	1.00	-	1.07B
+537	0698	Tongda Group Holdings Limited	798.32M	0.08	-3.53%	6.53B
+538	0700	Tencent Holdings Limited	3,461.08B	381.20	-0.57%	712.21B
+539	0701	CNT Group Limited	437.85M	0.23	-0.43%	400.48M
+540	0702	Sino Oil and Gas Holdings Limited	150.54M	0.05	2.27%	413.78M
+541	0703	Future Bright Holdings Limited	97.20M	0.14	-3.42%	483.76M
+542	0704	Huscoke Holdings Limited	19.75M	0.07	-	36.84M
+543	0707	Asia Television Holdings Limited	157.33M	0.08	-1.23%	117.74M
+544	0708	China Evergrande New Energy Vehicle Group Limited	2.20B	0.20	-0.99%	1.32B
+545	0709	Giordano International Limited	2.49B	1.54	-	3.81B
+546	0710	BOE Varitronix Limited	5.54B	6.96	4.19%	11.71B
+547	0711	Asia Allied Infrastructure Holdings Limited	813.47M	0.44	-	9.44B
+548	0712	Comtec Solar Systems Group Limited	96.45M	0.09	1.11%	232.02M
+549	0713	World Houseware (Holdings) Limited	419.82M	0.53	-	359.11M
+550	0716	Singamas Container Holdings Limited	1.62B	0.67	-1.47%	3.40B
+551	0717	Emperor Capital Group Limited	350.52M	0.05	-	378.91M
+552	0718	Tai United Holdings Limited	189.00M	0.03	-9.09%	172.45M
+553	0719	Shandong Xinhua Pharmaceutical Company Limited	8.85B	5.61	-0.18%	9.23B
+554	0720	Auto Italia Holdings Limited	1.11B	0.19	6.67%	37.44M
+555	0722	UMP Healthcare Holdings Limited	335.80M	0.42	2.44%	750.01M
+556	0723	Reliance Global Holdings Limited	300.81M	0.29	9.26%	323.30M
+557	0725	Perennial International Limited	107.44M	0.54	-10.00%	309.97M
+558	0726	DIT Group Limited	198.47M	0.06	3.23%	582.88M
+559	0727	Crown International Corporation Limited	445.15M	0.08	-6.90%	200.92M
+560	0728	China Telecom Corporation Limited	635.97B	4.79	1.05%	574.54B
+561	0730	Capital Industrial Financial Services Group Limited	411.21M	0.11	-	205.52M
+562	0731	C&D Newin Paper & Pulp Corporation Limited	338.09M	0.24	4.35%	1.44B
+563	0732	Truly International Holdings Limited	3.79B	1.25	0.81%	16.92B
+564	0733	Hopefluent Group Holdings Limited	310.11M	0.42	-9.78%	1.02B
+565	0736	China Properties Investment Holdings Limited	42.75M	0.16	-5.88%	-52.28M
+566	0737	Shenzhen Investment Holdings Bay Area Development Company Limited	5.61B	1.81	-	1.10B
+567	0738	Le Saunda Holdings Limited	190.59M	0.27	-	379.70M
+568	0743	Asia Cement (China) Holdings Corporation	3.45B	2.18	0.46%	6.46B
+569	0745	China National Culture Group Limited	9.30M	0.12	-3.25%	28.97M
+570	0746	Lee & Man Chemical Company Limited	3.09B	3.75	-0.79%	4.04B
+571	0747	Shenyang Public Utility Holdings Company Limited	98.45M	0.07	3.08%	6.68M
+572	0750	China Shuifa Singyes Energy Holdings Limited	756.32M	0.31	3.33%	3.77B
+573	0751	Skyworth Group Limited	5.89B	2.66	-1.12%	71.70B
+574	0752	Pico Far East Holdings Limited	2.47B	1.97	2.07%	5.78B
+575	0753	Air China Limited	124.30B	5.10	1.80%	181.40B
+576	0754	Hopson Development Holdings Limited	10.62B	2.81	0.36%	33.02B
+577	0755	DevGreat Group Limited	148.79M	0.01	-	344.34M
+578	0756	Summi (Group) Holdings Limited	306.50M	0.99	-	86.65M
+579	0757	Solargiga Energy Holdings Limited	272.55M	0.08	-2.44%	5.82B
+580	0759	CEC International Holdings Limited	85.27M	0.13	-	1.42B
+581	0760	Talent Property Group Limited	82.35M	0.16	-	562.89M
+582	0762	China Unicom (Hong Kong) Limited	215.10B	7.03	-1.13%	422.04B
+583	0763	ZTE Corporation	197.82B	28.10	1.81%	138.34B
+584	0764	Eternity Investment Limited	225.36M	0.06	-6.06%	6.11M
+585	0765	Perfectech International Holdings Limited	140.58M	0.45	-7.29%	150.46M
+586	0767	Zhong Ji Longevity Science Group Limited	86.35M	0.16	-	73.23M
+587	0768	UBA Investments Limited	38.15M	0.03	-	4.55M
+588	0769	China Rare Earth Holdings Limited	866.43M	0.37	-1.33%	604.07M
+589	0771	Automated Systems Holdings Limited	566.91M	0.68	-	2.34B
+590	0772	China Literature Limited	25.13B	24.80	-1.20%	8.51B
+591	0775	CK Life Sciences Int'l., (Holdings) Inc.	4.23B	0.44	-2.22%	5.38B
+592	0776	Imperium Technology Group Limited	1.06B	3.39	-3.69%	59.83M
+593	0777	NetDragon Websoft Holdings Limited	5.32B	10.10	-1.94%	7.22B
+594	0778	Fortune Real Estate Investment Trust	8.11B	4.01	-0.74%	1.75B
+595	0780	Tongcheng Travel Holdings Limited	41.01B	17.96	-0.88%	18.00B
+596	0784	Ling Yui Holdings Limited	42.40M	0.05	-	203.77M
+597	0788	China Tower Corporation Limited	197.54B	1.14	1.79%	106.68B
+598	0789	Artini Holdings Limited	489.87M	0.37	-	101.96M
+599	0794	Come Sure Group (Holdings) Limited	65.55M	0.20	-	772.74M
+600	0797	7Road Holdings Limited	3.00B	1.09	9.00%	429.97M
+601	0798	China Electronics Optics Valley Union Holding Company Limited	1.74B	0.24	-	4.81B
+602	0799	IGG Inc	4.30B	3.81	2.14%	5.50B
+603	0804	Pinestone Capital Limited	112.07M	0.22	-0.44%	5.42M
+604	0806	Value Partners Group Limited	2.52B	1.38	0.73%	529.20M
+605	0807	SIIC Environment Holdings Ltd.	2.23B	0.90	-	7.20B
+606	0808	Prosperity Real Estate Investment Trust	1.89B	1.22	-	434.87M
+607	0809	Global Bio-chem Technology Group Company Limited	816.68M	0.10	-	1.80B
+608	0810	China Castson 81 Finance Company Limited	34.79M	0.21	0.49%	188.00K
+609	0811	Xinhua Winshare Publishing and Media Co., Ltd.	16.97B	10.94	1.30%	13.64B
+610	0813	Shimao Group Holdings Limited	3.26B	0.86	-3.37%	62.61B
+611	0814	Beijing Jingkelong Company Limited	127.79M	0.30	-	10.58B
+612	0815	China Silver Group Limited	517.83M	0.27	-5.36%	5.44B
+613	0816	Jinmao Property Services Co., Limited	2.24B	2.52	-	3.05B
+614	0817	China Jinmao Holdings Group Limited	12.29B	0.94	2.17%	72.57B
+615	0818	Hi Sun Technology (China) Limited	813.66M	0.31	-	2.58B
+616	0819	Tianneng Power International Limited	8.40B	7.79	-1.52%	99.21B
+617	0821	Value Convergence Holdings Limited	79.15M	0.03	-	70.76M
+618	0822	Ka Shui International Holdings Limited	168.92M	0.19	-1.55%	1.36B
+619	0823	Link Real Estate Investment Trust	82.38B	31.90	-1.24%	13.34B
+620	0825	New World Department Store China Limited	455.26M	0.26	-3.70%	1.69B
+621	0826	Tiangong International Company Limited	4.77B	1.75	-0.57%	5.58B
+622	0827	Ko Yo Chemical (Group) Limited	235.09M	0.04	2.56%	3.15B
+623	0828	Dynasty Fine Wines Group Limited	577.45M	0.44	-1.14%	269.98M
+624	0829	Shenguan Holdings (Group) Limited	936.84M	0.29	-1.72%	1.13B
+625	0830	China State Construction Development Holdings Limited	4.33B	1.92	-0.52%	8.67B
+626	0831	Convenience Retail Asia Limited	314.85M	0.41	-	1.51B
+627	0832	Central China Real Estate Limited	325.19M	0.11	7.00%	19.80B
+628	0833	Alltronics Holdings Limited	212.88M	0.45	4.65%	1.15B
+629	0834	China Kangda Food Company Limited	146.23M	0.17	-2.89%	1.76B
+630	0836	China Resources Power Holdings Company Limited	88.01B	17.08	-0.12%	102.97B
+631	0837	Carpenter Tan Holdings Limited	1.48B	5.90	-	543.69M
+632	0838	EVA Precision Industrial Holdings Limited	1.06B	0.61	-1.61%	6.32B
+633	0839	China Education Group Holdings Limited	8.87B	3.29	0.61%	7.24B
+634	0840	Xinjiang Tianye Water Saving Irrigation System Company Limited	109.10M	0.21	0.48%	2.48B
+635	0841	Asia Cassava Resources Holdings Limited	57.89M	0.10	19.51%	785.96M
+636	0842	Leoch International Technology Limited	2.09B	1.51	-0.66%	16.13B
+637	0844	Greatime International Holdings Limited	123.58M	0.25	8.70%	545.71M
+638	0845	Glorious Property Holdings Limited	85.72M	0.01	10.00%	4.82B
+639	0846	Mingfa Group (International) Company Limited	591.06M	0.10	7.22%	8.41B
+640	0848	Maoye International Holdings Limited	709.36M	0.14	2.22%	5.97B
+641	0851	Sheng Yuan Holdings Limited	206.38M	0.23	-	30.42M
+642	0852	Strong Petrochemical Holdings Limited	352.48M	0.17	-6.74%	1.67B
+643	0853	MicroPort Scientific Corporation	10.60B	5.74	2.32%	8.02B
+644	0855	China Water Affairs Group Limited	7.54B	4.59	-0.65%	11.97B
+645	0856	VSTECS Holdings Limited	6.99B	4.88	1.24%	79.94B
+646	0857	PetroChina Company Limited	1,558.48B	5.96	-0.33%	3,306.44B
+647	0858	Extrawell Pharmaceutical Holdings Limited	117.11M	0.05	-	59.75M
+648	0859	Zhongchang International Holdings Group Limited	114.75M	0.10	-21.54%	36.96M
+649	0860	Apollo Future Mobility Group Limited	511.22M	0.50	6.45%	277.88M
+650	0861	Digital China Holdings Limited	5.00B	2.99	1.01%	20.00B
+651	0862	Vision Values Holdings Limited	113.80M	0.03	7.14%	524.87M
+652	0863	OSL Group Limited	5.22B	8.33	9.17%	228.41M
+653	0864	Wing Lee Property Investments Limited	71.06M	0.18	-0.54%	27.36M
+654	0865	Jiande International Holdings Limited	105.08M	0.02	-5.88%	347.63M
+655	0866	China Qinfa Group Limited	3.45B	1.37	-2.14%	3.13B
+656	0867	China Medical System Holdings Limited	16.94B	7.01	-2.37%	7.54B
+657	0868	Xinyi Glass Holdings Limited	31.11B	7.14	-0.97%	25.98B
+658	0869	Playmates Toys Limited	719.80M	0.61	-1.61%	1.21B
+659	0871	China Dredging Environment Protection Holdings Limited	203.02M	0.13	2.31%	342.29M
+660	0873	Shimao Services Holdings Limited	2.15B	0.87	1.16%	8.74B
+661	0874	Guangzhou Baiyunshan Pharmaceutical Holdings Company Limited	44.15B	17.36	0.46%	84.61B
+662	0875	Congyu Intelligent Agricultural Holdings Limited	424.77M	1.10	-3.51%	659.93M
+663	0876	Kaisa Health Group Holdings Limited	141.18M	0.03	27.27%	181.81M
+664	0878	Soundwill Holdings Limited	1.49B	5.31	0.19%	1.21B
+665	0880	SJM Holdings Limited	16.62B	2.44	-2.40%	26.06B
+666	0881	Zhongsheng Group Holdings Limited	29.82B	12.56	-2.48%	193.21B
+667	0882	Tianjin Development Holdings Limited	2.07B	1.95	1.04%	3.33B
+668	0883	CNOOC Limited	917.54B	18.62	-0.64%	482.72B
+669	0884	CIFI Holdings (Group) Co. Ltd.	2.73B	0.25	-3.85%	65.24B
+670	0887	Emperor Watch & Jewellery Limited	1.18B	0.17	-0.57%	5.09B
+671	0888	Bison Finance Group Limited	48.34M	0.03	-	43.46M
+672	0889	Datronix Holdings Limited	83.20M	0.26	-	208.95M
+673	0893	China Vanadium Titano-Magnetite Mining Company Limited	116.95M	0.05	-5.45%	851.95M
+674	0894	Man Yue Technology Holdings Limited	133.15M	0.28	-	1.52B
+675	0895	Dongjiang Environmental Company Limited	4.13B	1.74	-1.69%	3.88B
+676	0896	Hanison Construction Holdings Limited	284.36M	0.27	1.92%	1.94B
+677	0897	Wai Yuen Tong Medicine Holdings Limited	360.03M	0.32	-3.03%	762.40M
+678	0898	Multifield International Holdings Limited	702.30M	0.84	-9.68%	288.32M
+679	0899	Zhong Jia Guo Xin Holdings Company Limited	107.73M	0.08	5.19%	16.16M
+680	0900	AEON Credit Service (Asia) Company Limited	2.40B	5.79	0.17%	1.20B
+681	0902	Huaneng Power International, Inc.	92.34B	3.99	-0.25%	274.11B
+682	0905	Walnut Capital Limited	325.66M	0.30	13.21%	167.00K
+683	0906	CPMC Holdings Limited	7.95B	7.13	-0.28%	11.30B
+684	0907	Elegance Optical International Holdings Limited	59.35M	0.06	-7.81%	20.79M
+685	0909	Ming Yuan Cloud Group Holdings Limited	4.61B	2.69	7.17%	1.72B
+686	0910	China Sandi Holdings Limited	142.47M	0.03	-3.57%	2.22B
+687	0911	Qianhai Health Holdings Limited	39.99M	0.24	-	928.36M
+688	0912	Suga International Holdings Limited	353.14M	1.24	2.48%	1.38B
+689	0913	Harbour Digital Asset Capital Limited	94.03M	0.27	-1.85%	-22.19M
+690	0914	Anhui Conch Cement Company Limited	131.14B	20.65	-	121.83B
+691	0915	Daohe Global Group Limited	289.84M	0.19	5.49%	348.54M
+692	0916	China Longyuan Power Group Corporation Limited	98.20B	5.63	-0.35%	39.70B
+693	0917	Qunabox Group Limited	18.86B	72.50	-4.16%	1.24B
+694	0918	Majestic Dragon AeroTech Holdings Limited	824.41M	0.74	1.37%	172.10M
+695	0919	Modern Healthcare Technology Holdings Limited	75.07M	0.09	-	470.73M
+696	0921	Hisense Home Appliances Group Co., Ltd.	43.25B	26.95	1.70%	101.10B
+697	0922	Anxian Yuan China Holdings Limited	344.31M	0.16	1.31%	250.25M
+698	0923	Integrated Waste Solutions Group Holdings Limited	62.70M	0.01	-18.75%	44.25M
+699	0924	Khoon Group Limited	490.00M	0.49	-2.00%	400.36M
+700	0925	Beijing Properties (Holdings) Limited	376.34M	0.05	-7.14%	969.75M
+701	0926	Besunyen Holdings Company Limited	267.76M	2.19	0.46%	488.18M
+702	0927	Fujikon Industrial Holdings Limited	276.80M	0.68	-	1.02B
+703	0928	King International Investment Limited	72.17M	0.04	-4.65%	187.44M
+704	0929	IPE Group Limited	499.82M	0.48	-	981.12M
+705	0931	China HK Power Smart Energy Group Limited	2.40B	0.36	-	578.65M
+706	0932	Shunten International (Holdings) Limited	87.02M	0.03	-	210.57M
+707	0933	Viva Goods Company Limited	5.74B	0.59	-	10.88B
+708	0934	Sinopec Kantons Holdings Limited	11.04B	4.44	1.37%	632.38M
+709	0936	Kaisa Capital Investment Holdings Limited	137.80M	0.13	-5.80%	223.81M
+710	0938	Man Sang International Limited	498.34M	0.77	2.67%	128.52M
+711	0939	China Construction Bank Corporation	1,586.75B	6.24	2.63%	685.54B
+712	0941	China Mobile Limited	1,648.15B	74.85	-0.20%	1,135.55B
+713	0943	Zhongzheng International Company Limited	128.24M	0.01	-	148.50M
+714	0945	Manulife Financial Corporation	410.04B	236.80	-0.67%	173.00B
+715	0947	MOBI Development Co., Ltd.	112.11M	0.14	-	585.51M
+716	0948	Alpha Professional Holdings Limited	90.81M	0.26	4.42%	17.85M
+717	0950	Lee's Pharmaceutical Holdings Limited	718.38M	1.23	-	1.20B
+718	0951	Chaowei Power Holdings Limited	1.56B	1.45	-0.68%	48.43B
+719	0952	Quam Plus International Financial Limited	1.24B	0.20	-0.98%	241.14M
+720	0953	Shaw Brothers Holdings Limited	164.67M	0.12	-3.33%	50.75M
+721	0954	Changmao Biochemical Engineering Company Limited	206.58M	0.39	-3.70%	703.01M
+722	0956	China Suntien Green Energy Corporation Limited	24.84B	3.66	0.27%	25.42B
+723	0959	Century Entertainment International Holdings Limited	56.43M	0.44	14.29%	-
+724	0960	Longfor Group Holdings Limited	66.33B	9.56	-1.54%	177.88B
+725	0966	China Taiping Insurance Holdings Company Limited	39.32B	10.80	-4.09%	120.44B
+726	0968	Xinyi Solar Holdings Limited	28.87B	3.15	-2.17%	27.17B
+727	0969	Hua Lien International (Holding) Company Limited	210.35M	0.09	8.64%	147.80M
+728	0970	New Sparkle Roll International Group Limited	239.19M	0.51	2.00%	2.58B
+729	0974	China Shun Ke Long Holdings Limited	267.22M	0.93	-	701.00M
+730	0975	Mongolian Mining Corporation	7.64B	7.28	-1.75%	8.27B
+731	0976	Chiho Environmental Group Limited	754.42M	0.45	-1.10%	16.51B
+732	0978	China Merchants Land Limited	1.25B	0.26	-1.92%	26.04B
+733	0979	Green Energy Group Limited	325.51M	0.24	4.35%	71.02M
+734	0980	Lianhua Supermarket Holdings Co., Ltd.	425.45M	0.37	-1.33%	22.52B
+735	0981	Semiconductor Manufacturing International Corporation	439.65B	39.05	-7.24%	58.28B
+736	0983	SOCAM Development Limited	173.61M	0.47	3.33%	8.67B
+737	0984	AEON Stores (Hong Kong) Co., Limited	97.50M	0.39	4.00%	8.29B
+738	0986	China Environmental Energy Investment Limited	72.50M	0.06	-	61.08M
+739	0987	China Renewable Energy Investment Limited	260.64M	0.10	0.97%	157.82M
+740	0989	Hua Yin International Holdings Limited	129.67M	0.02	5.88%	222.97M
+741	0990	Theme International Holdings Limited	4.92B	0.37	-	58.56B
+742	0991	Datang International Power Generation Co., Ltd.	43.39B	1.32	0.76%	135.98B
+743	0992	Lenovo Group Limited	114.12B	9.20	0.55%	488.32B
+744	0993	Huarong International Financial Holdings Limited	1.14B	0.14	-2.86%	165.70M
+745	0994	CT Vision S.L. (International) Holdings Limited	148.48M	0.15	0.65%	334.12M
+746	0995	Anhui Expressway Company Limited	25.34B	10.26	-0.77%	8.12B
+747	0997	Chinlink International Holdings Limited	26.89M	0.02	4.55%	94.49M
+748	0998	China CITIC Bank Corporation Limited	360.78B	5.37	-1.11%	227.36B
+749	1000	Beijing Media Corporation Limited	86.82M	0.45	14.10%	227.63M
+750	1001	Hong Kong Shanghai Alliance Holdings Limited	210.05M	0.32	1.59%	2.05B
+751	1002	V.S. International Group Limited	163.22M	0.07	-	60.64M
+752	1003	Huanxi Media Group Limited	1.68B	0.45	5.88%	54.72M
+753	1005	Matrix Holdings Limited	544.47M	0.60	-16.67%	575.94M
+754	1007	Longhui International Holdings Limited	12.14M	0.07	1.41%	71.68M
+755	1008	Litu Holdings Limited	250.86M	0.16	-	699.80M
+756	1009	International Entertainment Corporation	1.04B	0.76	-	207.90M
+757	1010	Sky Blue 11 Company Limited	106.19M	0.24	-0.42%	28.24M
+758	1011	China NT Pharma Group Company Limited	67.34M	0.27	8.00%	33.63M
+759	1013	Wai Chun Group Holdings Limited	27.27M	0.10	-0.97%	164.63M
+760	1020	Cybernaut International Holdings Company Limited	256.50M	0.06	-3.08%	131.07M
+761	1022	Feiyu Technology International Company Ltd.	346.39M	0.21	5.10%	236.43M
+762	1023	Sitoy Group Holdings Limited	504.86M	0.54	1.89%	1.61B
+763	1024	Kuaishou Technology	171.54B	40.10	-0.87%	137.43B
+764	1025	KNT Holdings Limited	16.17M	0.32	-1.54%	72.05M
+765	1026	Universal Technologies Holdings Limited	551.30M	0.10	-6.42%	313.11M
+766	1027	China Jicheng Holdings Limited	309.41M	0.71	-8.97%	347.75M
+767	1028	C.banner International Holdings Limited	326.09M	0.17	-	1.58B
+768	1029	IRC Limited	1.09B	0.09	-	1.77B
+769	1030	Seazen Group Limited	12.15B	1.80	1.69%	119.20B
+770	1033	Sinopec Oilfield Service Corporation	32.01B	0.65	-1.52%	87.53B
+771	1036	Vanke Overseas Investment Holding Company Limited	486.91M	1.25	-	305.23M
+772	1037	Maxnerva Technology Services Limited	199.94M	0.29	-	626.42M
+773	1038	CK Infrastructure Holdings Limited	135.56B	53.80	-0.19%	6.03B
+774	1039	Changyou International Group Limited	108.66M	0.06	1.69%	197.99M
+775	1044	Hengan International Group Company Limited	24.06B	20.80	-0.95%	25.14B
+776	1045	APT Satellite Holdings Limited	2.00B	2.14	-0.47%	806.09M
+777	1046	Universe Entertainment and Culture Group Company Limited	317.32M	0.35	6.06%	365.26M
+778	1047	Ngai Hing Hong Company Limited	123.68M	0.34	3.08%	1.28B
+779	1049	Celestial Asia Securities Holdings Limited	40.36M	0.50	-7.41%	966.56M
+780	1050	Karrie International Holdings Limited	1.58B	0.79	2.60%	3.00B
+781	1051	G-Resources Group Limited	1.60B	3.46	4.85%	834.02M
+782	1052	Yuexiu Transport Infrastructure Limited	6.07B	3.64	-	5.03B
+783	1053	Chongqing Iron & Steel Company Limited	12.31B	0.85	-3.41%	33.12B
+784	1055	China Southern Airlines Company Limited	107.58B	3.78	-0.53%	193.94B
+785	1057	Zhejiang Shibao Company Limited	8.08B	2.88	1.05%	2.73B
+786	1058	Namyue Holdings Limited	172.17M	0.32	-3.03%	85.59M
+787	1059	Kantone Holdings Limited	72.51M	0.19	-0.52%	152.28M
+788	1060	Alibaba Pictures Group Limited	15.15B	0.51	-1.92%	6.06B
+789	1061	Essex Bio-Technology Limited	1.57B	2.80	1.08%	1.62B
+790	1062	China Development Bank International Investment Limited	217.67M	0.08	2.74%	-343.05M
+791	1063	Suncorp Technologies Limited	189.24M	0.12	-6.87%	42.71M
+792	1064	Zhong Hua International Holdings Limited	26.90M	0.04	-	28.00M
+793	1065	Tianjin Capital Environmental Protection Group Company Limited	8.47B	3.20	0.63%	5.31B
+794	1066	Shandong Weigao Group Medical Polymer Company Limited	19.84B	4.43	-1.12%	13.93B
+795	1068	China Yurun Food Group Limited	271.59M	0.15	-0.67%	1.18B
+796	1069	China Health Technology Group Holding Company Limited	36.95M	0.04	-4.55%	51.15M
+797	1070	TCL Electronics Holdings Limited	16.89B	7.02	-0.14%	89.56B
+798	1071	Huadian Power International Corporation Limited	53.09B	3.79	0.53%	123.24B
+799	1072	Dongfang Electric Corporation Limited	46.93B	9.42	2.61%	69.42B
+800	1073	Da Yu Financial Holdings Limited	193.69M	0.09	6.25%	47.05M
+801	1075	Capinfo Company Limited	591.21M	2.04	1.49%	1.59B
+802	1079	PINE Technology Holdings Limited	50.41M	0.04	-9.52%	234.83M
+803	1080	Shengli Oil & Gas Pipe Holdings Limited	112.36M	0.03	-	648.16M
+804	1082	Bradaverse Education (Int'l) Investments Group Limited	991.12M	1.63	-4.12%	126.29M
+805	1083	Towngas Smart Energy Company Limited	10.34B	3.02	-0.33%	20.46B
+806	1084	Green Future Food Hydrocolloid Marine Science Company Limited	655.59M	0.74	1.37%	1.13B
+807	1085	Hengxin Technology Ltd.	600.62M	1.29	-2.27%	2.47B
+808	1086	Goodbaby International Holdings Limited	1.70B	1.02	-	8.23B
+809	1087	InvesTech Holdings Limited	62.96M	0.32	-	565.90M
+810	1088	China Shenhua Energy Company Limited	782.05B	30.65	-	381.58B
+811	1090	Da Ming International Holdings Limited	802.95M	0.63	-	52.50B
+812	1091	South Manganese Investment Limited	1.29B	0.37	-1.33%	15.13B
+813	1093	CSPC Pharmaceutical Group Limited	50.27B	4.38	-1.57%	33.53B
+814	1094	Cherish Sunshine International Limited	245.89M	0.40	-4.76%	661.40M
+815	1097	i-CABLE Communications Limited	199.77M	0.03	-	611.68M
+816	1098	Road King Infrastructure Limited	801.79M	1.07	0.94%	10.27B
+817	1099	Sinopharm Group Co. Ltd.	62.73B	20.30	0.25%	634.32B
+818	1100	Mainland Headwear Holdings Limited	721.00M	1.68	-0.59%	1.33B
+819	1101	China Huarong Energy Company Limited	133.57M	0.03	-3.45%	79.88M
+820	1102	Enviro Energy International Holdings Limited	95.00M	0.07	6.45%	531.50M
+821	1104	APAC Resources Limited	1.28B	0.94	-	1.19B
+822	1105	Sing Tao News Corporation Limited	180.51M	0.20	-1.45%	810.97M
+823	1108	Triumph New Energy Company Limited	4.73B	3.66	-0.81%	6.16B
+824	1109	China Resources Land Limited	162.94B	23.25	-2.11%	276.46B
+825	1110	Kingworld Medicines Group Limited	249.10M	0.44	1.16%	1.13B
+826	1111	Huashi Group Holdings Limited	191.12M	0.25	-8.15%	262.56M
+827	1112	Health and Happiness (H&H) International Holdings Limited	5.41B	8.38	-	14.65B
+828	1113	CK Asset Holdings Limited	112.69B	32.20	-0.31%	44.65B
+829	1114	Brilliance China Automotive Holdings Limited	19.12B	3.65	1.11%	1.22B
+830	1115	Tibet Water Resources Ltd.	1.58B	0.35	-	301.15M
+831	1117	China Modern Dairy Holdings Ltd.	7.04B	0.88	3.53%	14.23B
+832	1118	Golik Holdings Limited	488.22M	0.89	4.71%	3.91B
+833	1119	iDreamSky Technology Holdings Limited	2.61B	1.70	2.41%	1.77B
+834	1120	Arts Optical International Holdings Limited	618.02M	1.65	5.77%	1.24B
+835	1121	Golden Solar New Energy Technology Holdings Limited	3.74B	2.06	-	287.23M
+836	1122	Qingling Motors Co., Ltd.	1.23B	0.50	-	4.06B
+837	1123	China-Hongkong Photo Products Holdings Limited	132.76M	0.11	-1.79%	1.06B
+838	1124	Coastal Greenland Limited	63.85M	0.15	0.65%	3.75M
+839	1125	Lai Fung Holdings Limited	364.14M	1.10	-8.33%	2.19B
+840	1126	Dream International Limited	3.70B	5.52	3.37%	5.16B
+841	1127	Lion Rock Group Limited	1.03B	1.33	-1.48%	2.61B
+842	1128	Wynn Macau, Limited	28.32B	5.42	-0.37%	28.26B
+843	1129	China Water Industry Group Limited	99.14M	0.35	-	640.21M
+844	1130	China Environmental Resources Group Limited	105.57M	0.22	0.94%	82.82M
+845	1132	Orange Sky Golden Harvest Entertainment (Holdings) Limited	111.99M	0.04	-5.13%	781.12M
+846	1133	Harbin Electric Company Limited	7.07B	3.16	24.41%	34.72B
+847	1134	Kelfred Holdings Limited	140.00M	0.29	1.75%	395.61M
+848	1137	Hong Kong Technology Venture Company Limited	1.03B	1.31	-1.50%	3.88B
+849	1138	COSCO SHIPPING Energy Transportation Co., Ltd.	57.17B	7.29	-4.33%	25.14B
+850	1140	Wealthink AI-Innovation Capital Limited	946.83M	0.09	-	289.81M
+851	1141	CMBC Capital Holdings Limited	511.15M	0.49	-1.02%	3.25M
+852	1142	E&P Global Holdings Limited	72.51M	0.50	-	551.80M
+853	1143	China Energy Storage Technology Development Limited	66.17M	0.31	3.39%	538.24M
+854	1145	Courage Investment Group Limited	131.72M	0.12	-	74.90M
+855	1146	Huicheng International Holdings Limited	258.41M	0.08	-	189.33M
+856	1147	Edensoft Holdings Limited	147.24M	0.07	-1.43%	907.64M
+857	1148	Xinchen China Power Holdings Limited	211.56M	0.17	2.98%	6.14B
+858	1150	Milan Station Holdings Limited	156.43M	0.15	-1.33%	135.68M
+859	1153	Jiayuan Services Holdings Limited	256.92M	0.42	-4.60%	924.68M
+860	1156	China New Energy Limited	63.69M	0.10	-	49.73M
+861	1157	Zoomlion Heavy Industry Science and Technology Co., Ltd.	62.77B	5.61	-2.77%	50.89B
+862	1159	Smart Digital Technology Group Limited	93.63M	0.90	-1.10%	61.68M
+863	1160	Goldstone Capital Group Limited	33.22M	0.14	-	58.00K
+864	1161	Water Oasis Group Limited	646.53M	0.95	3.26%	983.22M
+865	1162	Lumina Group Limited	100.20M	0.18	12.82%	33.47M
+866	1163	Adtiger Corporations Limited	89.64M	0.12	-	276.24M
+867	1164	CGN Mining Company Limited	14.21B	1.87	0.54%	8.50B
+868	1165	Shunfeng International Clean Energy Limited	152.47M	0.03	-3.33%	197.71M
+869	1166	Solartech International Holdings Limited	32.06M	0.27	-	795.70M
+870	1167	Jacobio Pharmaceuticals Group Co., Ltd.	1.10B	1.38	-2.13%	24.91M
+871	1168	Sinolink Worldwide Holdings Limited	866.86M	0.14	-2.88%	338.34M
+872	1170	Kingmaker Footwear Holdings Limited	429.03M	0.64	1.59%	632.30M
+873	1171	Yankuang Energy Group Company Limited	115.32B	8.02	0.63%	133.83B
+874	1172	Magnus Concordia Group Limited	109.80M	0.02	-9.52%	195.70M
+875	1173	Veeko International Holdings Limited	75.54M	0.03	-6.67%	544.32M
+876	1176	Zhuguang Holdings Group Company Limited	770.01M	0.09	-14.71%	1.81B
+877	1177	Sino Biopharmaceutical Limited	52.19B	2.87	-1.03%	29.86B
+878	1179	H World Group Limited	78.14B	25.05	1.01%	25.98B
+879	1180	Paradise Entertainment Limited	936.44M	0.90	3.45%	812.83M
+880	1181	Tang Palace (China) Holdings Limited	234.57M	0.23	-1.28%	1.14B
+881	1182	Success Dragon International Holdings Limited	162.53M	0.47	6.90%	361.87M
+882	1183	MECOM Power and Construction Limited	664.80M	0.17	-1.18%	1.40B
+883	1184	S.A.S. Dragon Holdings Limited	2.69B	4.19	-1.41%	26.73B
+884	1186	China Railway Construction Corporation Limited	115.58B	5.34	1.33%	1,206.93B
+885	1188	Hybrid Kinetic Group Limited	223.88M	0.01	-8.33%	-
+886	1193	China Resources Gas Group Limited	61.21B	26.45	-2.04%	104.98B
+887	1195	Kingwell Group Limited	49.20M	0.02	6.25%	76.74M
+888	1196	Realord Group Holdings Limited	10.17B	7.18	1.41%	758.62M
+889	1198	Royale Home Holdings Limited	675.63M	0.26	-3.70%	616.06M
+890	1199	COSCO SHIPPING Ports Limited	16.81B	4.46	0.22%	11.77B
+891	1200	Midland Holdings Limited	595.18M	0.84	-	5.05B
+892	1201	Tesson Holdings Limited	254.83M	1.50	-11.76%	95.31M
+893	1202	Chengdu SIWI Science and Technology Company Limited	296.00M	0.73	1.39%	420.57M
+894	1203	GDH Guangnan (Holdings) Limited	589.94M	0.65	-1.52%	10.81B
+895	1204	BoardWare Intelligence Technology Limited	1.29B	2.74	1.48%	641.56M
+896	1205	CITIC Resources Holdings Limited	2.71B	0.35	-	5.73B
+897	1206	Technovator International Limited	211.19M	0.27	-	1.92B
+898	1208	MMG Limited	32.14B	2.65	-2.57%	34.11B
+899	1209	China Resources Mixc Lifestyle Services Limited	64.59B	28.30	-4.23%	17.12B
+900	1211	BYD Company Limited	833.64B	270.60	-2.17%	755.72B
+901	1213	Mobicon Group Limited	54.00M	0.27	-1.82%	303.05M
+902	1215	Kai Yuan Holdings Limited	191.68M	0.02	7.14%	302.34M
+903	1216	Zhongyuan Bank Co., Ltd.	10.96B	0.30	-1.67%	13.95B
+904	1217	China Innovation Investment Limited	128.02M	0.01	-	11.12M
+905	1218	Easyknit International Holdings Limited	125.78M	1.70	-	342.13M
+906	1220	Zhidao International (Holdings) Limited	192.06M	0.09	-9.28%	-99.10M
+907	1221	Sino Hotels (Holdings) Limited	1.57B	1.35	-6.25%	133.69M
+908	1222	Wang On Group Limited	297.50M	0.02	5.00%	2.08B
+909	1223	Symphony Holdings Limited	2.38B	0.80	-	301.82M
+910	1224	C C Land Holdings Limited	4.46B	1.15	-	477.39M
+911	1225	Lerado Financial Group Company Limited	34.55M	0.15	-	208.37M
+912	1228	CANbridge Pharmaceuticals Inc.	47.58M	0.12	-	112.41M
+913	1229	Nan Nan Resources Enterprise Limited	113.28M	0.15	-3.21%	240.17M
+914	1231	Newton Resources Ltd	1.24B	0.31	-	3.79B
+915	1232	Golden Wheel Tiandi Holdings Company Limited	100.75M	0.07	15.87%	2.34B
+916	1233	Times China Holdings Limited	725.13M	0.35	4.55%	18.45B
+917	1234	China Lilang Limited	4.67B	3.95	1.28%	3.92B
+918	1235	Travel Expert (Asia) Enterprises Limited	74.95M	0.14	-	219.33M
+919	1237	China Environmental Technology and Bioenergy Holdings Limited	31.79M	0.35	-	327.30M
+920	1238	Powerlong Real Estate Holdings Limited	1.93B	0.46	5.75%	28.21B
+921	1239	Teamway International Group Holdings Limited	60.76M	0.15	-5.03%	321.80M
+922	1240	CNQC International Holdings Limited	307.28M	0.19	-	11.08B
+923	1241	Shuanghua Holdings Limited	67.60M	0.11	-2.78%	142.42M
+924	1243	Wang On Properties Limited	547.20M	0.04	2.86%	452.91M
+925	1244	3D Medicines Inc.	749.83M	3.02	-2.58%	525.23M
+926	1245	Niraku GC Holdings, Inc.	228.41M	0.19	-2.05%	1.53B
+927	1247	Miko International Holdings Limited	326.40M	1.74	-	209.84M
+928	1250	Shandong Hi-Speed New Energy Group Limited	3.95B	1.76	-	4.80B
+929	1251	SPT Energy Group Inc.	232.50M	0.12	5.26%	2.01B
+930	1252	China Tianrui Group Cement Company Limited	896.18M	0.31	-8.96%	6.96B
+931	1253	China Greenland Broad Greenstate Group Company Limited	151.37M	0.03	-	24.35M
+932	1257	China Everbright Greentech Limited	1.61B	0.78	-1.27%	7.10B
+933	1258	China Nonferrous Mining Corporation Limited	20.17B	5.20	-1.33%	29.46B
+934	1259	Prosperous Future Holdings Limited	112.37M	0.05	-	528.24M
+935	1260	Wonderful Sky Financial Group Holdings Limited	310.84M	0.27	3.85%	187.90M
+936	1262	Labixiaoxin Snacks Group Limited	347.28M	1.59	-0.63%	909.02M
+937	1263	PC Partner Group Limited	2.13B	5.48	2.62%	9.94B
+938	1265	Tianjin Jinran Public Utilities Company Limited	358.67M	0.20	-	1.87B
+939	1268	China MeiDong Auto Holdings Limited	2.92B	2.13	-1.84%	26.99B
+940	1269	China First Capital Group Limited	88.70M	0.05	-	2.13B
+941	1270	Langham Hospitality Investments Limited	1.55B	0.45	-1.10%	469.39M
+942	1271	Grand Ming Group Holdings Limited	3.28B	2.45	0.82%	1.02B
+943	1272	Datang Environment Industry Group Co., Ltd.	2.67B	0.86	-4.44%	6.26B
+944	1273	Hong Kong Finance Group Limited	143.18M	0.35	-1.43%	126.88M
+945	1274	iMotion Automotive Technology (Suzhou) Co., Ltd.	3.88B	16.44	6.89%	1.41B
+946	1277	Kinetic Development Group Limited	10.54B	1.24	-2.36%	6.22B
+947	1278	China New Town Development Company Limited	554.40M	0.06	1.64%	406.83M
+948	1280	China Qidian Guofeng Holdings Limited	5.20B	3.00	-1.96%	378.66M
+949	1281	Xinda Investment Holdings Limited	256.84M	0.17	8.07%	111.25M
+950	1282	Renze Harvest International Limited	278.72M	0.10	-7.55%	785.79M
+951	1283	Accel Group Holdings Limited	721.39M	0.90	-1.10%	519.57M
+952	1284	New Media Lab Limited	198.00M	0.33	1.54%	221.81M
+953	1285	Jiashili Group Limited	402.55M	0.94	-18.26%	1.84B
+954	1286	Impro Precision Industries Limited	4.02B	2.02	-	4.60B
+955	1288	Agricultural Bank of China Limited	1,860.45B	4.23	1.93%	626.14B
+956	1289	Wuxi Sunlit Science and Technology Company Limited	156.16M	1.23	-3.91%	444.55M
+957	1290	China Huirong Financial Holdings Limited	654.20M	0.67	-16.25%	737.51M
+958	1292	Changan Minsheng APLL Logistics Co., Ltd.	390.57M	2.41	-3.60%	8.76B
+959	1293	Grand Baoxin Auto Group Limited	544.80M	0.19	-5.50%	31.07B
+960	1298	Yunnan Energy International Co. Limited	217.60M	0.79	-20.20%	453.89M
+961	1299	AIA Group Limited	577.61B	53.95	-1.37%	163.91B
+962	1300	Trigiant Group Limited	562.03M	0.31	1.64%	2.59B
+963	1301	D&G Technology Holding Company Limited	488.14M	0.77	-2.53%	323.11M
+964	1302	LifeTech Scientific Corporation	5.83B	1.32	-2.94%	1.38B
+965	1303	Huili Resources (Group) Limited	673.01M	0.33	-4.41%	3.09B
+966	1305	Wai Chi Holdings Company Limited	188.96M	0.87	-3.33%	2.29B
+967	1308	SITC International Holdings Company Limited	49.55B	18.56	-0.43%	19.33B
+968	1310	HKBN Ltd.	6.87B	5.23	-0.38%	10.65B
+969	1312	Kontafarma China Holdings Limited	167.66M	0.03	7.14%	836.92M
+970	1313	China Resources Building Materials Technology Holdings Limited	10.20B	1.48	1.37%	25.67B
+971	1314	Tsui Wah Holdings Limited	324.58M	0.23	-	896.89M
+972	1315	Green Economy Development Limited	73.38M	0.12	1.69%	2.86B
+973	1316	Nexteer Automotive Group Limited	8.38B	3.39	2.42%	32.83B
+974	1317	China Maple Leaf Educational Systems Limited	876.60M	0.30	-	1.35B
+975	1319	Oi Wah Pawnshop Credit Holdings Limited	446.44M	0.25	-0.80%	139.02M
+976	1321	China New City Group Limited	1.51B	0.75	-6.25%	3.65B
+977	1323	Huasheng International Holding Limited	148.86M	0.20	-4.83%	458.68M
+978	1326	Transmit Entertainment Limited	88.25M	0.03	6.25%	292.60M
+979	1327	Luxxu Group Limited	28.57M	0.05	-18.46%	28.44M
+980	1328	Goldstream Investment Limited	641.59M	0.05	-	108.22M
+981	1329	Beijing Capital Grand Limited	2.31B	0.84	-	2.41B
+982	1330	Dynagreen Environmental Protection Group Co., Ltd.	7.87B	3.31	-1.49%	3.83B
+983	1332	Touyun Biotech Group Limited	555.58M	0.20	2.59%	169.54M
+984	1335	Sheen Tai Holdings Group Company Limited	535.51M	0.22	-7.17%	303.35M
+985	1336	New China Life Insurance Company Ltd.	133.43B	24.05	2.12%	68.48B
+986	1338	BaWang International (Group) Holding Limited	142.31M	0.05	-	266.37M
+987	1339	The People's Insurance Company (Group) of China Limited	302.96B	3.71	-2.88%	626.15B
+988	1340	Huisheng International Holdings Limited	33.22M	0.04	9.09%	61.52M
+989	1341	Hao Tian International Construction Investment Group Limited	6.55B	0.87	-1.14%	173.00M
+990	1343	Wei Yuan Holdings Limited	85.12M	0.08	-1.25%	581.21M
+991	1345	Shanghai Pioneer Holding Ltd	2.68B	2.30	-1.71%	1.77B
+992	1346	Lever Style Corporation	628.44M	0.99	-	1.59B
+993	1347	Hua Hong Semiconductor Limited	51.33B	23.60	0.43%	14.92B
+994	1348	Quali-Smart Holdings Limited	45.70M	0.03	-6.06%	108.42M
+995	1349	Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co.,Ltd.	6.35B	2.32	0.43%	766.06M
+996	1351	Bright Future Technology Holdings Limited	126.00M	0.18	-	979.32M
+997	1354	Xi'an Kingfar Property Services Co., Ltd.	1.80B	27.00	8.00%	1.00B
+998	1355	Legend Strategy International Holdings Group Company Limited	101.15M	0.19	-	56.24M
+999	1357	Meitu, Inc.	14.03B	3.08	-1.28%	3.28B
+1000	1358	PW Medtech Group Limited	1.40B	0.96	1.05%	746.22M
+1001	1359	China Cinda Asset Management Co., Ltd.	45.42B	1.20	2.56%	25.82B
+1002	1361	361 Degrees International Limited	8.19B	3.96	-0.25%	9.94B
+1003	1362	SiS Mobile Holdings Limited	98.00M	0.35	-	1.73B
+1004	1368	Xtep International Holdings Limited	15.10B	5.79	0.87%	16.15B
+1005	1370	Aowei Holding Limited	1.62B	0.79	-10.23%	682.58M
+1006	1371	China Ecotourism Group Limited	20.07M	0.12	2.63%	67.32M
+1007	1372	China Carbon Neutral Development Group Limited	139.31M	0.27	-	639.39M
+1008	1373	International Housewares Retail Company Limited	770.12M	1.17	9.35%	2.64B
+1009	1375	Central China Securities Co., Ltd.	16.87B	1.60	-	1.94B
+1010	1376	Raffles Interior Limited	99.00M	0.10	-4.76%	360.23M
+1011	1378	China Hongqiao Group Limited	119.71B	12.74	-	152.02B
+1012	1379	Wenling Zhejiang Measuring and Cutting Tools Trading Centre Company Limited	144.80M	1.81	-3.72%	73.55M
+1013	1380	China Kingstone Mining Holdings Limited	36.20M	0.15	-1.35%	79.75M
+1014	1381	Canvest Environmental Protection Group Company Limited	11.37B	4.66	0.22%	4.13B
+1015	1382	Pacific Textiles Holdings Limited	2.13B	1.53	-	5.04B
+1016	1385	Shanghai Fudan Microelectronics Group Company Limited	24.77B	15.22	2.01%	3.86B
+1017	1388	Embry Holdings Limited	156.29M	0.37	-	1.20B
+1018	1389	Major Holdings Limited	166.30M	0.30	11.11%	69.76M
+1019	1393	Hidili Industry International Development Limited	276.32M	0.06	3.45%	2.09B
+1020	1395	ELL Environmental Holdings Limited	160.56M	0.15	-7.05%	113.51M
+1021	1396	Guangdong - Hong Kong Greater Bay Area Holdings Limited	260.51M	0.32	23.08%	2.97B
+1022	1397	Baguio Green Group Limited	278.05M	0.64	-	2.51B
+1023	1398	Industrial and Commercial Bank of China Limited	2,367.02B	5.11	2.61%	721.24B
+1024	1399	Veson Holdings Limited	196.20M	0.18	-	6.38B
+1025	1400	Moody Technology Holdings Limited	68.43M	0.02	11.76%	118.79M
+1026	1401	Sprocomm Intelligence Limited	1.61B	1.66	-1.78%	3.52B
+1027	1402	i-Control Holdings Limited	259.47M	0.25	-	123.52M
+1028	1405	DPC Dash Ltd	10.13B	78.60	-2.00%	3.99B
+1029	1406	Clarity Medical Group Holding Limited	219.50M	0.43	3.61%	176.52M
+1030	1407	Jy Gas Limited	173.80M	0.40	-1.25%	421.82M
+1031	1408	Macau E&M Holding Limited	65.00M	0.13	4.00%	113.90M
+1032	1410	Edvance International Holdings Limited	220.93M	0.22	-	696.81M
+1033	1412	Q P Group Holdings Limited	659.68M	1.26	0.80%	1.12B
+1034	1413	FEG Holdings Corporation Limited	129.60M	0.11	-11.38%	651.76M
+1035	1415	Cowell e Holdings Inc.	23.11B	26.80	1.13%	8.93B
+1036	1416	CTR Holdings Limited	67.20M	0.05	2.04%	1.09B
+1037	1417	Riverine China Holdings Limited	76.14M	0.19	-	981.16M
+1038	1418	Sinomax Group Limited	427.00M	0.26	8.33%	4.01B
+1039	1419	Human Health Holdings Limited	307.44M	0.81	-	590.82M
+1040	1420	Chuan Holdings Limited	107.39M	0.09	-8.60%	677.26M
+1041	1421	Kingbo Strike Limited	30.03M	0.24	4.35%	160.73M
+1042	1425	Justin Allen Holdings Limited	875.00M	0.71	2.90%	1.14B
+1043	1426	Spring Real Estate Investment Trust	2.71B	1.86	-0.53%	784.93M
+1044	1427	China Tianbao Group Development Company Limited	210.46M	0.25	15.57%	2.79B
+1045	1428	Bright Smart Securities & Commodities Group Limited	3.85B	2.23	-1.33%	992.69M
+1046	1429	Skymission Group Holdings Limited	43.20M	0.03	-	529.42M
+1047	1431	YuanShengTai Dairy Farm Limited	712.96M	0.15	-	2.51B
+1048	1432	China Shengmu Organic Milk Limited	1.29B	0.16	1.28%	3.56B
+1049	1433	Cirtek Holdings Limited	139.27M	0.07	20.69%	476.57M
+1050	1440	Star Shine Holdings Group Limited	7.45B	5.91	0.17%	584.19M
+1051	1442	Infinity Logistics and Transport Ventures Limited	763.68M	0.34	-	703.07M
+1052	1443	Fulum Group Holdings Limited	150.80M	0.12	-7.20%	1.81B
+1053	1446	Hung Fook Tong Group Holdings Limited	129.22M	0.17	1.19%	649.08M
+1054	1447	SFK Construction Holdings Limited	220.00M	0.55	1.85%	4.35B
+1055	1448	Fu Shou Yuan International Group Limited	9.22B	3.92	-1.26%	2.37B
+1056	1449	Leader Education Limited	180.00M	0.27	-	355.17M
+1057	1450	Be Friends Holding Limited	1.34B	1.00	12.36%	1.36B
+1058	1451	MS Group Holdings Limited	170.00M	0.85	6.25%	299.81M
+1059	1452	Denox Environmental & Technology Holdings Limited	39.13M	0.07	3.13%	135.78M
+1060	1455	Fourace Industries Group Holdings Limited	214.80M	0.17	0.60%	297.22M
+1061	1456	Guolian Securities Co., Ltd.	61.75B	3.96	1.02%	3.01B
+1062	1458	Zhou Hei Ya International Holdings Company Limited	3.56B	1.64	-	2.78B
+1063	1459	Jujiang Construction Group Co., Ltd.	186.68M	0.35	-6.67%	8.57B
+1064	1460	ICO Group Limited	170.25M	0.19	-	1.06B
+1065	1461	Zhongtai Futures Company Limited	551.05M	0.55	1.85%	2.32B
+1066	1463	C-Link Squared Limited	701.32M	0.24	-0.41%	161.43M
+1067	1466	Baijin Life Science Holdings Limited	395.94M	0.56	-1.75%	99.46M
+1068	1468	Kingkey Financial International (Holdings) Limited	747.13M	0.69	-1.43%	205.72M
+1069	1469	Get Nice Financial Group Limited	2.28B	0.91	-	334.93M
+1070	1470	Prosper One International Holdings Company Limited	40.00M	0.05	-3.85%	93.96M
+1071	1472	Sang Hing Holdings (International) Limited	43.00M	0.04	-2.33%	139.01M
+1072	1473	Pangaea Connectivity Technology Limited	159.57M	0.16	4.46%	1.80B
+1073	1475	Nissin Foods Company Limited	6.00B	5.80	-0.34%	3.73B
+1074	1476	Hengtai Securities Co., Ltd.	5.21B	2.02	11.60%	1.93B
+1075	1477	Ocumension Therapeutics	3.34B	3.96	1.28%	333.41M
+1076	1478	Q Technology (Group) Company Limited	8.32B	6.85	0.59%	15.83B
+1077	1480	Yan Tat Group Holdings Limited	256.80M	1.07	2.88%	632.62M
+1078	1481	Smart Globe Holdings Limited	581.40M	0.56	-1.75%	102.06M
+1079	1483	Net-a-Go Technology Company Limited	1.10B	1.30	-11.56%	208.08M
+1080	1486	C Cheng Holdings Limited	100.89M	0.35	-	425.66M
+1081	1488	Best Food Holding Company Limited	1.53B	0.97	3.19%	611.65M
+1082	1489	GC Construction Holdings Limited	610.00M	0.59	-3.28%	567.65M
+1083	1490	Cheshi Technology Inc.	194.62M	0.18	-	157.75M
+1084	1496	AP Rentals Holdings Limited	89.86M	0.10	-7.96%	175.92M
+1085	1497	Xiamen Yan Palace Bird's Nest Industry Co., Ltd.	3.67B	7.69	2.53%	2.23B
+1086	1498	PuraPharm Corporation Limited	193.58M	0.53	-	419.41M
+1087	1499	OKG Technology Holdings Limited	972.06M	0.20	1.56%	409.51M
+1088	1500	In Construction Holdings Limited	53.12M	0.06	-	379.89M
+1089	1501	Shanghai INT Medical Instruments Co., Ltd.	4.77B	27.30	0.55%	865.39M
+1090	1502	Financial Street Property Co., Limited	784.35M	2.05	-1.44%	1.74B
+1091	1503	China Merchants Commercial Real Estate Investment Trust	1.36B	1.20	-	556.04M
+1092	1508	China Reinsurance (Group) Corporation	33.56B	0.81	2.53%	109.94B
+1093	1513	Livzon Pharmaceutical Group Inc.	30.89B	25.95	0.39%	13.13B
+1094	1515	China Resources Medical Holdings Company Limited	4.80B	3.70	-1.07%	10.71B
+1095	1516	Sunac Services Holdings Limited	4.71B	1.61	3.87%	7.63B
+1096	1518	New Century Healthcare Holding Co. Limited	444.53M	0.90	3.45%	1.00B
+1097	1519	J&T Global Express Limited	52.60B	6.01	-1.80%	75.59B
+1098	1520	Virtual Mind Holding Company Limited	422.44M	0.66	-	64.33M
+1099	1521	Frontage Holdings Corporation	3.44B	1.73	1.76%	2.03B
+1100	1522	BII Railway Transportation Technology Holdings Company Limited	555.74M	0.26	-	1.63B
+1101	1523	Plover Bay Technologies Limited	5.27B	4.72	4.89%	834.90M
+1102	1525	Shanghai Gench Education Group Limited	1.09B	2.78	-	1.04B
+1103	1526	Rici Healthcare Holdings Limited	1.99B	1.27	4.10%	3.16B
+1104	1527	Zhejiang Tengy Environmental Technology Co., Ltd	137.70M	0.98	-6.67%	739.44M
+1105	1528	Red Star Macalline Group Corporation Ltd.	12.53B	1.57	-3.68%	9.91B
+1106	1530	3SBio Inc.	14.70B	6.34	-0.47%	9.05B
+1107	1532	China Partytime Culture Holdings Limited	212.79M	0.12	0.84%	353.64M
+1108	1536	Yuk Wing Group Holdings Limited	41.04M	0.09	-	185.71M
+1109	1538	Zhong Ao Home Group Limited	252.09M	0.30	-1.67%	1.87B
+1110	1539	Unity Group Holdings International Limited	1.41B	0.41	-	128.48M
+1111	1540	Left Field Printing Group Limited	216.92M	0.44	-	546.63M
+1112	1541	ImmuneOnco Biopharmaceuticals (Shanghai) Inc.	2.05B	5.09	-2.49%	7.83M
+1113	1542	Taizhou Water Group Co., Ltd.	316.00M	1.62	1.25%	673.10M
+1114	1543	Guangdong Join-Share Financing Guarantee Investment Co., Ltd.	437.02M	0.29	-	330.65M
+1115	1545	Design Capital Limited	116.00M	0.06	1.64%	429.81M
+1116	1546	Thelloy Development Group Limited	39.20M	0.05	-	311.19M
+1117	1547	IBI Group Holdings Limited	160.00M	0.20	-2.00%	433.92M
+1118	1548	Genscript Biotech Corporation	22.66B	10.24	2.91%	7.88B
+1119	1549	Ever Harvest Group Holdings Limited	141.05M	0.09	-	372.42M
+1120	1551	Guangzhou Rural Commercial Bank Co., Ltd.	22.62B	1.67	-	10.74B
+1121	1552	BHCC Holding Limited	137.60M	0.18	-1.08%	1.54B
+1122	1553	Maike Tube Industry Holdings Limited	620.33M	1.44	-	2.45B
+1123	1555	MIE Holdings Corporation	81.28M	0.02	4.55%	1.06B
+1124	1556	Chinney Kin Wing Holdings Limited	427.50M	0.29	-	2.20B
+1125	1557	K. H. Group Holdings Limited	73.92M	0.15	-	174.69M
+1126	1558	YiChang HEC ChangJiang Pharmaceutical Co., Ltd.	8.25B	9.38	-1.47%	5.95B
+1127	1559	Kwan On Holdings Limited	194.39M	0.10	-	656.11M
+1128	1560	Star Group Asia Limited	93.66M	0.15	3.55%	1.60B
+1129	1561	Pan Asia Data Holdings Inc.	159.82M	0.15	-5.06%	374.91M
+1130	1563	Alliance International Education Leasing Holdings Limited	324.66M	0.19	-1.54%	649.55M
+1131	1565	Virscend Education Company Limited	648.64M	0.21	1.94%	1.05B
+1132	1566	CA Cultural Technology Group Limited	60.28M	0.05	-	381.03M
+1133	1568	Sundart Holdings Limited	906.45M	0.42	-	6.09B
+1134	1569	Minsheng Education Group Company Limited	830.89M	0.19	-1.52%	2.39B
+1135	1570	Weiye Holdings Limited	337.35M	1.70	-1.16%	342.71M
+1136	1571	Xin Point Holdings Limited	4.10B	4.07	-0.73%	3.47B
+1137	1572	China Art Financial Holdings Limited	158.91M	0.10	-13.16%	96.93M
+1138	1575	Regal Partners Holdings Limited	173.82M	0.07	10.00%	186.76M
+1139	1576	Qilu Expressway Company Limited	4.80B	2.43	1.25%	7.26B
+1140	1577	Quanzhou Huixin Micro-credit Co., Ltd.	584.80M	0.85	19.72%	107.28M
+1141	1578	Bank of Tianjin Co., Ltd.	10.38B	1.71	-1.16%	9.77B
+1142	1579	Yihai International Holding Ltd.	12.67B	13.08	-1.65%	6.94B
+1143	1580	Da Sen Holdings Group Limited	92.04M	0.09	2.38%	19.37M
+1144	1581	Progressive Path Group Holdings Limited	44.41M	0.11	2.88%	909.28M
+1145	1582	CR Construction Group Holdings Limited	227.50M	0.46	-	5.39B
+1146	1583	Qinqin Foodstuffs Group (Cayman) Company Limited	777.75M	1.03	1.98%	1.05B
+1147	1585	Yadea Group Holdings Ltd.	39.00B	12.96	-0.77%	34.53B
+1148	1586	China Leon Inspection Holding Limited	1.42B	2.30	2.22%	1.23B
+1149	1587	Shineroad International Holdings Limited	295.80M	0.45	11.25%	706.45M
+1150	1588	Chanjet Information Technology Company Limited	1.78B	5.21	-4.75%	943.33M
+1151	1591	Shun Wo Group Holdings Limited	66.00M	0.17	-2.94%	162.62M
+1152	1592	Anchorstone Holdings Limited	96.52M	0.04	29.03%	67.78M
+1153	1593	Chen Lin Education Group Holdings Limited	1.38B	1.37	-4.20%	659.36M
+1154	1596	Hebei Yichen Industrial Group Corporation Limited	2.33B	2.60	3.17%	1.24B
+1155	1597	China Nature Energy Technology Holdings Limited	925.00M	3.70	-5.61%	225.12M
+1156	1598	China 21st Century Education Group Limited	126.69M	0.12	-	504.21M
+1157	1599	Beijing Urban Construction Design & Development Group Co., Limited	2.13B	1.58	-1.25%	10.71B
+1158	1600	Tian Lun Gas Holdings Limited	3.18B	3.29	-1.50%	8.16B
+1159	1601	Zhongguancun Science-Tech Leasing Co., Ltd.	1.08B	0.82	1.23%	550.66M
+1160	1606	China Development Bank Financial Leasing Co., Ltd.	14.16B	1.14	-0.87%	18.40B
+1161	1608	VPower Group International Holdings Limited	1.07B	0.16	1.92%	1.32B
+1162	1610	COFCO Joycome Foods Limited	6.14B	1.34	-0.74%	11.09B
+1163	1611	Sinohope Technology Holdings Limited	899.30M	1.93	-	1.57B
+1164	1612	Vincent Medical Holdings Limited	254.80M	0.39	-	737.44M
+1165	1613	Synertone Communication Corporation	190.72M	0.44	-	121.58M
+1166	1615	AB Builders Group Limited	162.00M	0.28	-	118.84M
+1167	1616	A Metaverse Company	53.79M	0.03	4.17%	23.61M
+1168	1617	Nanfang Communication Holdings Limited	156.12M	0.09	-3.13%	552.60M
+1169	1618	Metallurgical Corporation of China Ltd.	63.19B	1.54	-	641.50B
+1170	1620	Cinese International Group Holdings Limited	64.80M	0.05	-	115.72M
+1171	1621	Vico International Holdings Limited	62.00M	0.06	-8.06%	1.68B
+1172	1622	Redco Properties Group Limited	546.95M	0.15	2.67%	5.96B
+1173	1626	Jia Yao Holdings Limited	2.12B	3.33	2.78%	1.80B
+1174	1627	Able Engineering Holdings Limited	1.06B	0.53	-	6.43B
+1175	1628	Yuzhou Group Holdings Company Limited	471.16M	0.07	1.49%	16.51B
+1176	1629	Champion Alliance International Holdings Limited	63.35M	0.12	-1.69%	134.58M
+1177	1630	Kin Shing Holdings Limited	79.50M	0.05	-	1.13B
+1178	1631	REF Holdings Limited	57.60M	0.23	6.13%	111.71M
+1179	1632	Minshang Creative Technology Holdings Limited	204.95M	0.22	1.90%	116.00K
+1180	1633	Sheung Yue Group Holdings Limited	44.51M	0.07	-9.72%	312.82M
+1181	1635	Shanghai Dazhong Public Utilities(Group) Co.,Ltd.	10.63B	1.85	-0.54%	6.97B
+1182	1636	China Metal Resources Utilization Limited	537.79M	0.12	1.69%	1.24B
+1183	1637	SH Group (Holdings) Limited	38.80M	0.10	3.09%	745.05M
+1184	1638	Kaisa Group Holdings Ltd.	1.23B	0.18	-4.28%	19.37B
+1185	1640	Ruicheng (China) Media Group Limited	2.02B	3.50	-6.67%	245.11M
+1186	1643	Modern Chinese Medicine Group Co., Ltd.	213.00M	0.36	-5.33%	258.53M
+1187	1645	Haina Intelligent Equipment International Holdings Limited	671.13M	1.12	3.70%	454.04M
+1188	1647	Grandshores Technology Group Limited	92.02M	0.08	6.76%	629.56M
+1189	1650	Hygieia Group Limited	144.00M	0.07	-	417.02M
+1190	1651	Precision Tsugami (China) Corporation Limited	4.45B	11.76	-2.97%	3.99B
+1191	1652	Fusen Pharmaceutical Company Limited	465.76M	0.56	-6.67%	457.19M
+1192	1653	MOS House Group Limited	103.70M	0.37	-	104.59M
+1193	1655	Okura Holdings Limited	69.60M	0.12	0.82%	314.68M
+1194	1656	ISDN Holdings Limited	798.88M	1.22	-	1.99B
+1195	1657	SG Group Holdings Limited	319.36M	10.50	-	101.53M
+1196	1658	Postal Savings Bank of China Co., Ltd.	548.08B	4.67	2.86%	353.50B
+1197	1660	Zhaobangji Lifestyle Holdings Limited	923.06M	0.15	-1.30%	225.56M
+1198	1661	China Frontier Technology Group	154.14M	0.79	-1.25%	55.90M
+1199	1662	Yee Hop Holdings Limited	1.35B	2.71	0.74%	1.11B
+1200	1663	Sino Harbour Holdings Group Limited	234.08M	0.10	-	1.10B
+1201	1665	Pentamaster International Limited	2.30B	0.95	-	1.25B
+1202	1666	Tong Ren Tang Technologies Co. Ltd.	6.19B	4.83	-0.21%	7.39B
+1203	1667	Dimmi Life Holdings Limited	220.80M	0.23	-	119.60M
+1204	1668	China South City Holdings Limited	1.87B	0.16	-3.55%	4.68B
+1205	1669	Global International Credit Group Limited	212.00M	0.53	-1.85%	83.78M
+1206	1671	Tianjin Tianbao Energy Co., Ltd.	62.37M	0.41	-	867.58M
+1207	1672	Ascletis Pharma Inc.	3.88B	4.28	8.63%	10.84M
+1208	1673	Huazhang Technology Holding Limited	399.03M	0.25	-	481.42M
+1209	1675	AsiaInfo Technologies Limited	5.01B	5.36	-2.19%	8.17B
+1210	1676	Gaodi Holdings Limited	72.55M	0.39	-	381.30M
+1211	1679	Risecomm Group Holdings Limited	46.03M	0.18	-1.10%	108.74M
+1212	1680	Macau Legend Development Limited	737.94M	0.12	2.68%	957.04M
+1213	1681	Consun Pharmaceutical Group Limited	6.52B	7.85	1.29%	2.94B
+1214	1682	Hang Pin Living Technology Company Limited	124.18M	0.16	-	79.67M
+1215	1683	Hope Life International Holdings Limited	258.16M	0.16	20.74%	300.36M
+1216	1685	Boer Power Holdings Limited	161.47M	0.22	16.40%	642.57M
+1217	1686	SUNeVision Holdings Ltd.	15.26B	3.84	0.26%	2.67B
+1218	1689	Huaxi Holdings Company Limited	371.76M	0.53	-	147.27M
+1219	1690	Lap Kei Engineering (Holdings) Limited	108.38M	0.07	2.78%	275.63M
+1220	1691	JS Global Lifestyle Company Limited	6.43B	1.85	9.47%	12.48B
+1221	1692	Town Ray Holdings Limited	965.71M	2.69	-	609.80M
+1222	1693	BGMC International Limited	48.60M	1.35	-	274.92M
+1223	1695	S&P International Holding Limited	118.80M	0.11	0.90%	167.42M
+1224	1696	Sisram Medical Ltd	1.63B	3.45	-1.43%	2.78B
+1225	1697	Shandong International Trust Co., Ltd.	1.70B	0.36	-5.26%	826.31M
+1226	1698	Tencent Music Entertainment Group	137.41B	42.75	0.83%	30.83B
+1227	1701	Tu Yi Holding Company Limited	124.00M	0.12	-0.80%	167.75M
+1228	1702	Dongguang Chemical Limited	1.24B	1.99	0.51%	2.83B
+1229	1705	B & S International Holdings Ltd.	132.00M	0.33	-4.35%	507.66M
+1230	1707	Geotech Holdings Ltd.	162.96M	0.10	-	104.36M
+1231	1708	Nanjing Sample Technology Company Limited	257.42M	0.34	-	451.62M
+1232	1709	DL Holdings Group Limited	6.98B	4.75	-0.42%	149.22M
+1233	1710	Trio Industrial Electronics Group Limited	125.00M	0.13	-	983.61M
+1234	1711	Ulferts International Limited	48.00M	0.06	-6.67%	161.39M
+1235	1712	Dragon Mining Limited	216.59M	1.37	0.74%	302.25M
+1236	1713	Sichuan Energy Investment Development Co., Ltd.	2.26B	2.13	0.47%	4.93B
+1237	1715	Volcano Spring International Holdings Limited	20.52M	0.18	-5.35%	95.21M
+1238	1716	Most Kwai Chung Limited	97.20M	0.37	-1.33%	68.28M
+1239	1717	Ausnutria Dairy Corporation Ltd	3.38B	1.90	-1.04%	8.11B
+1240	1718	Wan Kei Group Holdings Limited	33.61M	0.30	-3.23%	311.38M
+1241	1719	China Infrastructure & Logistics Group Ltd.	1.22B	0.71	-1.39%	331.67M
+1242	1720	Putian Communication Group Limited	62.70M	0.06	-5.17%	672.55M
+1243	1721	FSM Holdings Limited	495.00M	0.49	4.26%	83.95M
+1244	1722	Kin Pang Holdings Limited	56.10M	0.05	-1.92%	687.59M
+1245	1723	HK Asia Holdings Limited	448.00M	1.12	-3.45%	221.92M
+1246	1725	USPACE Technology Group Limited	413.34M	0.73	2.82%	614.47M
+1247	1726	HKE Holdings Limited	1.60B	1.49	-0.67%	106.18M
+1248	1727	Hebei Construction Group Corporation Limited	986.37M	0.57	-	31.76B
+1249	1728	China ZhengTong Auto Services Holdings Limited	331.35M	0.11	-2.78%	23.31B
+1250	1729	Time Interconnect Technology Limited	8.67B	4.45	1.37%	6.44B
+1251	1730	LHN Limited	1.23B	2.92	2.10%	733.12M
+1252	1731	Prosperous Industrial (Holdings) Limited	952.00M	0.84	-	1.75B
+1253	1732	Xiangxing International Holding Limited	90.88M	0.07	1.43%	234.83M
+1254	1733	E-Commodities Holdings Limited	2.91B	1.11	1.83%	41.93B
+1255	1735	Central New Energy Holding Group Limited	35.52B	8.38	0.24%	4.90B
+1256	1736	China Parenting Network Holdings Limited	22.47M	0.07	-	53.91M
+1257	1737	A & S Group (Holdings) Limited	117.00M	0.12	10.38%	650.44M
+1258	1738	Feishang Anthracite Resources Limited	172.57M	0.13	-	540.54M
+1259	1739	Qeeka Home (Cayman) Inc.	226.93M	0.21	-0.47%	1.37B
+1260	1740	Values Cultural Investment Limited	83.00M	0.08	11.11%	55.40M
+1261	1741	Shing Chi Holdings Limited	74.40M	0.09	-8.82%	143.96M
+1262	1742	HPC Holdings Limited	88.00M	0.06	3.77%	1.20B
+1263	1745	Lvji Technology Holdings Inc.	601.23M	0.37	1.37%	688.66M
+1264	1746	Man Shun Group (Holdings) Limited	315.00M	0.30	-	152.49M
+1265	1747	Home Control International Limited	174.79M	0.35	16.95%	803.23M
+1266	1748	Xin Yuan Enterprises Group Limited	545.60M	1.33	-	461.56M
+1267	1749	Shanshan Brand Management Co., Ltd.	124.06M	0.93	-	1.11B
+1268	1750	REM Group (Holdings) Limited	41.40M	0.02	-	141.24M
+1269	1751	Kingland Group Holdings Limited	90.72M	0.37	-3.90%	125.92M
+1270	1752	Top Education Group Ltd	165.43M	0.07	-1.43%	151.29M
+1271	1753	Duiba Group Limited	262.74M	0.25	-	909.35M
+1272	1755	S-Enjoy Service Group Co., Limited	2.59B	3.02	2.37%	5.92B
+1273	1756	China Vocational Education Holdings Limited	816.00M	0.68	1.49%	1.40B
+1274	1757	Affluent Foundation Holdings Limited	151.20M	0.13	-	195.88M
+1275	1758	Bojun Education Company Limited	205.01M	0.25	-3.92%	472.72M
+1276	1759	Sino Gas Holdings Group Limited	110.16M	0.53	1.92%	1.49B
+1277	1760	Intron Technology Holdings Limited	1.16B	1.07	-4.46%	6.46B
+1278	1762	Wanka Online Inc.	282.26M	0.20	2.62%	2.45B
+1279	1763	China Isotope & Radiation Corporation	3.27B	10.22	-1.16%	7.21B
+1280	1765	XJ International Holdings Co., Ltd.	1.30B	0.15	-0.65%	4.11B
+1281	1766	CRRC Corporation Limited	213.28B	4.89	1.66%	270.05B
+1282	1767	TS Wonders Holding Limited	181.00M	0.18	-3.74%	399.66M
+1283	1769	Scholar Education Group	2.15B	3.82	-4.50%	771.92M
+1284	1771	Sunfonda Group Holdings Limited	165.00M	0.28	-	10.98B
+1285	1772	Ganfeng Lithium Group Co., Ltd.	65.82B	20.50	-	23.50B
+1286	1773	Tianli International Holdings Limited	8.23B	4.04	1.10%	3.65B
+1287	1775	BExcellent Group Holdings Limited	86.30M	0.17	5.59%	165.21M
+1288	1776	GF Securities Co., Ltd.	116.70B	10.48	1.35%	25.89B
+1289	1777	Fantasia Holdings Group Co., Limited	554.17M	0.10	2.08%	14.47B
+1290	1778	Colour Life Services Group Co., Limited	251.39M	0.17	0.59%	1.87B
+1291	1780	Rongzun International Holdings Group Limited	706.80M	1.17	-1.68%	165.20M
+1292	1782	International Business Digital Technology Limited	3.09B	4.06	1.50%	134.63M
+1293	1783	Envision Greenwise Holdings Limited	9.17B	7.11	-2.07%	462.85M
+1294	1785	Chengdu Expressway Co., Ltd.	3.94B	2.38	-	3.15B
+1295	1786	CRCC High-Tech Equipment Corporation Limited	1.12B	0.74	-1.33%	3.46B
+1296	1787	Shandong Gold Mining Co., Ltd.	108.24B	14.00	1.45%	94.10B
+1297	1788	Guotai Junan International Holdings Limited	10.59B	1.09	-1.80%	2.02B
+1298	1789	AK Medical Holdings Limited	4.87B	4.37	-0.46%	1.18B
+1299	1790	TIL Enviro Limited	530.00M	0.53	-3.64%	191.19M
+1300	1792	CMON Limited	47.68M	0.02	-	310.61M
+1301	1793	Wecon Holdings Limited	124.00M	0.16	-	1.25B
+1302	1795	Yadong Group Holdings Limited	600.00M	1.00	-4.76%	1.19B
+1303	1796	Metaspacex Limited	864.00M	1.80	-4.26%	380.73M
+1304	1797	East Buy Holding Limited	16.52B	16.18	2.80%	6.77B
+1305	1798	China Datang Corporation Renewable Power Co., Limited	14.84B	1.99	-	13.75B
+1306	1799	Xinte Energy Co., Ltd.	10.38B	7.24	-1.36%	26.76B
+1307	1800	China Communications Construction Company Limited	140.97B	5.08	0.79%	826.61B
+1308	1801	Innovent Biologics, Inc.	51.85B	31.65	-0.78%	8.01B
+1309	1802	Wenye Group Holdings Limited	29.11M	0.05	-7.55%	34.88M
+1310	1803	Beijing Sports and Entertainment Industry Group Limited	95.75M	0.07	-13.92%	72.05M
+1311	1808	Enterprise Development Holdings Limited	930.58M	3.80	-1.30%	170.63M
+1312	1809	Prinx Chengshan Holdings Limited	4.90B	7.74	0.65%	11.79B
+1313	1810	Xiaomi Corporation	864.13B	34.50	-2.27%	365.68B
+1314	1811	CGN New Energy Holdings Co., Ltd.	9.48B	2.21	1.38%	15.24B
+1315	1812	Shandong Chenming Paper Holdings Limited	6.26B	1.18	-	29.59B
+1316	1813	KWG Group Holdings Limited	1.15B	0.35	-9.21%	14.60B
+1317	1815	CSMall Group Limited	544.67M	0.44	2.35%	409.72M
+1318	1816	CGN Power Co., Ltd.	180.24B	2.52	-0.79%	94.12B
+1319	1817	Mulsanne Group Holding Limited	394.25M	0.42	-2.35%	2.51B
+1320	1818	Zhaojin Mining Industry Company Limited	41.71B	12.26	-2.23%	11.21B
+1321	1820	Pacific Millennium Packaging Group Corporation	1.80B	6.04	-	2.21B
+1322	1821	ESR Group Limited	50.86B	11.96	-0.33%	4.86B
+1323	1822	China Wood International Holding Co., Limited	135.70M	0.41	-4.71%	396.24M
+1324	1823	Huayu Expressway Group Limited	218.68M	0.56	5.66%	278.42M
+1325	1825	Sterling Group Holdings Limited	26.27M	0.08	-2.47%	522.80M
+1326	1826	FDB Holdings Limited	66.60M	0.05	-	392.45M
+1327	1827	Miricor Enterprises Holdings Limited	440.00M	1.03	-1.90%	457.33M
+1328	1830	Perfect Medical Health Management Limited	2.65B	2.13	-0.93%	1.30B
+1329	1831	ShiFang Holding Limited	66.68M	0.06	-	17.62M
+1330	1832	S.A.I. Leisure Group Company Limited	183.60M	0.51	-1.92%	340.07M
+1331	1833	Ping An Healthcare and Technology Company Limited	6.88B	6.13	-0.65%	4.88B
+1332	1835	Shanghai Realway Capital Assets Management Co., Ltd.	274.48M	1.88	5.03%	23.80M
+1333	1836	Stella International Holdings Limited	14.77B	17.68	1.14%	12.08B
+1334	1837	Natural Food International Holding Limited	1.06B	0.49	-1.02%	2.11B
+1335	1841	A.Plus Group Holdings Limited	62.00M	0.16	-	111.95M
+1336	1842	Grown Up Group Investment Holdings Limited	75.60M	0.06	-8.70%	285.28M
+1337	1843	Snack Empire Holdings Limited	116.00M	0.13	-4.35%	165.39M
+1338	1845	Weigang Environmental Technology Holding Group Limited	266.67M	0.20	-	276.21M
+1339	1846	EuroEyes International Eye Clinic Limited	1.05B	3.30	-0.90%	736.28M
+1340	1847	YCIH Green High-Performance Concrete Company Limited	162.89M	0.36	-	1.10B
+1341	1848	China Aircraft Leasing Group Holdings Limited	2.48B	3.44	-0.29%	2.11B
+1342	1849	AM Group Holdings Limited	40.00M	0.05	-	234.30M
+1343	1850	HSC Resources Group Limited	31.10M	0.18	1.68%	439.66M
+1344	1851	China Gingko Education Group Company Limited	350.00M	0.70	-4.11%	400.44M
+1345	1853	Jilin Province Chuncheng Heating Company Limited	746.72M	1.65	3.13%	1.83B
+1346	1854	China Wantian Holdings Limited	2.71B	1.43	-2.05%	-
+1347	1855	ZONQING Environmental Limited	5.07B	6.19	-1.75%	2.39B
+1348	1856	Ernest Borel Holdings Limited	421.50M	1.29	10.26%	122.52M
+1349	1857	China Everbright Water Limited	3.86B	1.38	-	6.98B
+1350	1858	Beijing Chunlizhengda Medical Instruments Co., Ltd.	4.32B	8.07	1.25%	1.02B
+1351	1860	Mobvista Inc.	10.87B	7.19	1.99%	10.36B
+1352	1861	Precious Dragon Technology Holdings Limited	215.20M	0.92	-3.16%	565.23M
+1353	1862	Jingrui Holdings Limited	30.78M	0.02	-	7.73B
+1354	1865	Trendzon Holdings Group Limited	174.27M	0.25	-0.40%	327.77M
+1355	1866	China XLX Fertiliser Ltd.	5.94B	4.05	1.25%	25.23B
+1356	1867	Standard Development Group Limited	264.44M	0.18	-6.84%	329.19M
+1357	1868	Neo-Neon Holdings Limited	806.37M	0.39	-	810.05M
+1358	1869	Kafelaku Coffee Holding Limited	184.74M	0.13	-	159.58M
+1359	1870	Acme International Holdings Limited	998.40M	1.62	-1.22%	200.66M
+1360	1871	China Oriented International Holdings Limited	84.58M	0.20	0.52%	37.18M
+1361	1872	Guan Chao Holdings Limited	404.93M	0.75	-	857.00M
+1362	1873	Viva Biotech Holdings	1.65B	0.81	1.25%	2.14B
+1363	1875	TOT BIOPHARM International Company Limited	1.43B	1.85	8.82%	1.05B
+1364	1876	Budweiser Brewing Company APAC Limited	92.18B	6.99	0.58%	49.70B
+1365	1877	Shanghai Junshi Biosciences Co., Ltd.	24.11B	10.90	-1.45%	1.98B
+1366	1878	SouthGobi Resources Ltd.	901.92M	3.30	-0.60%	3.16B
+1367	1880	China Tourism Group Duty Free Corporation Limited	131.65B	46.75	-3.81%	60.12B
+1368	1881	Regal Real Estate Investment Trust	1.47B	0.45	-2.20%	664.11M
+1369	1882	Haitian International Holdings Limited	32.56B	20.30	-0.49%	15.80B
+1370	1883	CITIC Telecom International Holdings Limited	8.10B	2.19	-0.45%	9.55B
+1371	1884	eprint Group Limited	60.50M	0.10	-3.85%	310.30M
+1372	1888	Kingboard Laminates Holdings Limited	25.05B	8.09	-1.34%	17.28B
+1373	1889	Sanai Health Industry Group Company Limited	51.22M	0.38	-	104.80M
+1374	1890	China Kepei Education Group Limited	2.98B	1.41	4.44%	1.86B
+1375	1891	Heng Hup Holdings Limited	188.00M	0.19	2.73%	2.71B
+1376	1894	Hang Yick Holdings Company Limited	26.71M	0.03	-	150.95M
+1377	1895	Xinyuan Property Management Service (Cayman) Ltd.	361.75M	0.61	-	881.28M
+1378	1896	Maoyan Entertainment	9.27B	8.05	2.29%	5.08B
+1379	1897	Million Hope Industries Holdings Limited	187.92M	0.45	-	550.14M
+1380	1898	China Coal Energy Company Limited	146.02B	8.78	1.62%	196.24B
+1381	1899	Xingda International Holdings Limited	2.80B	1.44	-2.04%	13.15B
+1382	1900	China ITS (Holdings) Co., Ltd.	301.03M	0.18	2.81%	855.68M
+1383	1901	Feiyang International Holdings Group Limited	62.40M	0.07	-1.37%	512.23M
+1384	1903	JBB Builders International Limited	225.00M	0.45	-	545.11M
+1385	1905	Haitong Unitrust International Financial Leasing Co., Ltd.	7.49B	0.89	-2.20%	4.07B
+1386	1906	Bonny International Holding Limited	566.38M	0.39	1.30%	241.93M
+1387	1907	China Risun Group Limited	11.60B	2.67	-0.74%	54.20B
+1388	1908	C&D International Investment Group Limited	24.77B	12.30	0.49%	153.46B
+1389	1909	Fire Rock Holdings Limited	514.56M	0.13	-	133.39M
+1390	1910	Samsonite International S.A.	31.54B	22.60	-0.44%	27.93B
+1391	1911	China Renaissance Holdings Limited	1.58B	2.87	2.50%	571.46M
+1392	1912	Contel Technology Company Limited	125.19M	0.11	-3.39%	499.76M
+1393	1913	Prada S.p.A.	158.65B	61.90	-0.64%	42.19B
+1394	1915	Yangzhou Guangling District Taihe Rural Micro-finance Company Limited	246.00M	0.40	-13.04%	56.19M
+1395	1916	Jiangxi Bank Co., Ltd.	4.28B	0.72	1.41%	4.03B
+1396	1917	Doumob	124.20M	0.05	-	64.24M
+1397	1918	Sunac China Holdings Limited	13.87B	1.66	3.75%	139.73B
+1398	1919	COSCO SHIPPING Holdings Co., Ltd.	230.55B	11.76	2.08%	238.38B
+1399	1920	China Wacan Group Company Limited	274.56M	0.88	-	83.84M
+1400	1921	Dalipal Holdings Limited	14.10B	9.69	0.94%	3.55B
+1401	1925	Kwung's Aroma Holdings Limited	502.25M	1.24	-1.59%	901.16M
+1402	1927	Jiujiuwang Food International Limited	99.00M	0.13	1.60%	367.14M
+1403	1928	Sands China Ltd.	143.25B	17.86	-	56.14B
+1404	1929	Chow Tai Fook Jewellery Group Limited	67.51B	6.78	0.30%	98.59B
+1405	1930	Shinelong Automotive Lightweight Application Limited	164.97M	0.25	0.40%	246.79M
+1406	1931	IVD Medical Holding Limited	2.97B	1.83	-1.08%	3.29B
+1407	1932	CPM Group Limited	250.00M	0.25	-	373.53M
+1408	1933	OneForce Holdings Limited	68.37M	0.14	-2.13%	466.86M
+1409	1935	JH Educational Technology INC.	1.26B	0.79	-1.25%	1.02B
+1410	1936	Ritamix Global Limited	317.40M	0.70	-	195.82M
+1411	1937	JiaChen Holding Group Limited	300.00M	0.22	-0.90%	275.77M
+1412	1938	Chu Kong Petroleum and Natural Gas Steel Pipe Holdings Limited	176.95M	0.18	-3.74%	3.32B
+1413	1939	Tokyo Chuo Auction Holdings Limited	240.00M	0.48	-4.00%	57.55M
+1414	1940	China Gas Industry Investment Holdings Co. Ltd.	600.00M	0.50	2.06%	1.53B
+1415	1941	Ye Xing Group Holdings Limited	66.88M	0.16	1.24%	384.17M
+1416	1942	MOG Digitech Holdings Limited	838.29M	0.93	-3.13%	1.24B
+1417	1943	King's Stone Holdings Group Limited	60.00M	0.06	-	301.40M
+1418	1945	Zero2IPO Holdings Inc.	353.14M	1.27	-3.79%	241.66M
+1419	1947	Meihao Medical Group Co., Ltd	219.06M	0.37	2.82%	77.71M
+1420	1948	Uju Holding Limited	667.74M	1.13	-4.24%	7.88B
+1421	1949	Platt Nera International Limited	63.92M	0.09	-	74.78M
+1422	1950	Diwang Industrial Holdings Limited	93.60M	0.13	-2.26%	656.38M
+1423	1951	Jinxin Fertility Group Limited	6.83B	2.59	-	3.11B
+1424	1952	Everest Medicines Limited	12.19B	37.85	-4.30%	449.73M
+1425	1953	Rimbaco Group Global Limited	154.98M	0.12	-4.00%	682.40M
+1426	1955	Hong Kong Johnson Holdings Co., Ltd.	217.50M	0.44	8.75%	1.46B
+1427	1957	MBV International Limited	142.56M	0.24	-2.02%	345.47M
+1428	1958	BAIC Motor Corporation Limited	17.39B	2.17	-1.81%	207.75B
+1429	1959	Centenary United Holdings Limited	219.76M	0.40	-	1.75B
+1430	1960	TBK & Sons Holdings Limited	131.00M	0.14	11.72%	476.85M
+1431	1961	Infinities Technology International (Cayman) Holding Limited	323.09M	0.42	-2.33%	273.99M
+1432	1962	Evergreen Products Group Limited	342.74M	0.53	1.92%	1.03B
+1433	1963	Bank of Chongqing Co., Ltd.	27.58B	5.86	-0.85%	10.64B
+1434	1965	Landsea Green Life Service Company Limited	76.81M	0.19	-	901.88M
+1435	1966	China SCE Group Holdings Limited	625.00M	0.15	-	39.00B
+1436	1967	Confidence Intelligence Holdings Limited	93.75M	0.38	-3.80%	303.59M
+1437	1968	Hingtex Holdings Limited	67.20M	0.10	-5.71%	180.47M
+1438	1969	China Chunlai Education Group Co., Ltd.	5.03B	4.20	-0.71%	1.79B
+1439	1970	IMAX China Holding, Inc.	2.51B	7.36	-1.08%	667.93M
+1440	1971	Redsun Services Group Limited	184.68M	0.45	1.14%	1.06B
+1441	1972	Swire Properties Limited	90.06B	15.50	-2.02%	15.31B
+1442	1973	Tian Tu Capital Co., Ltd.	2.74B	3.96	-1.00%	-1.50B
+1443	1975	Sun Hing Printing Holdings Limited	182.40M	0.38	-	296.24M
+1444	1977	Analogue Holdings Limited	1.18B	0.86	-1.15%	6.56B
+1445	1978	LH Group Limited	376.00M	0.49	2.08%	1.14B
+1446	1979	Ten Pao Group Holdings Limited	1.58B	1.52	-1.30%	4.96B
+1447	1980	Tian Ge Interactive Holdings Limited	593.20M	0.57	-	34.44M
+1448	1981	Cathay Group Holdings Inc.	2.26B	1.38	-0.72%	826.10M
+1449	1982	Nameson Holdings Limited	1.87B	0.82	1.23%	4.44B
+1450	1983	Luzhou Bank Co., Ltd.	4.76B	1.75	-10.26%	3.27B
+1451	1985	Microware Group Limited	302.40M	1.21	8.04%	1.46B
+1452	1986	Tsaker New Energy Tech Co., Limited	806.49M	0.83	-	2.23B
+1453	1987	Beng Soon Machinery Holdings Limited	158.00M	0.16	-1.25%	187.78M
+1454	1988	China Minsheng Banking Corp., Ltd.	188.85B	3.65	-0.82%	99.67B
+1455	1991	Ta Yang Group Holdings Limited	131.35M	0.10	3.09%	1.21B
+1456	1992	Fosun Tourism Group	9.17B	7.38	-0.14%	18.98B
+1457	1993	Asiaray Media Group Limited	454.25M	0.95	-	1.58B
+1458	1995	Ever Sunshine Services Group Limited	3.22B	1.91	1.60%	7.23B
+1459	1996	Redsun Properties Group Limited	220.37M	0.06	-	21.17B
+1460	1997	Wharf Real Estate Investment Company Limited	59.08B	19.54	-1.01%	13.33B
+1461	1999	Man Wah Holdings Limited	18.38B	4.81	1.26%	17.78B
+1462	2000	SIM Technology Group Limited	728.74M	0.34	1.49%	429.86M
+1463	2001	China New Higher Education Group Limited	1.74B	1.14	-0.87%	2.65B
+1464	2002	China Sunshine Paper Holdings Company Limited	2.14B	2.00	4.71%	8.71B
+1465	2003	VCREDIT Holdings Limited	1.20B	2.43	-1.22%	2.51B
+1466	2005	SSY Group Limited	9.26B	3.15	-	6.47B
+1467	2008	Phoenix Media Investment (Holdings) Limited	624.21M	1.25	-0.79%	2.38B
+1468	2009	BBMG Corporation	16.84B	0.73	-	124.49B
+1469	2011	Gilston Group Limited	798.55M	1.39	-0.71%	303.55M
+1470	2012	Sunshine Oilsands Ltd.	124.17M	0.51	-	217.90M
+1471	2013	Weimob Inc.	7.88B	2.22	-0.45%	2.03B
+1472	2015	Li Auto Inc.	175.74B	87.30	-3.75%	157.19B
+1473	2016	China Zheshang Bank Co., Ltd	77.87B	2.19	0.92%	42.61B
+1474	2017	Chanhigh Holdings Limited	173.18M	0.28	-1.75%	2.09B
+1475	2018	AAC Technologies Holdings Inc.	45.99B	38.40	-2.17%	24.12B
+1476	2020	ANTA Sports Products Limited	220.37B	78.50	-2.85%	71.40B
+1477	2022	Digital Hollywood Interactive Limited	96.77M	0.05	-	75.38M
+1478	2023	China Ludao Technology Company Limited	442.62M	0.95	3.26%	915.87M
+1479	2025	Ruifeng Power Group Company Limited	2.00B	2.50	-0.40%	867.69M
+1480	2028	Jolimark Holdings Limited	32.48M	0.05	6.00%	182.38M
+1481	2030	Cabbeen Fashion Limited	902.60M	1.10	-1.79%	1.19B
+1482	2031	Ausupreme International Holdings Limited	156.97M	0.21	-	264.78M
+1483	2033	Time Watch Investments Limited	648.29M	0.31	-	881.04M
+1484	2038	FIH Mobile Limited	6.23B	0.79	-4.82%	44.23B
+1485	2039	China International Marine Containers (Group) Co., Ltd.	33.77B	4.98	0.20%	179.05B
+1486	2048	E-House (China) Enterprise Holdings Limited	178.40M	0.11	6.86%	4.02B
+1487	2051	51 Credit Card Inc.	405.87M	0.25	1.65%	202.70M
+1488	2057	ZTO Express (Cayman) Inc.	116.64B	150.70	-1.12%	46.50B
+1489	2066	Shengjing Bank Co., Ltd.	9.59B	1.07	0.94%	7.38B
+1490	2068	China Aluminum International Engineering Corporation Limited	12.25B	1.83	-	25.96B
+1491	2076	Kanzhun Limited	49.51B	56.60	-0.09%	7.88B
+1492	2078	PanAsialum Holdings Company Limited	176.40M	0.15	9.70%	991.64M
+1493	2080	AUX International Holdings Limited	122.26M	0.25	-	345.70M
+1494	2086	Leadway Technology Investment Group Limited	129.42M	0.41	1.23%	80.84M
+1495	2088	Xiwang Property Holdings Company Limited	35.22M	0.03	-	12.75M
+1496	2096	Simcere Pharmaceutical Group Limited	17.09B	6.70	0.30%	6.81B
+1497	2098	Zall Smart Commerce Group Ltd.	3.47B	0.28	-3.45%	148.96B
+1498	2099	China Gold International Resources Corp. Ltd.	16.98B	43.40	-0.23%	4.15B
+1499	2100	BAIOO Family Interactive Limited	711.06M	0.25	-	649.47M
+1500	2101	Fulu Holdings Limited	771.70M	1.95	4.28%	617.38M
+1501	2102	Tak Lee Machinery Holdings Limited	136.00M	0.13	2.31%	279.34M
+1502	2105	Laekna, Inc.	3.37B	9.76	-2.59%	705.94K
+1503	2107	First Service Holding Limited	372.88M	0.29	3.64%	1.36B
+1504	2108	K2 F&B Holdings Limited	176.00M	0.22	-	333.93M
+1505	2110	Tian Cheng Holdings Limited	33.00M	0.11	-1.79%	207.88M
+1506	2111	Best Pacific International Holdings Limited	3.08B	2.96	2.78%	4.68B
+1507	2112	Grace Life-tech Holdings Limited	187.50M	0.12	-	141.90M
+1508	2113	Century Group International Holdings Limited	31.39M	0.04	-	26.19M
+1509	2116	Jiangsu Innovative Ecological New Materials Limited	192.00M	0.40	-	166.88M
+1510	2119	Tsit Wing International Holdings Limited	403.61M	0.56	1.82%	718.99M
+1511	2120	Wenzhou Kangning Hospital Co., Ltd.	815.93M	11.40	-0.70%	1.77B
+1512	2121	AInnovation Technology Group Co., Ltd	2.93B	5.41	3.64%	1.50B
+1513	2122	Kidsland International Holdings Limited	41.60M	0.05	4.26%	1.15B
+1514	2125	Strawbear Entertainment Group	395.38M	0.56	5.66%	1.32B
+1515	2126	JW (Cayman) Therapeutics Co. Ltd	534.07M	1.32	0.76%	185.81M
+1516	2127	Huisen Shares Group Limited	81.02M	0.02	-4.35%	3.22B
+1517	2128	China Lesso Group Holdings Limited	10.39B	3.36	-0.30%	31.31B
+1518	2129	Legion Consortium Limited	128.75M	0.10	-1.90%	346.43M
+1519	2130	CN Logistics International Holdings Limited	1.02B	3.41	0.29%	2.31B
+1520	2131	Netjoy Holdings Limited	458.83M	0.64	-	3.17B
+1521	2132	Landrich Holding Limited	257.60M	0.16	1.26%	1.46B
+1522	2135	Raily Aesthetic Medicine International Holdings Limited	50.14M	0.09	1.11%	224.87M
+1523	2136	Lifestyle China Group Limited	1.24B	0.85	-	1.40B
+1524	2137	Brii Biosciences Limited	848.19M	1.20	0.84%	41.24M
+1525	2138	EC Healthcare	734.83M	0.60	-3.23%	4.15B
+1526	2139	Bank of Gansu Co., Ltd.	3.77B	0.24	-2.04%	3.17B
+1527	2142	HBM Holdings Limited	2.45B	2.98	-1.65%	563.81M
+1528	2145	Shanghai Chicmax Cosmetic Co., Ltd.	14.35B	36.05	-2.70%	6.56B
+1529	2146	Roiserv Lifestyle Services Co., Ltd.	582.80M	1.50	-	2.02B
+1530	2147	Zhengwei Group Holdings Company Limited	38.08M	0.03	-	592.69M
+1531	2148	Vesync Co., Ltd	5.97B	5.24	-	4.72B
+1532	2149	BaTeLab Co., Ltd.	1.67B	27.25	2.25%	590.99M
+1533	2150	Nayuki Holdings Limited	1.93B	1.13	-0.88%	5.50B
+1534	2152	Suxin Joyful Life Services Co., Ltd.	682.07M	6.78	-0.29%	885.24M
+1535	2153	Tat Hong Equipment Service Co., Ltd.	1.38B	1.01	-0.98%	736.09M
+1536	2155	Morimatsu International Holdings Company Limited	5.68B	4.66	-0.64%	7.68B
+1537	2156	C&D Property Management Group Co. Limited	3.56B	2.53	0.40%	4.08B
+1538	2157	Lepu Biopharma Co., Ltd.	4.11B	2.39	0.84%	220.36M
+1539	2158	Yidu Tech Inc.	4.51B	4.29	-0.23%	864.00M
+1540	2159	Mediwelcome Healthcare Management & Technology Inc.	86.00M	0.43	-	349.27M
+1541	2160	MicroPort CardioFlow Medtech Corporation	1.71B	0.72	-	411.44M
+1542	2161	JBM (Healthcare) Limited	1.47B	1.73	-1.14%	720.54M
+1543	2162	Keymed Biosciences Inc.	8.19B	30.40	-1.46%	87.74M
+1544	2163	Changsha Broad Homes Industrial Group Co., Ltd.	331.59M	0.62	-7.46%	2.26B
+1545	2165	Ling Yue Services Group Limited	394.25M	1.36	9.68%	674.50M
+1546	2166	Smart-Core Holdings Limited	812.89M	1.73	2.37%	5.11B
+1547	2167	TI Cloud Inc.	364.80M	2.10	-5.41%	505.10M
+1548	2168	Kaisa Prosperity Holdings Limited	232.71M	1.56	-10.86%	1.95B
+1549	2169	Canggang Railway Limited	5.51B	1.37	1.48%	325.39M
+1550	2170	Suzhou Basecare Medical Corporation Limited	779.55M	2.87	-1.37%	265.58M
+1551	2171	CARsgen Therapeutics Holdings Limited	5.71B	11.02	-0.36%	6.81M
+1552	2172	MicroPort NeuroScientific Corporation	4.90B	8.49	-0.93%	832.37M
+1553	2175	China General Education Group Limited	1.06B	2.10	-10.64%	364.23M
+1554	2176	CCID Consulting Company Limited	665.00M	0.95	4.40%	323.66M
+1555	2177	UNQ Holdings Limited	200.73M	1.19	-	1.56B
+1556	2178	Petro-king Oilfield Services Limited	107.05M	0.06	8.62%	379.24M
+1557	2179	Jiangsu Recbio Technology Co., Ltd.	3.98B	8.28	-	46.63M
+1558	2180	ManpowerGroup Greater China Limited	881.90M	4.25	-	6.15B
+1559	2181	Mabpharm Limited	1.05B	0.26	-	162.92M
+1560	2182	Tian Chang Group Holdings Ltd.	192.20M	0.31	-1.59%	524.29M
+1561	2185	Shanghai Bio-heart Biological Technology Co., Ltd.	374.86M	1.50	-1.32%	-
+1562	2186	Luye Pharma Group Ltd.	7.75B	2.07	-0.48%	6.78B
+1563	2187	Zhixin Group Holding Limited	418.88M	0.56	-1.75%	565.00M
+1564	2188	China Titans Energy Technology Group Co., Limited	462.53M	0.31	3.33%	411.95M
+1565	2189	Kato (Hong Kong) Holdings Limited	485.00M	0.50	-	284.15M
+1566	2190	Zylox-Tonbridge Medical Technology Co., Ltd.	3.69B	11.38	-1.04%	713.05M
+1567	2191	SF Real Estate Investment Trust	2.53B	3.08	-0.32%	443.14M
+1568	2192	Medlive Technology Co., Ltd.	6.32B	8.57	-0.70%	517.84M
+1569	2193	Man King Holdings Limited	83.08M	0.19	-0.52%	346.48M
+1570	2195	Unity Enterprise Holdings Limited	74.00M	0.06	-1.54%	136.68M
+1571	2196	Shanghai Fosun Pharmaceutical (Group) Co., Ltd.	60.74B	13.16	0.92%	46.09B
+1572	2197	Clover Biopharmaceuticals, Ltd.	282.76M	0.23	2.23%	31.05M
+1573	2198	China Sanjiang Fine Chemicals Company Limited	2.05B	1.71	-1.72%	19.10B
+1574	2199	Regina Miracle International (Holdings) Limited	2.53B	2.07	-	7.45B
+1575	2202	China Vanke Co., Ltd.	88.05B	5.42	3.04%	437.87B
+1576	2203	Brainhole Technology Limited	148.00M	0.19	-5.61%	171.04M
+1577	2205	Kangqiao Service Group Limited	525.00M	0.75	2.74%	1.05B
+1578	2207	Ronshine Service Holding Co., Ltd	284.54M	0.56	-3.45%	954.39M
+1579	2208	Goldwind Science&Technology Co., Ltd.	40.76B	6.15	-0.81%	63.11B
+1580	2209	YesAsia Holdings Limited	2.06B	5.24	2.54%	2.14B
+1581	2210	Beijing Capital Jiaye Property Services Co., Limited	508.94M	3.47	-	1.97B
+1582	2211	Universal Health International Group Holding Limited	104.14M	0.13	-3.70%	1.17B
+1583	2212	Future Bright Mining Holdings Limited	133.76M	0.13	-	119.39M
+1584	2215	Dexin Services Group Limited	1.13B	1.22	3.39%	1.04B
+1585	2216	Broncus Holding Corporation	342.61M	0.61	-	68.13M
+1586	2217	Tam Jai International Co. Limited	1.09B	0.81	1.25%	2.76B
+1587	2218	Yantai North Andre Juice Co.,Ltd.	9.17B	8.63	-0.58%	1.36B
+1588	2219	Chaoju Eye Care Holdings Limited	2.06B	2.84	2.90%	1.52B
+1589	2221	New Concepts Holdings Limited	149.37M	0.10	-3.00%	683.43M
+1590	2222	NVC International Holdings Limited	461.62M	0.91	-2.15%	1.84B
+1591	2223	Casablanca Group Limited	69.62M	0.27	-	268.15M
+1592	2225	Jinhai Medical Technology Limited	7.13B	1.44	3.60%	343.28M
+1593	2226	Honworld Group Limited	335.68M	0.58	-1.69%	295.78M
+1594	2227	Solis Holdings Limited	82.40M	0.09	12.50%	107.96M
+1595	2228	XtalPi Holdings Limited	16.63B	4.88	-0.41%	211.77M
+1596	2230	Medialink Group Limited	349.65M	0.18	1.12%	535.36M
+1597	2231	JY Grandmark Holdings Limited	493.85M	0.30	-	2.68B
+1598	2232	Crystal International Group Limited	12.98B	4.76	6.25%	17.66B
+1599	2233	West China Cement Limited	7.98B	1.47	-	8.94B
+1600	2235	MicroTech Medical (Hangzhou) Co., Ltd.	2.03B	4.85	-6.01%	315.07M
+1601	2236	Wison Engineering Services Co. Ltd.	1.04B	0.22	-	4.07B
+1602	2237	China Graphite Group Limited	584.00M	0.38	1.33%	205.47M
+1603	2238	Guangzhou Automobile Group Co., Ltd.	75.41B	3.09	-	117.70B
+1604	2239	SMIT Holdings Limited	292.44M	0.90	-	155.38M
+1605	2245	Lygend Resources & Technology Co., Ltd.	8.95B	6.17	8.06%	24.34B
+1606	2246	Gogox Holdings Limited	260.91M	0.43	-1.16%	757.79M
+1607	2250	B.Duck Semk Holdings International Limited	1.05B	1.07	-0.93%	138.94M
+1608	2251	Beijing Airdoc Technology Co., Ltd.	1.08B	10.72	0.75%	231.20M
+1609	2252	Shanghai MicroPort MedBot (Group) Co., Ltd.	11.93B	11.86	14.04%	167.86M
+1610	2255	Haichang Ocean Park Holdings Ltd.	4.54B	0.56	3.70%	2.01B
+1611	2256	Abbisko Cayman Limited	2.99B	4.70	-1.67%	534.32M
+1612	2257	Sirnaomics Ltd.	253.50M	3.00	0.67%	8.42M
+1613	2258	Watts International Maritime Company Limited	158.48M	0.20	-1.00%	1.96B
+1614	2260	Vanov Holdings Company Limited	628.47M	1.40	-7.28%	265.79M
+1615	2262	Steve Leung Design Group Limited	479.39M	0.39	2.63%	361.87M
+1616	2263	Fu Shek Financial Holdings Limited	160.00M	0.15	-8.23%	40.86M
+1617	2265	Hongcheng Environmental Technology Company Limited	820.00M	0.81	-	176.15M
+1618	2266	Lai Si Enterprise Holding Limited	104.00M	0.25	-3.85%	135.93M
+1619	2268	WuXi XDC Cayman Inc.	34.51B	29.40	-1.84%	3.00B
+1620	2269	WuXi Biologics (Cayman) Inc.	71.94B	17.56	-0.45%	18.39B
+1621	2270	Desun Real Estate Investment Services Group Co., Ltd.	694.69M	1.12	-4.27%	423.68M
+1622	2271	Zhong An Intelligent Living Service Limited	269.06M	0.54	-	394.90M
+1623	2273	Gushengtang Holdings Limited	6.38B	26.90	-3.24%	2.90B
+1624	2276	Shanghai Conant Optical Co., Ltd.	11.54B	24.05	2.56%	2.05B
+1625	2279	Yonghe Medical Group Co., Ltd.	435.25M	0.85	-4.49%	1.99B
+1626	2280	HC Group Inc.	234.48M	0.18	-1.64%	16.66B
+1627	2281	Luzhou Xinglu Water (Group) Co., Ltd.	507.23M	0.59	-1.67%	1.36B
+1628	2282	MGM China Holdings Limited	39.90B	10.40	0.19%	30.25B
+1629	2283	TK Group (Holdings) Limited	1.64B	1.96	-0.51%	2.10B
+1630	2285	Chervon Holdings Limited	9.51B	19.34	-0.10%	11.34B
+1631	2286	Chen Xing Development Holdings Limited	207.00M	0.24	-21.94%	1.21B
+1632	2288	Rykadan Capital Limited	44.68M	0.12	-4.65%	172.78M
+1633	2289	Charmacy Pharmaceutical Co., Ltd.	1.02B	9.44	-0.63%	4.82B
+1634	2291	LEPU ScienTech Medical Technology (Shanghai) Co., Ltd.	5.58B	16.36	1.87%	439.09M
+1635	2292	Thing On Enterprise Limited	417.60M	0.63	-	36.37M
+1636	2293	Bamboos Health Care Holdings Limited	277.70M	0.68	-1.45%	95.53M
+1637	2295	Maxicity Holdings Limited	1.08B	2.69	-0.37%	164.82M
+1638	2297	Rainmed Medical Limited	176.34M	0.15	-	53.42M
+1639	2298	Cosmo Lady (China) Holdings Company Limited	588.43M	0.27	-	3.12B
+1640	2299	Billion Industrial Holdings Limited	9.10B	4.30	-	22.43B
+1641	2302	CNNC International Limited	797.34M	1.65	5.10%	511.21M
+1642	2306	YH Entertainment Group	516.91M	0.63	-	793.12M
+1643	2307	Kam Hing International Holdings Limited	108.74M	0.13	-1.57%	3.69B
+1644	2309	ZO Future Group	1.76B	2.22	0.91%	275.24M
+1645	2310	Times Universal Group Holdings Limited	48.09M	0.03	-3.13%	105.59M
+1646	2313	Shenzhou International Group Holdings Limited	85.38B	56.80	-1.47%	28.35B
+1647	2314	Lee & Man Paper Manufacturing Limited	9.66B	2.27	-0.87%	25.24B
+1648	2315	Biocytogen Pharmaceuticals (Beijing) Co., Ltd.	3.16B	7.79	3.87%	860.22M
+1649	2317	Vedan International (Holdings) Limited	730.92M	0.49	-	2.99B
+1650	2318	Ping An Insurance (Group) Company of China, Ltd.	893.57B	42.75	1.91%	1,042.16B
+1651	2319	China Mengniu Dairy Company Limited	60.23B	15.38	0.52%	99.04B
+1652	2320	Hop Fung Group Holdings Limited	78.49M	0.10	-1.03%	225.95M
+1653	2321	Swang Chai Chuan Limited	435.07M	0.43	-2.27%	1.53B
+1654	2322	Modern Innovative Digital Technology Company Limited	3.21B	0.76	2.70%	92.60M
+1655	2323	Renco Holdings Group Limited	50.31M	0.02	-	254.14M
+1656	2324	Capital VC Limited	72.02M	0.16	5.26%	-2.85M
+1657	2325	Yunkang Group Limited	3.08B	5.80	3.57%	853.77M
+1658	2326	New Provenance Everlasting Holdings Limited	210.84M	0.01	-	428.38M
+1659	2327	Meilleure Health International Industry Group Limited	1.19B	0.29	-	84.50M
+1660	2328	PICC Property and Casualty Company Limited	278.48B	12.52	2.46%	520.75B
+1661	2329	Glory Health Industry Limited	422.22M	0.09	3.37%	2.19B
+1662	2330	China Uptown Group Company Limited	23.72M	0.08	-	25.04M
+1663	2331	Li Ning Company Limited	40.01B	15.54	-0.26%	30.01B
+1664	2333	Great Wall Motor Company Limited	193.98B	12.76	0.63%	217.05B
+1665	2336	Shuoao International Holdings Limited	176.14M	0.10	-	171.07M
+1666	2337	United Strength Power Holdings Limited	550.52M	1.37	-6.80%	8.60B
+1667	2338	Weichai Power Co., Ltd.	127.36B	13.44	-0.89%	238.73B
+1668	2339	BeijingWest Industries International Limited	140.43M	0.17	6.79%	2.73B
+1669	2340	ISP Holdings Limited	88.79M	0.20	-3.33%	123.06M
+1670	2342	Comba Telecom Systems Holdings Limited	2.75B	1.00	-0.99%	5.10B
+1671	2343	Pacific Basin Shipping Limited	7.97B	1.60	-	18.97B
+1672	2347	Yoho Group Holdings Limited	345.42M	0.69	-	831.86M
+1673	2348	Dawnrays Pharmaceutical (Holdings) Limited	1.76B	1.21	0.83%	1.16B
+1674	2349	China City Infrastructure Group Limited	137.64M	0.05	-	47.57M
+1675	2350	MTT Group Holdings Limited	284.38M	0.45	-3.26%	488.29M
+1676	2352	Dowell Service Group Co. Limited	454.87M	6.70	-	1.64B
+1677	2355	Baoye Group Company Limited	2.24B	4.27	-0.93%	26.78B
+1678	2356	Dah Sing Banking Group Limited	11.25B	8.00	1.65%	5.06B
+1679	2357	AviChina Industry & Technology Company Limited	29.50B	3.74	2.19%	83.24B
+1680	2358	Jiu Rong Holdings Limited	76.61M	0.01	7.69%	484.00M
+1681	2359	WuXi AppTec Co., Ltd.	166.70B	54.30	-1.36%	42.65B
+1682	2360	Best Mart 360 Holdings Limited	1.66B	1.63	-2.40%	2.57B
+1683	2361	Sinohealth Holdings Limited	1.39B	3.60	-7.69%	441.38M
+1684	2362	Jinchuan Group International Resources Co. Ltd	6.75B	0.53	-1.85%	4.64B
+1685	2363	Tongda Hong Tai Holdings Limited	74.54M	0.37	-1.35%	65.60M
+1686	2367	Giant Biogene Holding Co., Ltd.	55.12B	54.20	-1.00%	4.79B
+1687	2368	Eagle Nice (International) Holdings Limited	2.37B	4.12	-	4.54B
+1688	2370	Redco Healthy Living Company Limited	60.00M	0.30	3.45%	460.14M
+1689	2371	Chuanglian Holdings Limited	141.80M	0.02	-4.55%	595.84M
+1690	2372	WEIli Holdings Limited	189.60M	0.24	-	198.11M
+1691	2373	Beauty Farm Medical and Health Industry Inc.	4.26B	18.06	0.33%	2.41B
+1692	2376	Lushang Life Services Co., Ltd.	160.01M	1.29	12.17%	324.83M
+1693	2377	China Boqi Environmental (Holding) Co., Ltd.	693.95M	0.68	-2.86%	2.24B
+1694	2378	Prudential plc	165.07B	62.65	0.97%	85.45B
+1695	2380	China Power International Development Limited	35.50B	2.86	1.06%	55.47B
+1696	2381	SMC Electric Limited	196.00M	0.10	-	237.99M
+1697	2382	Sunny Optical Technology (Group) Company Limited	74.00B	67.60	-3.22%	38.96B
+1698	2383	TOM Group Limited	1.98B	0.50	1.01%	748.11M
+1699	2385	Readboy Education Holding Company Limited	2.18B	6.46	-0.62%	428.18M
+1700	2386	SINOPEC Engineering (Group) Co., Ltd.	27.49B	6.25	0.32%	64.41B
+1701	2388	BOC Hong Kong (Holdings) Limited	262.73B	24.80	-0.20%	62.75B
+1702	2389	Beijing Health (Holdings) Limited	466.53M	0.08	1.32%	135.62M
+1703	2390	Zhihu Inc.	2.24B	8.92	0.45%	4.30B
+1704	2391	Tuya Inc.	9.16B	16.46	12.43%	2.18B
+1705	2392	Xuan Wu Cloud Technology Holdings Limited	473.60M	0.84	-1.18%	1.50B
+1706	2393	Yestar Healthcare Holdings Company Limited	149.22M	0.06	-4.69%	2.92B
+1707	2399	China Anchu Energy Storage Group Limited	752.60M	0.23	13.86%	599.37M
+1708	2400	XD Inc.	11.85B	24.55	-0.41%	4.14B
+1709	2402	Beijing SinoHytec Co., Ltd.	5.32B	19.36	-1.83%	912.63M
+1710	2405	Powerwin Tech Group Limited	1.95B	2.55	-	157.01M
+1711	2407	Gaush Meditech Ltd	1.32B	9.08	-1.63%	1.45B
+1712	2409	Seacon Shipping Group Holdings Limited	2.40B	4.70	-1.47%	2.17B
+1713	2410	TYK Medicines, Inc	8.86B	24.50	-0.61%	-
+1714	2411	Shenzhen Pagoda Industrial (Group) Corporation Limited	1.86B	1.24	0.81%	11.49B
+1715	2415	MedSci Healthcare Holdings Limited	428.67M	0.80	-	331.44M
+1716	2416	Edianyun Limited	951.26M	1.81	1.69%	1.38B
+1717	2418	Deewin Tianxia Co., Ltd	2.75B	1.26	-	3.11B
+1718	2419	Dekon Food and Agriculture Group	11.45B	29.70	1.71%	19.40B
+1719	2420	Zibuyu Group Limited	2.35B	5.15	-0.77%	3.32B
+1720	2421	KRP Development Holdings Limited	313.33M	0.62	-	-
+1721	2422	Rego Interactive Co., Ltd	990.00M	0.66	3.13%	256.04M
+1722	2423	KE Holdings Inc.	157.51B	43.70	-5.21%	91.42B
+1723	2425	AustAsia Group Ltd.	699.32M	1.06	-	4.20B
+1724	2427	Guanze Medical Information Industry (Holding) Co., Ltd.	342.00M	0.35	1.43%	130.75M
+1725	2429	Beijing UBOX Online Technology Corp.	2.36B	3.01	0.33%	2.97B
+1726	2432	Shenzhen Dobot Corp Ltd	8.34B	20.85	-0.71%	319.45M
+1727	2433	Zhongtian Construction (Hunan) Group Limited	66.82M	0.12	-3.20%	1.75B
+1728	2436	LX Technology Group Limited	1.28B	3.62	-	2.06B
+1729	2438	Mobvoi Inc.	677.42M	0.47	-6.06%	438.36M
+1730	2439	China Treasures New Materials Group Ltd.	255.00M	0.23	3.10%	409.78M
+1731	2440	Howkingtech International Holding Limited	175.76M	0.82	-	316.82M
+1732	2442	Easy Smart Group Holdings Limited	412.08M	1.01	1.00%	352.92M
+1733	2443	Autostreets Development Limited	3.21B	4.04	-3.81%	491.04M
+1734	2450	Huaibei GreenGold Industry Investment Co., Ltd.	546.48M	2.10	-7.89%	268.45M
+1735	2451	Luyuan Group Holding (Cayman) Limited	2.61B	6.36	-0.63%	5.55B
+1736	2453	Concord Healthcare Group Co., Ltd.	5.32B	7.38	-4.65%	507.66M
+1737	2455	Runhua Living Service Group Holdings Limited	176.66M	0.60	-	869.97M
+1738	2457	Buyang International Holding Inc	270.00M	0.26	-	424.06M
+1739	2458	Gala Technology Holding Limited	565.67M	4.10	-	638.91M
+1740	2459	Sanergy Group Limited	196.08M	0.18	-1.12%	474.02M
+1741	2469	Fenbi Ltd.	5.26B	2.46	-	3.19B
+1742	2473	XXF Group Holdings Limited	7.78B	5.03	-1.18%	1.14B
+1743	2477	WellCell Holdings Co., Limited	5.82B	11.68	2.82%	266.70M
+1744	2479	Tianju Dihe (Suzhou) Data Co., Ltd.	3.94B	78.60	0.26%	564.15M
+1745	2480	Beijing Luzhu Biotechnology Co., Ltd.	4.61B	23.00	-	-
+1746	2481	Wise Living Technology Co., Ltd	766.06M	2.52	-13.10%	1.78B
+1747	2482	Logory Logistics Technology Co., Ltd.	1.14B	0.80	2.56%	6.73B
+1748	2483	K Cash Fintech Corporation Limited	880.00M	1.79	1.70%	167.56M
+1749	2486	Plus Group Holdings Inc.	603.37M	5.03	-12.98%	694.63M
+1750	2487	Cutia Therapeutics	1.33B	4.16	-6.73%	213.67M
+1751	2488	Launch Tech Company Limited	4.12B	9.89	7.03%	2.02B
+1752	2489	Persistence Resources Group Ltd	1.58B	0.80	-3.61%	514.72M
+1753	2490	LC Logistics, Inc.	6.93B	24.60	8.13%	1.44B
+1754	2496	Wuhan YZY Biopharma Co., Ltd.	1.43B	7.39	-	8.67M
+1755	2497	Fujing Holdings Co., Limited	400.00M	0.80	9.59%	173.91M
+1756	2498	Robosense Technology Co., Ltd	13.44B	31.35	-1.10%	1.63B
+1757	2499	Folangsi Co., Ltd.	2.69B	7.73	-	1.56B
+1758	2501	Maiyue Technology Limited	430.00M	0.86	-2.27%	280.96M
+1759	2502	Henan Jinyuan Hydrogenated Chemicals Co., Ltd.	372.70M	0.39	4.00%	3.07B
+1760	2503	Zhongshen Jianye Holding Limited	473.62M	0.86	-	1.52B
+1761	2505	EDA Group Holdings Limited	1.12B	2.52	3.70%	1.60B
+1762	2507	Cirrus Aircraft Limited	7.59B	20.95	-1.18%	8.72B
+1763	2509	Qyuns Therapeutics Co., Ltd.	1.53B	6.90	-	64.12M
+1764	2511	HighTide Therapeutics, Inc.	612.58M	1.19	-	-
+1765	2512	Cloud Factory Technology Holdings Limited	1.16B	2.52	-	820.68M
+1766	2515	Tianjin Construction Development Group Co., Ltd.	87.40M	0.38	-1.30%	331.14M
+1767	2516	FAR International Holdings Group Company Limited	756.60M	0.91	3.41%	3.01B
+1768	2517	Guoquan Food (Shanghai) Co., Ltd.	4.89B	1.80	-0.55%	6.45B
+1769	2518	Autohome Inc.	25.67B	52.40	-2.87%	7.94B
+1770	2520	Shanxi Installation Group Co., Ltd.	2.88B	2.13	-2.29%	12.91B
+1771	2521	Shenghui Cleanness Group Holdings Limited	487.50M	0.30	-1.64%	706.70M
+1772	2522	Jiangxi Rimag Group Co., Ltd.	13.36B	37.05	-1.85%	873.40M
+1773	2528	Forward Fashion (International) Holdings Company Limited	92.80M	0.23	7.91%	970.74M
+1774	2529	Hollwin Urban Operation Service Group Co., Ltd	488.00M	3.05	-0.65%	697.07M
+1775	2535	WK Group (Holdings) Limited	1.20B	0.60	-1.64%	408.69M
+1776	2536	Palasino Holdings Limited	2.98B	3.73	1.08%	568.15M
+1777	2540	Lesi Group Limited	740.00M	1.52	2.70%	654.60M
+1778	2545	Zhonggan Communication (Group) Holdings Limited	198.40M	0.31	3.33%	648.24M
+1779	2550	Easou Technology Holdings Limited	1.34B	4.20	-2.33%	635.89M
+1780	2551	APT Electronics Co., Ltd.	1.82B	3.38	-4.25%	2.05B
+1781	2552	Hua Medicine (Shanghai) Ltd.	1.37B	1.37	-	117.06M
+1782	2555	Sichuan Baicha Baidao Industrial Co., Ltd.	14.04B	9.52	0.74%	5.84B
+1783	2556	Marketingforce Management Ltd	14.84B	60.00	-4.91%	1.49B
+1784	2558	Jinshang Bank Co., Ltd.	8.76B	1.50	2.04%	4.67B
+1785	2559	Dida Inc.	1.37B	1.38	-2.13%	884.34M
+1786	2563	Beijing Biostar Pharmaceuticals Co., Ltd.	6.51B	17.86	13.32%	73.41M
+1787	2566	Hangzhou Jiuyuan Gene Engineering Co., Ltd.	1.34B	5.48	-0.18%	1.43B
+1788	2570	Shanghai REFIRE Group Limited	19.21B	226.80	0.71%	986.30M
+1789	2576	Zhejiang Taimei Medical Technology Co., Ltd.	1.91B	3.31	-	624.25M
+1790	2582	Jiangsu Guofu Hydrogen Energy Equipment Co., Ltd.	13.81B	131.90	-4.83%	575.56M
+1791	2588	BOC Aviation Limited	40.43B	58.55	0.86%	16.60B
+1792	2598	Lianlian DigiTech Co., Ltd.	11.05B	8.62	0.23%	1.29B
+1793	2600	Aluminum Corporation of China Limited	126.86B	4.82	-0.82%	233.09B
+1794	2601	China Pacific Insurance (Group) Co., Ltd.	299.28B	23.20	3.80%	328.13B
+1795	2602	Onewo Inc.	25.06B	22.05	7.30%	37.31B
+1796	2607	Shanghai Pharmaceuticals Holding Co., Ltd	70.15B	12.32	1.15%	301.73B
+1797	2608	Sunshine 100 China Holdings Ltd	40.81M	0.02	-	2.77B
+1798	2611	Guotai Junan Securities Co., Ltd.	152.64B	10.70	1.13%	41.65B
+1799	2616	CStone Pharmaceuticals	3.03B	2.44	2.52%	490.54M
+1800	2618	JD Logistics, Inc.	77.22B	12.62	-0.32%	197.09B
+1801	2623	Add New Energy Investment Holdings Group Limited	213.67M	0.61	1.67%	508.26M
+1802	2628	China Life Insurance Company Limited	1,021.27B	13.78	0.58%	900.40B
+1803	2633	Jacobson Pharma Corporation Limited	2.18B	1.09	5.83%	1.56B
+1804	2638	HK Electric Investments and HK Electric Investments Limited	46.21B	5.23	-	11.75B
+1805	2660	Zengame Technology Holding Limited	2.32B	2.29	2.23%	2.12B
+1806	2663	KPa-BM Holdings Limited	219.99M	0.40	1.27%	735.62M
+1807	2666	Genertec Universal Medical Group Company Limited	9.12B	4.82	-	14.19B
+1808	2668	Pak Tak International Limited	2.11B	0.45	-1.10%	724.86M
+1809	2669	China Overseas Property Holdings Limited	15.66B	4.80	-4.57%	14.63B
+1810	2678	Texhong International Group Limited	3.60B	3.92	-1.01%	24.90B
+1811	2680	Innovax Holdings Limited	67.20M	1.20	8.11%	114.26M
+1812	2682	Yun Lee Marine Group Holdings Limited	101.00M	0.10	-	357.13M
+1813	2683	Wah Sun Handbags International Holdings Limited	216.57M	0.51	-	612.22M
+1814	2688	ENN Energy Holdings Limited	59.73B	52.60	-1.31%	122.85B
+1815	2689	Nine Dragons Paper (Holdings) Limited	14.31B	3.05	-	63.93B
+1816	2696	Shanghai Henlius Biotech, Inc.	8.55B	17.88	-5.89%	6.06B
+1817	2699	Xinming China Holdings Limited	35.69M	0.02	22.22%	288.26M
+1818	2700	Green International Holdings Limited	305.73M	0.47	16.05%	49.64M
+1819	2722	Chongqing Machinery & Electric Co., Ltd.	2.43B	0.66	-1.49%	9.02B
+1820	2727	Shanghai Electric Group Co., Ltd.	114.35B	2.85	9.62%	125.19B
+1821	2728	Jintai Energy Holdings Limited	155.10M	0.03	7.69%	1.43B
+1822	2738	Huajin International Holdings Limited	408.00M	0.68	-2.86%	7.33B
+1823	2772	Zhongliang Holdings Group Company Limited	439.47M	0.10	0.98%	64.97B
+1824	2777	Guangzhou R&F Properties Co., Ltd.	4.50B	1.24	3.33%	36.57B
+1825	2778	Champion Real Estate Investment Trust	9.79B	1.61	-	2.48B
+1826	2779	China Xinhua Education Group Limited	1.17B	0.73	-	695.52M
+1827	2789	Yuanda China Holdings Limited	763.67M	0.13	-0.79%	2.82B
+1828	2798	Perennial Energy Holdings Limited	1.25B	0.78	1.30%	2.08B
+1829	2799	China CITIC Financial Asset Management Co., Ltd.	55.37B	0.69	1.47%	9.78B
+1830	2858	Yixin Group Limited	5.34B	0.81	1.25%	7.69B
+1831	2863	Golden Faith Group Holdings Limited	253.38M	0.36	14.29%	736.68M
+1832	2866	COSCO SHIPPING Development Co., Ltd.	29.18B	1.02	-	27.68B
+1833	2869	Greentown Service Group Co. Ltd.	11.48B	3.66	-5.18%	19.63B
+1834	2877	China Shineway Pharmaceutical Group Limited	6.31B	8.40	0.60%	4.52B
+1835	2878	Solomon Systech (International) Limited	1.24B	0.51	5.15%	1.01B
+1836	2880	Liaoning Port Co., Ltd.	35.22B	0.71	1.43%	12.70B
+1837	2881	Wuhan Youji Holdings Ltd.	490.76M	5.10	-3.77%	3.29B
+1838	2882	3DG Holdings (International) Limited	142.93M	0.53	7.07%	586.90M
+1839	2883	China Oilfield Services Limited	60.61B	7.12	0.85%	53.46B
+1840	2885	Peiport Holdings Ltd.	180.00M	0.45	-2.17%	286.11M
+1841	2886	Binhai Investment Company Limited	1.54B	1.11	2.78%	6.78B
+1842	2888	Standard Chartered PLC	244.16B	103.00	0.59%	143.46B
+1843	2892	Million Cities Holdings Limited	172.50M	0.24	-9.06%	386.92M
+1844	2898	Sunho Biologics, Inc.	590.61M	3.80	-8.65%	12.43M
+1845	2899	Zijin Mining Group Company Limited	436.99B	14.60	-1.62%	330.95B
+1846	2923	Far East Holdings International Limited	35.94M	0.19	-	11.98M
+1847	2926	Tesson Holdings Limited	259.23M	0.25	2.48%	95.31M
+1848	2931	China Frontier Technology Group	154.14M	0.62	-	55.90M
+1849	3300	China Glass Holdings Limited	688.58M	0.38	-3.85%	6.32B
+1850	3301	Ronshine China Holdings Limited	429.28M	0.28	5.77%	48.52B
+1851	3302	Kinergy Corporation Ltd.	112.29M	0.13	-4.51%	574.14M
+1852	3303	Jutal Offshore Oil Services Limited	1.51B	0.72	1.41%	3.28B
+1853	3306	JNBY Design Limited	8.65B	16.96	-1.05%	5.63B
+1854	3309	C-MER Medical Holdings Limited	2.35B	1.93	-1.03%	1.90B
+1855	3311	China State Construction International Holdings Limited	58.44B	11.42	-3.22%	120.38B
+1856	3313	ArtGo Holdings Limited	290.35M	0.23	2.64%	79.76M
+1857	3315	Goldpac Group Limited	822.77M	1.01	-	1.30B
+1858	3316	Binjiang Service Group Co. Ltd.	5.36B	19.78	1.85%	3.51B
+1859	3318	China Boton Group Company Limited	1.56B	1.44	-1.37%	2.16B
+1860	3319	A-Living Smart City Services Co., Ltd.	3.78B	2.76	2.22%	15.87B
+1861	3320	China Resources Pharmaceutical Group Limited	32.04B	5.10	0.99%	269.14B
+1862	3321	Wai Hung Group Holdings Limited	30.28M	0.05	4.17%	51.97M
+1863	3322	Win Hanverky Holdings Limited	224.77M	0.18	-	3.34B
+1864	3323	China National Building Material Company Limited	30.11B	3.57	-1.11%	204.77B
+1865	3326	Perfect Group International Holdings Limited	241.86M	0.18	-0.55%	329.33M
+1866	3328	Bank of Communications Co., Ltd.	524.03B	6.09	1.33%	223.13B
+1867	3329	BOCOM International Holdings Company Limited	724.61M	0.26	-7.14%	-315.71M
+1868	3330	Lingbao Gold Group Company Ltd.	6.12B	4.92	-1.40%	9.65B
+1869	3332	Nanjing Sinolife United Company Limited	643.48M	0.70	-	768.50M
+1870	3336	Ju Teng International Holdings Limited	735.73M	0.88	-	6.47B
+1871	3337	Anton Oilfield Services Group	2.04B	0.63	-1.56%	5.07B
+1872	3339	Lonking Holdings Limited	7.19B	1.73	-0.57%	10.91B
+1873	3347	Hangzhou Tigermed Consulting Co., Ltd	41.75B	28.35	-2.07%	7.53B
+1874	3348	China PengFei Group Limited	555.00M	1.11	4.72%	1.63B
+1875	3360	Far East Horizon Limited	23.76B	5.51	-0.54%	39.03B
+1876	3363	Zhengye International Holdings Company Limited	190.00M	0.38	-	2.57B
+1877	3366	Overseas Chinese Town (Asia) Holdings Limited	184.10M	0.24	2.17%	1.79B
+1878	3368	Parkson Retail Group Limited	271.36M	0.10	-	4.05B
+1879	3369	Qinhuangdao Port Co., Ltd.	17.91B	2.06	-	7.49B
+1880	3377	Sino-Ocean Group Holding Limited	1.75B	0.23	-0.86%	41.87B
+1881	3380	Logan Group Company Limited	5.36B	0.96	-2.04%	50.89B
+1882	3382	Tianjin Port Development Holdings Limited	4.19B	0.66	-2.94%	13.99B
+1883	3383	Agile Group Holdings Limited	3.08B	0.62	1.64%	47.76B
+1884	3389	Hengdeli Holdings Limited	563.71M	0.12	-4.62%	1.42B
+1885	3390	Tycoon Group Holdings Limited	2.70B	3.41	0.59%	967.37M
+1886	3393	Wasion Holdings Limited	7.65B	7.75	2.79%	8.35B
+1887	3395	JX Energy Ltd.	94.12M	0.19	-	37.14M
+1888	3396	Legend Holdings Corporation	17.04B	7.29	2.39%	512.28B
+1889	3398	China Ting Group Holdings Limited	308.67M	0.15	-1.36%	1.63B
+1890	3399	Guangdong Yueyun Transportation Company Limited	1.06B	1.32	-0.75%	7.96B
+1891	3600	Modern Dental Group Limited	3.89B	4.13	-	3.27B
+1892	3601	360 Ludashi Holdings Limited	212.51M	0.79	-1.25%	1.33B
+1893	3603	Xinji Shaxi Group Co., Ltd	67.18M	0.05	4.17%	294.06M
+1894	3606	Fuyao Glass Industry Group Co., Ltd.	156.60B	51.75	-1.52%	41.70B
+1895	3613	Beijing Tong Ren Tang Chinese Medicine Company Limited	6.70B	8.08	-0.12%	1.38B
+1896	3618	Chongqing Rural Commercial Bank Co., Ltd.	68.17B	4.71	0.64%	23.35B
+1897	3623	China Success Finance Group Holdings Limited	447.47M	0.82	-	78.86M
+1898	3626	Hang Sang (Siu Po) International Holding Company Limited	62.56M	0.32	-8.57%	70.03M
+1899	3628	RENHENG Enterprise Holdings Limited	100.50M	0.11	-0.90%	127.56M
+1900	3633	Zhongyu Energy Holdings Limited	12.31B	4.46	-0.89%	13.88B
+1901	3638	Hunlicar Group Limited	361.57M	4.58	-1.93%	329.55M
+1902	3650	Keep Inc.	2.22B	4.80	-1.84%	2.35B
+1903	3658	New Hope Service Holdings Limited	1.57B	1.96	-0.51%	1.47B
+1904	3660	Qifu Technology, Inc.	47.74B	153.00	1.66%	19.03B
+1905	3662	Starjoy Wellness and Travel Company Limited	464.80M	0.66	4.76%	1.59B
+1906	3666	Shanghai XNG Holdings Limited	44.16M	0.02	-	419.75M
+1907	3668	Yancoal Australia Ltd	40.48B	30.65	2.17%	36.30B
+1908	3669	China Yongda Automobiles Services Holdings Limited	4.77B	2.58	7.95%	73.01B
+1909	3678	Holly Futures Co., Ltd.	8.68B	2.67	-0.37%	3.14B
+1910	3680	Ruihe Data Technology Holdings Limited	660.87M	1.05	-	459.70M
+1911	3681	SinoMab BioScience Limited	1.10B	1.01	-0.98%	2.15M
+1912	3683	Great Harvest Maeta Holdings Limited	119.08M	0.13	-	142.75M
+1913	3686	Clifford Modern Living Holdings Limited	589.14M	0.57	-	380.59M
+1914	3688	Top Spring International Holdings Limited	764.64M	0.50	-	909.18M
+1915	3689	Guangdong Kanghua Healthcare Group Co., Ltd.	745.70M	2.25	-1.32%	2.19B
+1916	3690	Meituan	896.05B	151.10	-0.92%	357.54B
+1917	3692	Hansoh Pharmaceutical Group Company Limited	102.55B	17.28	-0.69%	13.00B
+1918	3698	Huishang Bank Corporation Limited	34.03B	2.45	0.41%	30.28B
+1919	3699	Everbright Grand China Assets Limited	154.49M	0.34	-	52.17M
+1920	3700	Inkeverse Group Limited	3.00B	1.55	-0.64%	7.79B
+1921	3708	China Supply Chain Holdings Limited	83.91M	0.02	-	528.91M
+1922	3709	EEKA Fashion Holdings Limited	5.94B	8.50	1.80%	7.39B
+1923	3718	Beijing Enterprises Urban Resources Group Limited	1.56B	0.44	-	5.92B
+1924	3728	Ching Lee Holdings Limited	31.40M	0.03	-	1.02B
+1925	3737	Zhongzhi Pharmaceutical Holdings Limited	854.96M	0.96	1.05%	2.20B
+1926	3738	Vobile Group Limited	7.73B	3.39	-2.31%	2.18B
+1927	3759	Pharmaron Beijing Co., Ltd.	43.72B	13.88	0.87%	13.06B
+1928	3768	Kunming Dianchi Water Treatment Co., Ltd.	699.80M	0.65	1.56%	1.81B
+1929	3773	Yinsheng Digifavor Company Limited	1.10B	2.64	-1.86%	128.64M
+1930	3778	China Weaving Materials Holdings Limited	576.08M	0.46	-	1.32B
+1931	3788	China Hanking Holdings Limited	1.59B	0.80	-	3.01B
+1932	3789	Royal Deluxe Holdings Limited	73.20M	0.06	1.67%	758.21M
+1933	3798	Homeland Interactive Technology Ltd.	1.68B	1.32	-0.75%	1.79B
+1934	3800	GCL Technology Holdings Limited	33.61B	1.18	0.85%	23.23B
+1935	3808	Sinotruk (Hong Kong) Limited	61.71B	23.65	-	99.87B
+1936	3813	Pou Sheng International (Holdings) Limited	2.59B	0.50	-	20.61B
+1937	3816	KFM Kingdom Holdings Limited	150.00M	0.25	-	652.52M
+1938	3818	China Dongxiang (Group) Co., Ltd.	1.85B	0.34	1.52%	1.90B
+1939	3822	Sam Woo Construction Group Limited	84.00M	0.05	2.17%	629.95M
+1940	3828	Ming Fai International Holdings Limited	587.41M	0.80	2.56%	2.17B
+1941	3830	Kiddieland International Limited	30.00M	0.03	-	202.57M
+1942	3833	Xinjiang Xinxin Mining Industry Co., Ltd.	1.83B	0.82	-1.20%	2.53B
+1943	3836	China Harmony Auto Holding Limited	792.10M	0.53	1.92%	17.12B
+1944	3838	China Starch Holdings Limited	1.15B	0.19	2.14%	12.50B
+1945	3839	Chia Tai Enterprises International Limited	361.08M	1.50	-0.66%	1.73B
+1946	3848	Haosen Fintech Group Limited	965.09M	6.01	-3.69%	50.05M
+1947	3860	EPS Creative Health Technology Group Limited	255.87M	0.49	-9.26%	633.66M
+1948	3866	Bank of Qingdao Co., Ltd.	21.90B	2.99	0.34%	10.16B
+1949	3868	Xinyi Energy Holdings Limited	6.37B	0.77	-1.28%	2.45B
+1950	3869	Hospital Corporation of China Limited	931.01M	6.79	-	1.54B
+1951	3877	CSSC (Hong Kong) Shipping Company Limited	10.52B	1.72	-1.15%	2.80B
+1952	3878	Vicon Holdings Limited	100.72M	0.22	-	318.51M
+1953	3882	Sky Light Holdings Limited	1.25B	1.24	3.33%	317.85M
+1954	3883	China Aoyuan Group Limited	786.04M	0.20	-0.97%	22.92B
+1955	3886	Town Health International Medical Group Limited	1.96B	0.30	1.72%	1.83B
+1956	3888	Kingsoft Corporation Limited	45.71B	34.45	-0.72%	10.89B
+1957	3889	Global Sweeteners Holdings Limited	247.22M	0.13	4.92%	579.63M
+1958	3893	Crosstec Group Holdings Limited	41.21M	0.27	-	73.81M
+1959	3896	Kingsoft Cloud Holdings Limited	17.08B	5.02	-0.40%	8.06B
+1960	3898	Zhuzhou CRRC Times Electric Co., Ltd.	58.28B	30.75	4.41%	26.54B
+1961	3899	CIMC Enric Holdings Limited	13.87B	6.89	-0.43%	26.16B
+1962	3900	Greentown China Holdings Limited	21.92B	8.84	-3.39%	154.69B
+1963	3903	Hanhua Financial Holding Co., Ltd.	814.20M	0.18	4.12%	414.90M
+1964	3908	China International Capital Corporation Limited	123.46B	12.98	2.04%	23.59B
+1965	3913	KWG Living Group Holdings Limited	678.66M	0.33	-1.49%	4.17B
+1966	3918	NagaCorp Ltd.	12.74B	2.88	0.70%	4.14B
+1967	3919	Golden Power Group Holdings Limited	25.92M	0.05	-18.75%	304.01M
+1968	3928	China Next-Gen Commerce and Supply Chain Limited	1.43B	2.98	-8.31%	339.07M
+1969	3931	CALB Group Co., Ltd.	23.43B	13.22	-3.78%	29.21B
+1970	3933	The United Laboratories International Holdings Limited	21.00B	11.56	1.40%	15.05B
+1971	3938	LFG Investment Holdings Limited	73.07M	0.20	-8.26%	36.87M
+1972	3939	Wanguo Gold Group Limited	14.70B	13.56	0.59%	1.79B
+1973	3958	Orient Securities Company Limited	83.49B	4.89	1.88%	19.27B
+1974	3963	China Rongzhong Financial Holdings Company Limited	251.82M	0.42	3.75%	78.12M
+1975	3968	China Merchants Bank Co., Ltd.	1,069.31B	41.55	1.34%	359.20B
+1976	3969	China Railway Signal & Communication Corporation Limited	59.44B	3.22	-0.62%	36.76B
+1977	3978	China Beststudy Education Group	2.85B	3.92	2.35%	663.93M
+1978	3983	China BlueChemical Ltd.	9.87B	2.12	-1.85%	13.78B
+1979	3988	Bank of China Limited	1,536.79B	3.96	1.80%	589.02B
+1980	3989	Capital Environment Holdings Limited	1.36B	0.10	-5.00%	4.25B
+1981	3990	Midea Real Estate Holding Limited	4.15B	3.04	3.05%	67.01B
+1982	3991	Changhong Jiahua Holdings Limited	1.49B	0.56	-1.75%	39.50B
+1983	3993	CMOC Group Limited	156.40B	5.81	0.69%	231.87B
+1984	3996	China Energy Engineering Corporation Limited	86.08B	0.93	1.09%	460.62B
+1985	3997	Telecom Service One Holdings Limited	87.27M	0.68	-	50.99M
+1986	3998	Bosideng International Holdings Limited	42.25B	3.67	1.10%	27.19B
+1987	3999	DaChan Food (Asia) Limited	640.20M	0.63	1.61%	6.54B
+1988	6030	CITIC Securities Company Limited	414.30B	20.90	-2.11%	67.88B
+1989	6033	Telecom Digital Holdings Limited	290.70M	0.71	-1.39%	1.27B
+1990	6036	Apex Ace Holding Limited	748.34M	0.71	-	3.19B
+1991	6038	G & M Holdings Limited	237.71M	0.24	-1.26%	447.73M
+1992	6049	Poly Property Services Co., Ltd.	15.12B	27.95	1.27%	16.97B
+1993	6055	China Tobacco International (HK) Company Limited	18.40B	26.60	-1.66%	12.80B
+1994	6058	China Industrial Securities International Financial Group Limited	892.00M	0.22	-2.19%	502.18M
+1995	6060	ZhongAn Online P & C Insurance Co., Ltd.	17.17B	11.50	2.50%	33.66B
+1996	6063	Lotus Horizon Holdings Limited	402.00M	0.20	-	265.52M
+1997	6066	CSC Financial Co., Ltd.	181.19B	9.71	1.04%	23.52B
+1998	6068	Wisdom Education International Holdings Company Limited	290.69M	0.13	-0.74%	199.08M
+1999	6069	SY Holdings Group Limited	7.98B	8.10	2.02%	972.13M
+2000	6078	Hygeia Healthcare Holdings Co., Limited	7.72B	12.48	-1.58%	5.05B
+2001	6080	Wing Chi Holdings Limited	60.69M	0.07	-1.52%	817.65M
+2002	6083	World-Link Logistics (Asia) Holding Limited	138.01M	0.27	-6.90%	326.74M
+2003	6086	Fangzhou Inc.	3.77B	2.57	3.63%	2.65B
+2004	6088	FIT Hon Teng Limited	27.28B	3.66	4.57%	34.97B
+2005	6093	Hevol Services Group Co. Limited	761.60M	1.37	-0.72%	1.44B
+2006	6098	Country Garden Services Holdings Company Limited	17.35B	5.19	-0.57%	46.12B
+2007	6099	China Merchants Securities Co., Ltd.	162.86B	14.48	1.40%	22.21B
+2008	6100	Tongdao Liepin Group	1.41B	2.87	2.50%	2.38B
+2009	6108	New Ray Medicine International Holding Limited	76.90M	0.05	9.09%	35.86M
+2010	6110	Topsports International Holdings Limited	17.86B	2.95	2.43%	30.59B
+2011	6113	UTS Marketing Solutions Holdings Limited	460.00M	1.16	-5.69%	156.68M
+2012	6117	Rizhao Port Jurong Co., Ltd.	996.00M	0.60	-1.64%	899.18M
+2013	6118	Austar Lifesciences Limited	287.05M	0.58	-	1.66B
+2014	6119	Tian Yuan Group Holdings Limited	171.00M	0.29	-	325.83M
+2015	6122	Jilin Jiutai Rural Commercial Bank Corporation Limited	2.13B	0.39	-8.33%	2.84B
+2016	6123	YTO International Express and Supply Chain Technology Limited	459.79M	1.13	-	5.80B
+2017	6127	Joinn Laboratories(China)Co.,Ltd.	11.26B	8.33	0.48%	2.35B
+2018	6128	Graphex Group Limited	50.47M	0.04	-	234.40M
+2019	6133	Vital Innovations Holdings Limited	129.20M	0.15	-	1.05B
+2020	6136	Kangda International Environmental Company Limited	641.92M	0.30	-	2.41B
+2021	6138	Harbin Bank Co., Ltd.	3.68B	0.34	1.49%	6.82B
+2022	6158	Zhenro Properties Group Limited	222.76M	0.06	-6.78%	48.28B
+2023	6160	BeiGene, Ltd.	184.45B	131.20	1.16%	26.04B
+2024	6162	China Tianrui Automotive Interiors Co., LTD	136.00M	0.07	4.62%	245.14M
+2025	6163	Gemilang International Limited	50.27M	0.20	-	178.47M
+2026	6169	China YuHua Education Corporation Limited	1.33B	0.37	-5.13%	2.66B
+2027	6178	Everbright Securities Company Limited	77.36B	7.51	1.49%	9.44B
+2028	6181	Laopu Gold Co., Ltd.	59.84B	355.40	2.07%	5.68B
+2029	6182	Twintek Investment Holdings Limited	160.80M	0.21	-	114.46M
+2030	6185	CanSino Biologics Inc.	10.85B	27.75	-1.07%	829.09M
+2031	6186	China Feihe Limited	47.42B	5.23	-0.57%	21.37B
+2032	6188	Beijing Digital Telecom Co., Ltd.	647.12M	0.73	-	18.84B
+2033	6189	Guangdong Adway Construction (Group) Holdings Company Limited	22.65M	0.09	-6.00%	24.83M
+2034	6190	Bank of Jiujiang Co., Ltd.	14.35B	5.04	-0.20%	3.43B
+2035	6193	Tailam Tech Construction Holdings Limited	80.00M	0.19	-	202.78M
+2036	6196	Bank of Zhengzhou Co., Ltd.	17.03B	0.97	1.04%	5.51B
+2037	6198	Qingdao Port International Co., Ltd.	58.98B	5.97	0.34%	20.48B
+2038	6199	Bank of Guizhou Co., Ltd.	16.19B	1.16	-	8.54B
+2039	6288	Fast Retailing Co., Ltd.	759.36B	24.30	-	164.83B
+2040	6601	Cheerwin Group Limited	2.43B	1.80	-1.10%	1.86B
+2041	6608	Bairong Inc.	3.80B	8.22	-3.29%	2.96B
+2042	6609	Shanghai HeartCare Medical Technology Corporation Limited	900.13M	23.60	1.29%	269.96M
+2043	6610	Flowing Cloud Technology Ltd	505.72M	0.28	-	1.18B
+2044	6611	Sanxun Holdings Group Limited	41.88M	0.07	-1.43%	1.67B
+2045	6616	Global New Material International Holdings Limited	4.40B	3.59	0.56%	1.48B
+2046	6618	JD Health International Inc.	95.48B	29.85	1.36%	58.84B
+2047	6622	Zhaoke Ophthalmology Limited	764.59M	1.40	0.72%	61.48M
+2048	6623	Lufax Holding Ltd	18.77B	10.54	3.33%	36.29B
+2049	6626	Yuexiu Services Group Limited	4.65B	3.15	-2.78%	3.95B
+2050	6628	Transcenta Holding Limited	242.73M	0.65	-1.52%	23.99M
+2051	6633	Qingci Games Inc.	2.14B	3.10	4.03%	982.54M
+2052	6638	OneConnect Financial Technology Co., Ltd.	865.79M	0.74	-2.63%	3.17B
+2053	6639	Arrail Group Limited	1.05B	2.37	-	1.94B
+2054	6655	Huaxin Cement Co., Ltd.	22.79B	7.53	1.62%	38.00B
+2055	6660	AIM Vaccine Co., Ltd.	6.61B	5.09	-5.74%	1.27B
+2056	6661	Huzhou Gas Co., Ltd.	1.07B	5.31	-	2.65B
+2057	6663	IWS Group Holdings Limited	372.00M	0.46	6.98%	408.01M
+2058	6666	Evergrande Property Services Group Limited	8.00B	0.74	-1.33%	13.50B
+2059	6667	Mega Genomics Limited	2.04B	8.97	-0.11%	171.61M
+2060	6668	E-Star Commercial Management Company Limited	1.21B	1.22	-0.81%	709.49M
+2061	6669	Acotec Scientific Holdings Limited	1.78B	5.37	-2.19%	562.10M
+2062	6677	Sino-Ocean Service Holding Limited	698.56M	0.60	3.45%	3.24B
+2063	6680	JL Mag Rare-Earth Co., Ltd.	26.47B	8.16	-5.45%	7.37B
+2064	6682	Beijing Fourth Paradigm Technology Co., Ltd.	20.48B	44.00	3.17%	4.95B
+2065	6683	Star Plus Legend Holdings Limited	3.83B	4.57	-3.99%	586.00M
+2066	6686	Noah Holdings Limited	5.66B	19.30	-	3.04B
+2067	6690	Haier Smart Home Co., Ltd.	254.81B	25.05	-0.99%	294.34B
+2068	6696	Many Idea Cloud Holdings Limited	265.20M	0.19	-	1.87B
+2069	6698	Star CM Holdings Limited	1.30B	3.26	-3.55%	379.96M
+2070	6699	Angelalign Technology Inc.	8.99B	52.80	-0.57%	1.85B
+2071	6805	Kimou Environmental Holding Limited	1.32B	1.19	-1.65%	1.38B
+2072	6806	Shenwan Hongyuan Group Co., Ltd.	128.87B	2.18	-0.91%	24.88B
+2073	6808	Sun Art Retail Group Limited	16.69B	1.75	-1.69%	79.20B
+2074	6811	Tai Hing Group Holdings Limited	955.13M	0.96	4.35%	3.26B
+2075	6812	Winson Holdings Hong Kong Limited	70.20M	0.12	-1.68%	479.45M
+2076	6816	Prosper Construction Holdings Limited	80.00M	0.10	-1.00%	1.76B
+2077	6818	China Everbright Bank Company Limited	230.76B	2.94	-	104.63B
+2078	6820	FriendTimes Inc.	1.24B	0.59	1.72%	1.03B
+2079	6821	Asymchem Laboratories (Tianjin) Co., Ltd.	27.11B	48.85	-2.69%	6.17B
+2080	6822	King's Flair International (Holdings) Limited	294.00M	0.42	-	689.78M
+2081	6823	HKT Trust and HKT Limited	72.61B	9.66	-0.41%	34.60B
+2082	6826	Shanghai Haohai Biological Technology Co., Ltd.	12.67B	24.85	-1.78%	3.04B
+2083	6828	Beijing Gas Blue Sky Holdings Limited	659.35M	0.03	-3.45%	1.83B
+2084	6829	Dragon Rise Group Holdings Limited	328.32M	0.90	4.65%	1.09B
+2085	6830	Huazhong In-Vehicle Holdings Company Limited	337.92M	0.20	3.08%	1.89B
+2086	6833	Sinco Pharmaceuticals Holdings Limited	518.39M	0.26	-	3.20B
+2087	6837	Haitong Securities Co., Ltd.	127.70B	6.44	0.31%	13.76B
+2088	6838	Winox Holdings Limited	231.00M	0.39	-	712.74M
+2089	6839	Yunnan Water Investment Co., Limited	204.04M	0.17	-2.34%	3.10B
+2090	6855	Ascentage Pharma Group International	12.94B	41.75	-5.11%	970.30M
+2091	6858	Honma Golf Limited	1.99B	3.29	-0.30%	1.24B
+2092	6860	FingerTango Inc.	278.12M	0.15	8.21%	711.07M
+2093	6862	Haidilao International Holding Ltd.	77.37B	13.88	-1.00%	47.34B
+2094	6865	Flat Glass Group Co., Ltd.	43.69B	11.70	-0.85%	22.42B
+2095	6866	Zuoli Kechuang Micro-finance Company Limited	348.10M	0.30	-	189.51M
+2096	6868	Tenfu (Cayman) Holdings Company Limited	3.96B	3.70	1.37%	1.83B
+2097	6869	Yangtze Optical Fibre And Cable Joint Stock Limited Company	20.74B	15.90	13.57%	13.31B
+2098	6877	CLSA Premium Limited	193.16M	0.10	-8.65%	112.55M
+2099	6878	Differ Group Auto Limited	63.88M	0.07	-4.35%	1.50B
+2100	6881	China Galaxy Securities Co., Ltd.	134.04B	6.94	1.02%	37.64B
+2101	6882	EGL Holdings Company Limited	341.67M	0.67	1.52%	1.59B
+2102	6885	Henan Jinma Energy Company Limited	353.38M	0.66	6.45%	13.41B
+2103	6886	Huatai Securities Co., Ltd.	154.45B	12.94	2.21%	46.19B
+2104	6888	Freetech Road Recycling Technology (Holdings) Limited	202.85M	0.19	1.06%	534.54M
+2105	6889	DYNAM JAPAN HOLDINGS Co., Ltd.	2.33B	3.35	2.13%	7.04B
+2106	6890	KangLi International Holdings Limited	245.53M	0.41	1.25%	2.25B
+2107	6893	Hin Sang Group (International) Holding Co. Ltd.	278.41M	0.25	-	86.51M
+2108	6896	Golden Throat Holdings Group Company Limited	2.37B	3.20	-	1.08B
+2109	6898	China Aluminum Cans Holdings Limited	516.60M	0.54	-10.00%	230.55M
+2110	6908	HG Semiconductor Limited	591.46M	0.66	3.13%	82.68M
+2111	6909	BetterLife Holding Limited	547.80M	0.92	12.20%	10.36B
+2112	6911	Pu'er Lancang Ancient Tea Co., Ltd.	626.22M	4.97	-0.60%	526.98M
+2113	6913	South China Vocational Education Group Company Limited	426.88M	0.32	-	659.76M
+2114	6918	Kidztech Holdings Limited	74.95M	0.12	-1.65%	138.34M
+2115	6919	Renrui Human Resources Technology Holdings Limited	613.06M	4.10	-	5.25B
+2116	6922	Cryofocus Medtech (Shanghai) Co., Ltd.	1.57B	7.65	2.96%	44.60M
+2117	6928	TOMO Holdings Limited	27.00M	0.06	-	14.71M
+2118	6929	OrbusNeich Medical Group Holdings Limited	2.75B	3.36	-1.75%	1.18B
+2119	6933	Sino-Entertainment Technology Holdings Limited	87.12M	0.21	-	41.32M
+2120	6939	MEGAIN Holding (Cayman) Co., Ltd.	191.94M	0.37	-6.41%	162.32M
+2121	6955	Shandong Boan Biotechnology Co., Ltd.	4.64B	8.68	-0.23%	773.46M
+2122	6958	Zhenro Services Group Limited	171.19M	0.17	3.13%	1.17B
+2123	6959	Changjiu Holdings Limited	826.83M	4.10	-1.68%	719.43M
+2124	6963	Sunshine Insurance Group Company Limited	31.51B	2.74	1.48%	81.29B
+2125	6966	China Wan Tong Yuan (Holdings) Limited	550.00M	0.57	-	54.16M
+2126	6968	Ganglong China Property Group Limited	215.70M	0.13	3.91%	16.66B
+2127	6969	Smoore International Holdings Limited	76.88B	12.44	-4.31%	12.73B
+2128	6978	Immunotech Biopharm Ltd	1.42B	2.76	14.52%	-
+2129	6979	ZJLD Group Inc	22.20B	6.55	1.39%	8.21B
+2130	6988	Joy Spreader Group Inc.	215.85M	0.09	-	3.05B
+2131	6989	Excellence Commercial Property & Facilities Management Group Limited	1.53B	1.24	0.81%	4.48B
+2132	6990	Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.	36.32B	163.00	2.07%	2.02B
+2133	6993	Blue Moon Group Holdings Limited	23.04B	3.93	3.15%	8.23B
+2134	6996	Antengene Corporation Limited	591.12M	0.82	17.14%	60.24M
+2135	6998	Genor Biopharma Holdings Limited	965.88M	1.87	5.06%	15.55M
+2136	6999	Leading Holdings Group Limited	126.31M	0.10	-	17.22B
+2137	7522	Chinaamc Direxion NASDAQ--100 Daily (-2X) Inverse Product	235.30M	0.72	-0.69%	-
+2138	7801	Interra Acquisition Corporation	340.42M	9.46	2.27%	-
+2139	7827	Vision Deal HK Acquisition Corp.	1.20B	9.60	-	-
+2140	7836	Aquila Acquisition Corporation	1.20B	9.61	0.10%	-
+2141	7855	TechStar Acquisition Corporation	1.21B	9.65	-	13.00K
+2142	8003	Great World Company Holdings Ltd	44.19M	0.13	-0.74%	49.21M
+2143	8005	Yuxing InfoTech Investment Holdings Limited	335.84M	0.14	-	277.54M
+2144	8006	Sino Splendid Holdings Limited	20.66M	0.14	-2.10%	41.84M
+2145	8007	Global Strategic Group Limited	15.50M	0.04	-	221.21M
+2146	8013	ECI Technology Holdings Limited	80.00M	0.05	-	200.27M
+2147	8017	TradeGo FinTech Limited	115.70M	0.21	4.06%	69.96M
+2148	8018	Finsoft Financial Investment Holdings Limited	25.72M	0.05	3.92%	45.45M
+2149	8019	Hao Wen Holdings Limited	249.25M	0.70	-6.67%	13.15M
+2150	8020	Unitas Holdings Limited	52.26M	0.02	-4.76%	109.27M
+2151	8021	WLS Holdings Limited	402.28M	0.03	-	82.73M
+2152	8023	Kwong Man Kee Group Limited	176.25M	0.30	-	151.03M
+2153	8026	China Brilliant Global Limited	502.75M	0.36	7.46%	94.99M
+2154	8027	KPM Holding Limited	42.39M	0.18	-0.56%	71.94M
+2155	8028	Timeless Resources Holdings Limited	60.71M	0.18	1.12%	97.36M
+2156	8030	Fengyinhe Holdings Limited	261.20M	0.77	-3.75%	146.52M
+2157	8031	ETS Group Limited	58.83M	0.20	-0.50%	82.15M
+2158	8033	Vodatel Networks Holdings Limited	54.22M	0.09	-3.13%	594.86M
+2159	8035	Janco Holdings Limited	42.60M	0.07	2.90%	259.90M
+2160	8036	eBroker Group Limited	52.89M	0.04	2.44%	34.30M
+2161	8037	China Biotech Services Holdings Limited	336.63M	0.35	-5.48%	62.08M
+2162	8039	China Come Ride New Energy Group Limited	68.53M	0.14	-	32.89M
+2163	8040	Coolpoint Innonism Holding Limited	170.00M	0.45	-8.16%	364.75M
+2164	8041	Luxey International (Holdings) Limited	178.74M	0.22	-	58.54M
+2165	8042	KOS International Holdings Limited	44.80M	0.06	-	170.13M
+2166	8043	Atlinks Group Limited	51.20M	0.13	2.40%	222.97M
+2167	8047	China Ocean Group Development Limited	205.43M	0.03	-7.14%	323.29M
+2168	8048	Yu Tak International Holdings Limited	40.90M	0.02	-	20.32M
+2169	8049	Jilin Province Huinan Changlong Bio-pharmacy Company Limited	789.95M	1.43	-	901.50M
+2170	8050	Quantum Thinking Limited	325.50M	0.24	2.13%	29.75M
+2171	8051	CircuTech International Holdings Limited	95.56M	3.69	-0.27%	272.53M
+2172	8052	Luk Hing Entertainment Group Holdings Limited	26.86M	0.04	-2.50%	90.70M
+2173	8053	Pizu Group Holdings Limited	1.30B	0.37	-	1.76B
+2174	8056	Life Concepts Holdings Limited	17.35M	0.15	-	13.32M
+2175	8057	Madison Holdings Group Limited	81.01M	0.13	-7.14%	67.85M
+2176	8059	Glory Flame Holdings Limited	14.15M	0.01	-6.67%	97.63M
+2177	8060	Global Link Communications Holdings Limited	26.44M	0.08	-	140.57M
+2178	8062	EFT Solutions Holdings Limited	141.60M	0.29	-	123.58M
+2179	8063	Global Mastermind Holdings Limited	13.28M	0.03	-	10.32M
+2180	8065	KML Technology Group Limited	52.64M	0.13	-	180.78M
+2181	8066	Phoenitron Holdings Limited	57.26M	0.11	-	63.26M
+2182	8067	Oriental University City Holdings (H.K.) Limited	54.00M	0.32	-4.55%	56.78M
+2183	8069	Flydoo Technology Holding Limited	26.54M	0.04	-2.56%	401.07M
+2184	8070	Keen Ocean International Holding Limited	81.00M	0.41	3.80%	236.51M
+2185	8071	China Netcom Technology Holdings Limited	84.35M	0.02	-5.26%	34.70M
+2186	8072	Roma (meta) Group Limited	44.61M	0.27	-7.02%	65.30M
+2187	8073	China Shuifa Singyes New Materials Holdings Limited	70.72M	0.14	-	114.65M
+2188	8076	Sing Lee Software (Group) Limited	25.03M	0.02	5.26%	77.72M
+2189	8080	North Asia Strategic Holdings Limited	101.81M	0.22	-	1.54B
+2190	8081	Hang Tai Yue Group Holdings Limited	226.87M	0.04	-	68.39M
+2191	8082	Sunny Side Up Culture Holdings Limited	78.00M	0.03	-16.13%	289.61M
+2192	8083	Youzan Technology Limited	3.37B	0.11	-0.92%	1.52B
+2193	8087	China 33 Media Group Limited	15.12M	0.35	2.94%	36.00M
+2194	8091	OOH Holdings Limited	14.40M	0.02	-4.76%	50.50M
+2195	8092	ITE (Holdings) Limited	22.21M	0.03	4.17%	12.27M
+2196	8093	Web3 Meta Limited	57.72M	0.08	-	124.54M
+2197	8095	Beijing Beida Jade Bird Universal Sci-Tech Company Limited	673.94M	0.46	-	592.66M
+2198	8096	Tasty Concepts Holding Limited	20.98M	0.11	-2.68%	27.32M
+2199	8098	CL Group (Holdings) Limited	105.60M	0.05	-2.17%	40.30M
+2200	8100	Famous Tech International Holdings Limited	69.78M	0.16	-1.88%	111.80M
+2201	8103	hmvod Limited	55.02M	0.42	-	23.45M
+2202	8106	Shenghua Lande Scitech Limited	37.99M	0.08	4.17%	150.66M
+2203	8107	Ficus Technology Holdings Limited	807.08M	0.59	-1.67%	56.64M
+2204	8111	China Technology Industry Group Limited	77.44M	0.18	-	-
+2205	8112	Cornerstone Financial Holdings Limited	45.88M	0.20	-	55.65M
+2206	8113	V & V Technology Holdings Limited	79.95M	0.06	3.45%	1.04B
+2207	8115	Shanghai Qingpu Fire-Fighting Equipment Co., Ltd.	1.07B	5.90	3.51%	88.95M
+2208	8117	China Primary Energy Holdings Limited	54.27M	0.05	2.00%	176.79M
+2209	8118	Bortex Global Limited	40.50M	0.09	-	27.05M
+2210	8120	China Demeter Financial Investments Limited	45.17M	0.49	-2.02%	146.36M
+2211	8121	Guoen Holdings Limited	17.76M	0.70	-	127.49M
+2212	8123	Sinofortune Financial Holdings Limited	77.49M	0.01	-	87.16M
+2213	8125	Royal Century Resources Holdings Limited	17.61M	0.08	5.41%	88.37M
+2214	8126	G.A. Holdings Limited	20.96M	0.05	-	2.02B
+2215	8128	CHYY Development Group Limited	171.17M	0.04	-2.56%	64.96M
+2216	8130	Dadi International Group Limited	36.41M	0.01	-	15.58M
+2217	8131	abc Multiactive Limited	33.78M	0.07	4.41%	25.69M
+2218	8132	Century Energy International Holdings Limited	169.75M	0.07	-2.90%	704.55M
+2219	8133	Jisheng Group Holdings Limited	15.66M	0.41	2.50%	44.01M
+2220	8136	IMS Group Holdings Limited	38.00M	0.04	-2.56%	76.93M
+2221	8137	Honbridge Holdings Limited	4.63B	0.48	-1.04%	162.49M
+2222	8139	Zhejiang Chang'an Renheng Technology Co., Ltd.	57.60M	1.50	-	190.80M
+2223	8140	BOSA Technology Holdings Limited	88.00M	0.11	-1.85%	100.72M
+2224	8143	Good Fellow Healthcare Holdings Limited	36.75M	0.06	-	23.27M
+2225	8146	Grace Wine Holdings Limited	158.52M	0.20	-0.49%	48.46M
+2226	8147	Millennium Pacific Group Holdings Limited	44.28M	0.29	-1.69%	63.16M
+2227	8148	Wuxi Life International Holdings Group Limited	355.07M	0.82	9.33%	47.91M
+2228	8149	Altus Holdings Limited	96.82M	0.12	12.26%	44.41M
+2229	8152	M&L Holdings Group Limited	37.80M	0.07	-4.00%	108.46M
+2230	8153	Jiading International Group Holdings Ltd	53.56M	0.15	-8.13%	106.19M
+2231	8156	Sinopharm Tech Holdings Limited	75.41M	0.12	13.33%	41.28M
+2232	8158	China Regenerative Medicine International Limited	92.80M	0.31	-	55.06M
+2233	8160	Goldway Education Group Limited	36.32M	0.25	-1.96%	48.14M
+2234	8161	MediNet Group Limited	20.80M	0.55	-	116.04M
+2235	8162	Loco Hong Kong Holdings Limited	456.17M	0.55	-	19.05B
+2236	8163	NOIZ Group Limited	30.82M	0.05	-16.13%	22.19M
+2237	8168	Amasse Capital Holdings Limited	113.30M	0.10	-	8.46M
+2238	8169	Eco-Tek Holdings Limited	25.33M	0.04	-	94.64M
+2239	8172	Lajin Entertainment Network Group Limited	210.46M	0.05	-	20.73M
+2240	8173	Hephaestus Holdings Limited	37.04M	0.17	-	19.20M
+2241	8176	SuperRobotics Holdings Limited	59.53M	0.10	-	16.31M
+2242	8178	China Information Technology Development Limited	234.45M	3.20	-	28.93M
+2243	8179	Palinda Group Holdings Limited	177.43M	0.10	5.26%	301.96M
+2244	8181	Shi Shi Services Limited	84.67M	0.08	-11.49%	578.60M
+2245	8186	Almana Limited	85.40M	0.75	-	28.20M
+2246	8187	Jimu Group Limited	163.82M	1.05	-	20.61M
+2247	8188	GME Group Holdings Limited	250.72M	0.52	-	811.77M
+2248	8189	Tianjin TEDA Biomedical Engineering Company Limited	862.00M	0.45	4.71%	455.21M
+2249	8191	Hong Wei (Asia) Holdings Company Limited	12.37M	0.24	4.35%	442.63M
+2250	8193	Asia-Pac Financial Investment Company Limited	41.97M	0.15	-	25.15M
+2251	8195	Legendary Education Group Limited	735.27M	1.58	0.64%	304.06M
+2252	8196	Futian Holdings Limited	31.94M	0.86	-3.37%	63.45M
+2253	8198	Crypto Flow Technology Limited	137.10M	0.25	1.21%	43.15M
+2254	8200	Sau San Tong Holdings Limited	33.11M	0.42	-	860.43M
+2255	8201	PPS International (Holdings) Limited	32.40M	0.06	-	488.07M
+2256	8203	Kaisun Holdings Limited	210.03M	0.36	-	638.99M
+2257	8205	Shanghai Jiaoda Withub Information Industrial Company Limited	129.60M	0.27	-1.82%	51.06M
+2258	8206	Shentong Robot Education Group Company Limited	111.85M	0.06	-14.49%	9.69M
+2259	8208	WMCH Global Investment Limited	21.60M	0.03	-6.25%	65.54M
+2260	8210	DLC Asia Limited	44.00M	0.06	-1.79%	52.33M
+2261	8211	Zhejiang Yongan Rongtong Holdings Co., Ltd.	46.79M	0.04	-	45.65M
+2262	8213	StarGlory Holdings Company Limited	183.17M	0.39	-2.50%	62.34M
+2263	8217	WMHW Holdings Limited	60.98M	0.20	-7.34%	40.61M
+2264	8218	Echo International Holdings Group Limited	80.64M	0.12	-	71.65M
+2265	8219	Hanvey Group Holdings Limited	39.60M	0.12	-	110.36M
+2266	8220	Bingo Group Holdings Limited	395.18M	3.55	1.43%	6.99M
+2267	8221	Gaoyu Finance Group Limited	59.50M	0.03	8.33%	36.54M
+2268	8222	E Lighting Group Holdings Limited	19.39M	0.04	7.50%	71.84M
+2269	8223	Ziyuanyuan Holdings Group Limited	640.70M	1.52	6.29%	529.48M
+2270	8225	China Health Group Inc.	169.21M	0.18	-5.15%	26.53M
+2271	8226	KOALA Financial Group Limited	51.77M	0.13	1.63%	27.81M
+2272	8227	Xi'an Haitian Antenna Technologies Co., Ltd.	483.90M	0.30	-	17.85M
+2273	8229	Future Data Group Limited	248.74M	0.46	-	510.61M
+2274	8232	Classified Group (Holdings) Limited	27.60M	0.50	2.04%	36.77M
+2275	8237	Link Holdings Limited	87.95M	0.02	-4.55%	54.36M
+2276	8238	Winto Group (Holdings) Limited	36.58M	0.37	-8.75%	20.35M
+2277	8239	Capital Finance Holdings Limited	51.61M	0.55	25.00%	20.74M
+2278	8241	Ying Kee Tea House Group Limited	47.01M	0.12	-3.88%	31.89M
+2279	8245	Shanyu Group Holdings Company Limited	26.68M	0.13	-5.15%	49.24M
+2280	8246	Zhonghua Gas Holdings Limited	667.38M	0.18	-	132.42M
+2281	8247	Biosino Bio-Technology and Science Incorporation	89.72M	0.62	-	304.89M
+2282	8249	Zhejiang RuiYuan Intelligent Control Technology Company Limited	43.50M	0.09	8.75%	24.79M
+2283	8250	Silk Road Energy Services Group Limited	56.15M	0.15	-	5.85B
+2284	8257	Genes Tech Group Holdings Company Limited	69.00M	0.08	3.70%	268.80M
+2285	8262	Super Strong Holdings Limited	70.84M	0.09	-4.21%	90.28M
+2286	8267	Linekong Interactive Group Co., Ltd.	169.25M	0.50	-3.85%	102.90M
+2287	8268	Smart City Development Holdings Limited	385.92M	1.37	2.24%	441.15M
+2288	8269	Wealth Glory Holdings Limited	57.01M	0.07	-	34.15M
+2289	8270	China CBM Group Company Limited	206.33M	0.46	9.52%	277.21M
+2290	8271	Global Digital Creations Holdings Limited	112.75M	0.08	-	78.07M
+2291	8275	China New Consumption Group Limited	91.44M	0.13	-11.19%	186.35M
+2292	8277	Steed Oriental (Holdings) Company Limited	47.51M	0.18	7.60%	37.89M
+2293	8279	AGTech Holdings Limited	2.33B	0.20	0.51%	606.88M
+2294	8280	China Digital Video Holdings Limited	27.82M	0.05	-13.46%	149.03M
+2295	8281	China Golden Classic Group Limited	108.00M	0.11	10.00%	294.47M
+2296	8282	Gameone Holdings Limited	20.14M	0.53	-1.85%	51.50M
+2297	8283	Zhongshi Minan Holdings Limited	98.00M	0.05	-2.00%	124.08M
+2298	8285	Sling Group Holdings Limited	14.56M	0.03	8.33%	129.77M
+2299	8286	Shanxi Changcheng Microlight Equipment Co. Ltd.	16.99M	0.06	1.85%	14.80M
+2300	8290	Ahsay Backup Software Development Company Limited	40.00M	0.02	-	41.09M
+2301	8291	Hong Kong Entertainment International Holdings Limited	24.00M	0.16	-	78.12M
+2302	8292	Worldgate Global Logistics Ltd	41.82M	0.08	8.70%	168.11M
+2303	8293	SingAsia Holdings Limited	10.97M	0.05	2.00%	71.92M
+2304	8295	Kingwisoft Technology Group Company Limited	210.14M	0.04	-	1.41B
+2305	8296	Sino-Life Group Limited	37.80M	0.40	-3.61%	71.05M
+2306	8297	Ocean Star Technology Group Limited	84.09M	0.07	-13.33%	35.89M
+2307	8299	GT Gold Holdings Limited	891.38M	0.12	-0.83%	1.18B
+2308	8300	Jin Mi Fang Group Holdings Limited	232.62M	0.09	5.62%	45.86M
+2309	8305	Allurefem Holding Limited	262.50M	0.25	-1.96%	136.49M
+2310	8307	Medicskin Holdings Limited	49.20M	0.12	14.81%	47.56M
+2311	8308	Gudou Holdings Limited	155.55M	0.14	-7.48%	55.65M
+2312	8309	Man Shing Global Holdings Limited	36.60M	0.06	-10.29%	969.65M
+2313	8310	Dafeng Port Heshun Technology Company Limited	611.80M	0.48	1.06%	1.43B
+2314	8311	Perfect Optronics Limited	44.51M	0.03	-	110.26M
+2315	8313	ZACD Group Ltd.	38.00M	0.02	-13.64%	41.24M
+2316	8315	Century Plaza Hotel Group	30.23M	0.05	-7.14%	35.72M
+2317	8316	China Hongbao Holdings Limited	185.25M	0.21	-	77.82M
+2318	8317	Finet Group Limited	65.99M	0.07	-	8.22M
+2319	8319	Expert Systems Holdings Limited	85.95M	0.11	1.90%	910.54M
+2320	8320	Allied Sustainability and Environmental Consultants Group Limited	78.09M	0.11	3.70%	47.53M
+2321	8321	Tai Kam Holdings Limited	70.22M	0.29	-5.00%	28.82M
+2322	8326	Tonking New Energy Group Holdings Limited	169.33M	0.14	-	1.09B
+2323	8328	Xinyi Electric Storage Holdings Limited	667.70M	0.85	1.19%	1.49B
+2324	8329	Shenzhen Neptunus Interlong Bio-technique Company Limited	268.48M	0.16	1.27%	1.13B
+2325	8331	P.B. Group Limited	21.96M	0.14	-	71.29M
+2326	8333	Astrum Financial Holdings Limited	27.84M	0.29	7.41%	10.67M
+2327	8337	Directel Holdings Limited	18.12M	0.07	-15.91%	143.14M
+2328	8341	Aeso Holding Limited	13.36M	0.16	3.14%	240.70M
+2329	8347	F8 Enterprises (Holdings) Group Limited	12.10M	0.09	6.10%	338.93M
+2330	8348	Tianjin Binhai Teda Logistics (Group) Corporation Limited	148.81M	0.42	-	4.48B
+2331	8349	Yunhong Guixin Group Holdings Limited	968.00M	1.88	19.75%	40.84M
+2332	8350	Well Link Securities Holdings Limited	144.00M	0.15	2.74%	18.20M
+2333	8353	Anacle Systems Limited	256.39M	0.60	-	173.92M
+2334	8356	Tsun Yip Holdings Limited	33.19M	0.60	-3.23%	414.80M
+2335	8357	Republic Healthcare Limited	38.06M	0.05	3.85%	53.37M
+2336	8360	Basic House New Life Group Limited	198.15M	0.54	5.88%	51.21M
+2337	8362	Winning Tower Group Holdings Limited	84.00M	0.06	3.45%	110.53M
+2338	8363	SDM Education Group Holdings Limited	68.57M	0.09	2.33%	226.37M
+2339	8365	Hatcher Group Limited	13.92M	0.33	1.56%	67.83M
+2340	8366	Zhejiang United Investment Holdings Group Limited	34.70M	0.03	8.33%	327.08M
+2341	8368	Creative China Holdings Limited	329.34M	0.53	9.28%	200.53M
+2342	8370	Zhi Sheng Group Holdings Limited	390.22M	2.93	4.64%	61.76M
+2343	8371	Taste Gourmet Group Limited	569.25M	1.45	-	1.12B
+2344	8372	Grand Brilliance Group Holdings Limited	68.80M	0.09	1.18%	82.29M
+2345	8373	Indigo Star Holdings Limited	26.80M	0.67	4.69%	374.69M
+2346	8375	Vertical International Holdings Limited	1.08B	3.70	1.37%	86.36M
+2347	8377	Harbour Equine Holdings Limited	61.37M	0.15	-6.25%	47.25M
+2348	8379	Prime Intelligence Solutions Group Limited	58.40M	0.08	5.48%	65.11M
+2349	8385	Prosperous Printing Company Limited	8.35M	0.08	-	103.54M
+2350	8391	Cornerstone Technologies Holdings Limited	486.32M	0.50	-	104.68M
+2351	8392	Satu Holdings Limited	29.00M	0.03	3.70%	49.99M
+2352	8395	ZXZN Qi-House Holdings Limited	533.63M	0.34	9.84%	60.37M
+2353	8400	Asia Pioneer Entertainment Holdings Limited	40.00M	0.04	-	41.94M
+2354	8401	Stream Ideas Group Limited	24.00M	0.10	-3.85%	9.09M
+2355	8402	Plateau Treasures Limited	81.60M	0.19	-	134.06M
+2356	8403	Dowway Holdings Limited	97.79M	0.77	-	133.23M
+2357	8405	Hang Chi Holdings Limited	268.00M	0.67	1.52%	226.96M
+2358	8406	China Oral Industry Group Holdings Limited	96.90M	0.08	-2.33%	211.35M
+2359	8411	K W Nelson Interior Design and Contracting Group Limited	58.03M	0.06	-	16.04M
+2360	8412	New Amante Group Limited	43.40M	0.37	-5.19%	89.25M
+2361	8413	Asia Grocery Distribution Limited	126.66M	0.11	-	295.16M
+2362	8416	HM International Holdings Limited	43.56M	0.10	-4.95%	173.34M
+2363	8417	Dadi Education Holdings Limited	17.50M	0.01	-	18.25M
+2364	8418	Optima Automobile Group Holdings Limited	467.50M	0.55	1.85%	475.88M
+2365	8419	AV Promotions Holdings Limited	23.60M	0.06	-4.84%	125.67M
+2366	8420	Nexion Technologies Limited	21.31M	0.02	-4.17%	13.97M
+2367	8422	WT Group Holdings Limited	10.44M	0.09	1.16%	31.30M
+2368	8423	Chi Ho Development Holdings Limited	32.00M	0.04	-	447.39M
+2369	8425	Hing Ming Holdings Limited	18.80M	0.05	-1.92%	95.11M
+2370	8426	Modern Living Investments Holdings Limited	236.00M	0.31	7.02%	357.28M
+2371	8427	WS-SK Target Group Limited	255.41M	16.36	4.74%	54.03M
+2372	8428	CBK Holdings Limited	75.02M	0.61	-12.86%	27.20M
+2373	8429	SV Vision Limited	20.64M	0.04	7.32%	96.65M
+2374	8430	C&N Holdings Limited	17.85M	0.11	11.46%	156.02M
+2375	8431	Hao Bai International (Cayman) Limited	10.55M	0.03	-7.41%	16.08M
+2376	8432	Bar Pacific Group Holdings Limited	40.00M	0.05	-6.12%	203.71M
+2377	8436	Takbo Group Holdings Limited	84.00M	0.21	18.64%	222.87M
+2378	8437	RMH Holdings Limited	12.65M	0.19	-	39.43M
+2379	8439	Somerley Capital Holdings Limited	66.81M	0.46	-1.09%	61.93M
+2380	8445	Noble Engineering Group Holdings Limited	65.78M	0.22	10.00%	369.68M
+2381	8446	Brightstar Technology Group Co., Ltd.	116.17M	0.13	-11.81%	135.78M
+2382	8447	MS Concept Limited	41.00M	0.04	-	238.22M
+2383	8448	Universe Printshop Holdings Limited	26.95M	0.05	-	157.12M
+2384	8450	EDICO Holdings Limited	117.00M	0.12	-2.50%	40.07M
+2385	8451	Sunlight (1977) Holdings Limited	46.40M	0.06	-1.69%	85.18M
+2386	8452	FY Financial (Shenzhen) Co., Ltd.	140.14M	0.39	-	74.89M
+2387	8455	Lai Group Holding Company Limited	15.20M	0.02	-	100.27M
+2388	8456	Mansion International Holdings Limited	9.52M	0.05	-4.26%	60.85M
+2389	8460	Basetrophy Group Holdings Limited	9.07M	0.04	-18.37%	112.36M
+2390	8462	Omnibridge Holdings Limited	37.80M	0.06	3.28%	320.72M
+2391	8471	Reach New Holdings Limited	311.10M	0.34	-4.29%	77.27M
+2392	8472	Lapco Holdings Limited	57.60M	0.61	-3.17%	924.49M
+2393	8473	Mi Ming Mart Holdings Limited	101.92M	0.09	-3.37%	131.98M
+2394	8475	E-Station Green Technology Group Co., Limited	15.68M	0.23	-7.63%	54.54M
+2395	8476	Ocean One Holding Ltd.	750.40M	2.65	2.32%	419.15M
+2396	8480	Furniweb Holdings Limited	66.17M	0.10	2.02%	323.24M
+2397	8481	Shenglong Splendecor International Limited	135.00M	0.30	-6.25%	614.36M
+2398	8482	Wan Leader International Limited	21.21M	0.02	-	182.37M
+2399	8483	Max Sight Group Holdings Limited	56.00M	0.07	6.06%	75.32M
+2400	8487	ISP Global Limited	109.90M	0.10	3.09%	234.90M
+2401	8489	Grand Power Logistics Group Limited	43.20M	0.14	1.50%	929.82M
+2402	8490	Niche-Tech Semiconductor Materials Limited	119.94M	0.17	2.35%	220.00M
+2403	8491	Cool Link (Holdings) Limited	677.63M	1.78	-3.78%	173.35M
+2404	8493	Dragon King Group Holdings Limited	11.37M	0.05	-	93.29M
+2405	8495	1957 & Co. (Hospitality) Limited	76.80M	0.20	-	477.12M
+2406	8496	Global Uin Intelligence Holdings Limited	55.90M	0.21	-	38.73M
+2407	8500	Icon Culture Global Company Limited	259.20M	0.59	-	34.53M
+2408	8501	Sanbase Corporation Limited	71.00M	0.36	2.90%	297.62M
+2409	8502	Ocean Line Port Development Limited	252.00M	0.32	-	180.51M
+2410	8507	i.century Holding Limited	34.40M	0.09	11.84%	151.21M
+2411	8509	Wine's Link International Holdings Limited	154.00M	0.39	-	289.72M
+2412	8510	Top Standard Corporation	16.72M	0.09	-	7.97M
+2413	8511	Min Fu International Holding Limited	42.54M	1.61	41.23%	81.89M
+2414	8512	Hyfusin Group Holdings Limited	270.96M	0.31	14.81%	901.14M
+2415	8513	MaxWin International Holdings Limited	118.68M	0.15	-1.30%	49.99M
+2416	8516	Grand Talents Group Holdings Limited	17.68M	0.13	-7.19%	29.46M
+2417	8519	XinXiang Era Group Company Limited	77.13M	0.13	-5.67%	260.91M
+2418	8521	WebX International Holdings Company Limited	495.36M	0.90	-	126.03M
+2419	8525	Baiying Holdings Group Limited	125.55M	0.47	-	37.49M
+2420	8526	Wing Fung Group Asia Limited	12.66M	0.08	2.63%	122.80M
+2421	8527	JLogo Holdings Limited	110.00M	0.26	-10.53%	90.26M
+2422	8529	UBoT Holding Limited	84.05M	0.16	-3.61%	173.37M
+2423	8532	Polyfair Holdings Limited	37.34M	0.04	2.33%	426.53M
+2424	8535	Vistar Holdings Limited	43.20M	0.04	-	300.00M
+2425	8536	TL Natural Gas Holdings Limited	58.62M	0.34	-	97.88M
+2426	8537	Chong Fai Jewellery Group Holdings Company Limited	42.90M	0.14	0.70%	126.20M
+2427	8540	Victory Securities (Holdings) Company Limited	692.71M	3.34	2.14%	49.71M
+2428	8545	Amuse Group Holding Limited	35.77M	0.03	3.45%	174.92M
+2429	8547	Pacific Legend Group Limited	28.74M	0.10	-2.97%	273.97M
+2430	8585	Simplicity Holding Limited	20.02M	1.30	0.93%	90.28M
+2431	8601	Boltek Holdings Limited	220.00M	0.28	3.77%	180.17M
+2432	8603	Fameglow Holdings Limited	520.00M	0.65	-1.52%	352.18M
+2433	8606	Kinetix Systems Holdings Limited	125.79M	0.09	1.18%	352.27M
+2434	8611	Mindtell Technology Limited	230.10M	0.59	32.58%	24.64M
+2435	8612	World Super Holdings Limited	12.86M	0.11	-3.64%	19.88M
+2436	8613	Oriental Payment Group Holdings Limited	252.45M	0.13	1.56%	40.66M
+2437	8616	Sunray Engineering Group Limited	31.00M	0.03	-	157.72M
+2438	8619	King Of Catering (Global) Holdings Ltd.	71.86M	0.05	1.96%	108.99M
+2439	8620	Asia-express Logistics Holdings Limited	61.78M	0.11	5.88%	347.83M
+2440	8621	Metropolis Capital Holdings Limited	42.24M	0.04	-	43.10M
+2441	8622	Huakang Biomedical Holdings Company Limited	127.62M	0.27	-28.38%	26.95M
+2442	8623	China Saftower International Holding Group Limited	12.81M	0.12	1.77%	217.93M
+2443	8627	Orange Tour Cultural Holding Limited	43.20M	0.05	-	29.69M
+2444	8631	Sun Kong Holdings Limited	22.00M	0.55	-16.67%	22.20M
+2445	8635	Novacon Technology Group Limited	85.20M	0.21	7.58%	17.78M
+2446	8637	Metasurface Technologies Holdings Limited	139.50M	0.93	-2.11%	221.72M
+2447	8645	Byte Metaverse Holdings Limited	374.40M	0.52	-	107.40M
+2448	8646	China Hongguang Holdings Limited	123.93M	0.28	-3.51%	236.21M
+2449	8657	True Partner Capital Holding Limited	180.00M	0.45	-	10.65M
+2450	8659	Yik Wo International Holdings Limited	156.43M	0.21	-1.42%	356.51M
+2451	8668	Ying Hai Group Holdings Company Limited	106.80M	0.09	-2.22%	106.81M
+2452	9600	Newlink Technology Inc.	300.12M	0.32	-5.88%	269.10M
+2453	9608	Sundy Service Group Co. Ltd	668.16M	0.17	7.41%	261.95M
+2454	9616	Neutech Group Limited	1.68B	2.61	-0.38%	1.99B
+2455	9618	JD.com, Inc.	441.65B	151.20	-0.26%	1,238.23B
+2456	9626	Bilibili Inc.	52.79B	127.30	-1.47%	28.19B
+2457	9633	Nongfu Spring Co., Ltd.	382.94B	34.05	-1.30%	47.68B
+2458	9636	JF SmartInvest Holdings Ltd	10.67B	23.80	0.42%	2.15B
+2459	9638	Ferretti S.p.A.	7.87B	23.25	0.22%	10.84B
+2460	9658	Super Hi International Holding Ltd.	12.03B	18.72	-1.37%	5.90B
+2461	9663	Sino-Synergy Hydrogen Energy Technology (Jiaxing) Co., Ltd.	5.09B	9.84	1.55%	667.65M
+2462	9666	Jinke Smart Services Group Co., Ltd.	4.05B	6.90	0.44%	5.29B
+2463	9668	China Bohai Bank Co., Ltd.	16.70B	0.93	-	16.11B
+2464	9669	Beisen Holding Limited	3.31B	4.73	-0.63%	986.66M
+2465	9676	Shiyue Daotian Group Co., Ltd.	5.69B	5.62	-1.23%	5.65B
+2466	9677	Weihai City Commercial Bank Co., Ltd.	17.40B	2.91	0.69%	4.80B
+2467	9686	Xikang Cloud Hospital Holdings Inc.	614.57M	0.75	-	535.10M
+2468	9688	Zai Lab Limited	22.59B	21.10	2.68%	2.76B
+2469	9689	JTF International Holdings Limited	334.80M	0.36	-	1.35B
+2470	9690	TUHU Car Inc.	12.40B	15.02	-2.47%	15.26B
+2471	9696	Tianqi Lithium Corporation	52.93B	22.85	-2.35%	19.02B
+2472	9698	GDS Holdings Limited	30.16B	19.70	-10.25%	12.16B
+2473	9699	Hangzhou SF Intra-city Industrial Co., Ltd.	8.10B	9.29	0.98%	14.52B
+2474	9857	Linmon Media Limited	1.03B	2.88	-	1.07B
+2475	9858	China Youran Dairy Group Limited	6.93B	1.76	7.98%	21.14B
+2476	9860	Adicon Holdings Limited	4.70B	6.56	-1.65%	3.35B
+2477	9863	Zhejiang Leapmotor Technology Co., Ltd.	43.25B	32.80	-3.53%	21.25B
+2478	9866	NIO Inc.	70.08B	33.00	0.30%	69.93B
+2479	9868	XPeng Inc.	107.38B	57.25	-1.04%	41.88B
+2480	9869	Helens International Holdings Company Limited	2.54B	2.11	5.50%	1.01B
+2481	9877	Jenscare Scientific Co., Ltd.	1.87B	4.59	1.55%	-
+2482	9878	Huitongda Network Co., Ltd.	7.79B	14.06	-1.68%	77.27B
+2483	9879	Migao Group Holdings Limited	5.70B	6.29	-0.94%	5.14B
+2484	9880	Ubtech Robotics Corp Ltd	25.44B	59.90	0.67%	1.38B
+2485	9882	Best Linking Group Holdings Limited	704.00M	0.88	3.53%	112.34M
+2486	9885	YSB Inc.	3.80B	5.71	-0.17%	19.14B
+2487	9886	Dingdang Health Technology Group Ltd.	593.76M	0.44	-2.22%	5.24B
+2488	9888	Baidu, Inc.	226.68B	79.80	-0.44%	148.37B
+2489	9889	Dongguan Rural Commercial Bank Co., Ltd.	24.11B	3.85	1.58%	10.36B
+2490	9890	ZX Inc.	3.50B	6.73	0.30%	6.81B
+2491	9896	MINISO Group Holding Limited	55.64B	44.35	-2.63%	19.44B
+2492	9898	Weibo Corporation	18.19B	74.10	-	13.69B
+2493	9899	NetEase Cloud Music Inc.	24.33B	112.70	-3.43%	8.63B
+2494	9900	Gain Plus Holdings Limited	3.70B	10.36	4.23%	1.29B
+2495	9901	New Oriental Education & Technology Group Inc.	58.75B	36.05	1.84%	37.49B
+2496	9906	Honliv Healthcare Management Group Company Limited	1.15B	1.91	-8.17%	865.23M
+2497	9908	JiaXing Gas Group Co., Ltd.	1.04B	7.53	-	3.50B
+2498	9909	Powerlong Commercial Management Holdings Limited	1.68B	2.58	-0.77%	2.89B
+2499	9911	Newborn Town Inc.	6.26B	4.58	-1.51%	4.52B
+2500	9913	Chi Kan Holdings Limited	2.41B	2.40	-1.23%	1.66B
+2501	9916	Xingye Wulian Service Group Co. Ltd.	142.00M	0.36	-	393.71M
+2502	9918	Wise Ally International Holdings Limited	60.00M	0.60	3.45%	1.24B
+2503	9919	Activation Group Holdings Limited	647.93M	0.87	-	1.00B
+2504	9922	Jiumaojiu International Holdings Limited	3.63B	2.60	0.39%	6.63B
+2505	9923	Yeahka Limited	3.28B	7.67	0.26%	3.72B
+2506	9926	Akeso, Inc.	54.66B	60.90	-2.72%	2.01B
+2507	9928	Times Neighborhood Holdings Limited	432.22M	0.45	1.14%	2.58B
+2508	9929	SEM Holdings Limited	176.00M	0.09	57.14%	178.34M
+2509	9930	Horizon Construction Development Limited	4.12B	1.29	-4.44%	11.04B
+2510	9933	GHW International	2.08B	2.24	1.82%	3.79B
+2511	9936	Ximei Resources Holding Limited	1.04B	2.89	-3.34%	1.80B
+2512	9938	Wah Wo Holdings Group Limited	67.00M	0.07	-5.13%	400.66M
+2513	9939	Kintor Pharmaceutical Limited	389.67M	0.90	-	-
+2514	9955	ClouDr Group Limited	698.58M	1.20	0.84%	4.31B
+2515	9956	ANE (Cayman) Inc.	7.96B	7.00	1.30%	12.39B
+2516	9958	Litian Pictures Holdings Limited	30.00M	0.11	-1.77%	49.90M
+2517	9959	Linklogis Inc.	2.82B	1.45	1.40%	956.13M
+2518	9960	Kindstar Globalgene Technology, Inc.	1.07B	1.11	-	1.02B
+2519	9961	Trip.com Group Limited	339.11B	514.00	-1.72%	56.35B
+2520	9963	Transtech Optelecom Science Holdings Limited	83.20M	0.40	31.15%	144.10M
+2521	9966	Alphamab Oncology	3.26B	3.26	-3.83%	274.93M
+2522	9968	Huijing Holdings Company Limited	73.56M	0.01	-13.33%	1.02B
+2523	9969	InnoCare Pharma Limited	11.83B	5.65	-1.57%	995.67M
+2524	9977	Shandong Fengxiang Co., Ltd	2.15B	1.36	-2.86%	5.75B
+2525	9978	Fineland Living Services Group Limited	27.60M	0.07	-12.66%	424.72M
+2526	9979	Greentown Management Holdings Company Limited	6.07B	3.09	-2.52%	3.68B
+2527	9983	Central China New Life Limited	1.48B	1.13	-1.74%	3.20B
+2528	9985	WEILONG Delicious Global Holdings Ltd	17.26B	7.56	-0.92%	5.89B
+2529	9986	Dashan Education Holdings Limited	1.70B	2.23	-0.45%	87.88M
+2530	9987	Yum China Holdings, Inc.	131.99B	344.20	-0.46%	87.03B
+2531	9988	Alibaba Group Holding Limited	1,521.37B	82.90	0.85%	1,065.49B
+2532	9989	Shenzhen Hepalink Pharmaceutical Group Co., Ltd.	14.36B	3.78	-	6.04B
+2533	9990	Archosaur Games Inc.	1.14B	1.46	-	1.02B
+2534	9991	Baozun Inc.	1.30B	7.13	-3.26%	10.20B
+2535	9992	Pop Mart International Group Limited	117.65B	88.70	-5.44%	8.64B
+2536	9993	Radiance Holdings (Group) Company Limited	10.92B	2.77	2.21%	34.69B
+2537	9995	RemeGen Co., Ltd.	13.19B	13.44	2.91%	1.69B
+2538	9996	Peijia Medical Limited	2.47B	3.95	4.22%	556.01M
+2539	9997	Kangji Medical Holdings Limited	7.34B	6.08	1.33%	1.05B
+2540	9998	Kwan Yong Holdings Limited	75.20M	0.09	-	770.85M
+2541	9999	NetEase, Inc.	504.64B	156.60	1.16%	117.06B
