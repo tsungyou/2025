@@ -1,3 +1,7 @@
 database/
 Others/NN/data
 mt5/
+
+st/hk_volume_all.parquet
+st/hk_price_close_all.parquet
+st/hk_price_open_all.parquet
