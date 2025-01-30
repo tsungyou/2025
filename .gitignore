@@ -5,7 +5,7 @@ mt5/
 st/hk_volume_all.parquet
 st/hk_price_close_all.parquet
 st/hk_price_open_all.parquet
-st/nas100.csv
-st/sp500.csv
-st/us30.csv
-st/us30_20240823_20230825.csv
+us_open/nas100.csv
+us_open/sp500.csv
+us_open/us30.csv
+us_open/us30_20240823_20230825.csv

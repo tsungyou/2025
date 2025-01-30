@@ -225,9 +225,6 @@ if __name__ == "__main__":
     grouped_df['signal_dto'] = grouped_df[factor].apply(lambda x: 1 if x < 0 else -1)
 
     grouped_df['profit_dto_5'] = -grouped_df['signal_dto'] * grouped_df[ret]
-    grouped_df['profit_dto_5'].cumsum().plot()
-    
-    
     stats = cta.calculate_strategy_statistics(grouped_df, 'profit_dto_5')
 
     # Print statistics
