@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Visualization</title>
+</head>
+<body>
+    <h2>Stock Candlestick Chart</h2>
+
+    <form method="post">
+        <label for="start_date">Start Date (YYYY.MM.DD):</label>
+        <input type="text" name="start_date" value="{{ start_date }}" required>
+        <button type="submit">Update Chart</button>
+    </form>
+
+    <br>
+
+    <form method="post">
+        <input type="hidden" name="start_date" value="{{ prev_date }}">
+        <button type="submit">← Previous Date</button>
+    </form>
+
+    <form method="post">
+        <input type="hidden" name="start_date" value="{{ next_date }}">
+        <button type="submit">Next Date →</button>
+    </form>
+
+    <br>
+
+    {% if no_data %}
+        <h3 style="color: red;">No data available for this date.</h3>
+    {% else %}
+        <div>
+            {{ chart_html | safe }}
+        </div>
+    {% endif %}
+</body>
+</html>
