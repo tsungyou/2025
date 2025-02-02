@@ -42,3 +42,14 @@ class Factorization:
         quantilized_cumsum = pd.DataFrame(quantiles).T
         quantilized_cumsum.iloc[:, :].plot(title="10 quantile cumsum distribution")
         return holdings
+    
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('st/combined_plot.html')  # Replace with your HTML file name
+
+if __name__ == '__main__':
+    app.run(debug=True)
