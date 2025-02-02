@@ -1,0 +1,2 @@
+api_mini = "0mOAzhe13CAIhfyLeRjVu4oxf7shHJwhc7qtnXUBHK2DUGefIvu8raqyL61A1JYa"
+secretkey_mini = "LOTgoHkEd2Id7a7wqr5lYtP28JMsiVRHUiQPDZUjxegM769X5xWKYDLOQXsPmWv1"

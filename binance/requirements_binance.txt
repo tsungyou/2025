@@ -1,0 +1,3 @@
+python-binance
+lxml_html_clean
+requests_html
