@@ -13,3 +13,10 @@ us_open/us30_20240823_20230825.csv
 us_open/__pycache__
 
 binance_res/
+
+
+st/garch_tw_etf_280_2017_2018_monthly.parquet
+st/garch_tw_etf_280_2017_2018_weekly.parquet
+st/tw_etf_280_2017_2018_weekly.parquet
+st/tw_etf_280_2020_2021_monthly.parquet
+st/tw_etf_280_2022_2023_weekly.parquet
