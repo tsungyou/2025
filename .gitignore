@@ -5,3 +5,4 @@ strategy/hk/hk_price_close_all.parquet
 strategy/hk/hk_price_open_all.parquet
 Others/binance_res
 Others/ML/NN/data
+options/config.py

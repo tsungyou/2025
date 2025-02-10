@@ -3,3 +3,5 @@ plotly
 pandas
 numpy
 flask
+psycopg2
+requests
